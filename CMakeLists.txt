@@ -12,5 +12,10 @@ add_executable(Ex1_02 example01/Ex1_02.cpp)
 add_executable(Ex2_01 example02/Ex2_01.cpp)
 add_executable(Ex2_02 example02/Ex2_02.cpp)
 add_executable(Ex2_03 example02/Ex2_03.cpp)
-#add_executable(Ex2_04 example02/Ex2_02.cpp)
-#add_executable(Ex2_05 example02/Ex2_03.cpp)
+add_executable(Ex2_04 example02/Ex2_04.cpp)
+add_executable(Ex2_05 example02/Ex2_05.cpp)
+add_executable(Ex2_06 example02/Ex2_06.cpp)
+
+##########example03##########
+add_executable(Ex3_01 example03/Ex3_01.cpp)
+add_executable(Ex3_02 example03/Ex3_02.cpp)
