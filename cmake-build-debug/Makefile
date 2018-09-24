@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
 # Target rules for targets named Ex2_01
 
 # Build rule for target.
@@ -136,17 +123,17 @@ Ex2_01/fast:
 .PHONY : Ex2_01/fast
 
 #=============================================================================
-# Target rules for targets named Ex2_04
+# Target rules for targets named main
 
 # Build rule for target.
-Ex2_04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_04
-.PHONY : Ex2_04
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-Ex2_04/fast:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/build
-.PHONY : Ex2_04/fast
+main/fast:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named Ex1_01
@@ -199,19 +186,6 @@ Ex2_03: cmake_check_build_system
 Ex2_03/fast:
 	$(MAKE) -f CMakeFiles\Ex2_03.dir\build.make CMakeFiles/Ex2_03.dir/build
 .PHONY : Ex2_03/fast
-
-#=============================================================================
-# Target rules for targets named Ex2_05
-
-# Build rule for target.
-Ex2_05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_05
-.PHONY : Ex2_05
-
-# fast build rule for target.
-Ex2_05/fast:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/build
-.PHONY : Ex2_05/fast
 
 example01/Ex1_01.obj: example01/Ex1_01.cpp.obj
 
@@ -348,60 +322,6 @@ example02/Ex2_03.cpp.s:
 	$(MAKE) -f CMakeFiles\Ex2_03.dir\build.make CMakeFiles/Ex2_03.dir/example02/Ex2_03.cpp.s
 .PHONY : example02/Ex2_03.cpp.s
 
-example02/Ex2_04.obj: example02/Ex2_04.cpp.obj
-
-.PHONY : example02/Ex2_04.obj
-
-# target to build an object file
-example02/Ex2_04.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/example02/Ex2_04.cpp.obj
-.PHONY : example02/Ex2_04.cpp.obj
-
-example02/Ex2_04.i: example02/Ex2_04.cpp.i
-
-.PHONY : example02/Ex2_04.i
-
-# target to preprocess a source file
-example02/Ex2_04.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/example02/Ex2_04.cpp.i
-.PHONY : example02/Ex2_04.cpp.i
-
-example02/Ex2_04.s: example02/Ex2_04.cpp.s
-
-.PHONY : example02/Ex2_04.s
-
-# target to generate assembly for a file
-example02/Ex2_04.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/example02/Ex2_04.cpp.s
-.PHONY : example02/Ex2_04.cpp.s
-
-example02/Ex2_05.obj: example02/Ex2_05.cpp.obj
-
-.PHONY : example02/Ex2_05.obj
-
-# target to build an object file
-example02/Ex2_05.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/example02/Ex2_05.cpp.obj
-.PHONY : example02/Ex2_05.cpp.obj
-
-example02/Ex2_05.i: example02/Ex2_05.cpp.i
-
-.PHONY : example02/Ex2_05.i
-
-# target to preprocess a source file
-example02/Ex2_05.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/example02/Ex2_05.cpp.i
-.PHONY : example02/Ex2_05.cpp.i
-
-example02/Ex2_05.s: example02/Ex2_05.cpp.s
-
-.PHONY : example02/Ex2_05.s
-
-# target to generate assembly for a file
-example02/Ex2_05.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/example02/Ex2_05.cpp.s
-.PHONY : example02/Ex2_05.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -435,15 +355,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... main
-	@echo ... Ex2_01
 	@echo ... edit_cache
-	@echo ... Ex2_04
+	@echo ... Ex2_01
+	@echo ... main
 	@echo ... Ex1_01
 	@echo ... Ex1_02
 	@echo ... Ex2_02
 	@echo ... Ex2_03
-	@echo ... Ex2_05
 	@echo ... rebuild_cache
 	@echo ... example01/Ex1_01.obj
 	@echo ... example01/Ex1_01.i
@@ -460,12 +378,6 @@ help:
 	@echo ... example02/Ex2_03.obj
 	@echo ... example02/Ex2_03.i
 	@echo ... example02/Ex2_03.s
-	@echo ... example02/Ex2_04.obj
-	@echo ... example02/Ex2_04.i
-	@echo ... example02/Ex2_04.s
-	@echo ... example02/Ex2_05.obj
-	@echo ... example02/Ex2_05.i
-	@echo ... example02/Ex2_05.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

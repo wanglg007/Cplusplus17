@@ -1,32 +1,27 @@
-// Converting distances
-#include <iostream>                    // For output to the screen
+// (2.2)使用显式类型转换
+#include <iostream> 
 
-int main() 
+int main()
 {
-  unsigned int yards {}, feet {}, inches {};
- 
-  // Convert a distance in yards, feet, and inches to inches
-  std::cout << "Enter a distance as yards, feet, and inches "
-            << "with the three values separated by spaces:"
-            << std::endl; 
-  std::cin >> yards >> feet >> inches;
-
   const unsigned feet_per_yard {3};
   const unsigned inches_per_foot {12};
-  
-  unsigned total_inches {};
-  total_inches = inches + inches_per_foot * (yards*feet_per_yard + feet);
-  std::cout << "The distances corresponds to " << total_inches << " inches.\n";
 
-  // Convert a distance in inches to yards feet and inches
-  std::cout << "Enter a distance in inches: ";
-  std::cin >> total_inches;
-  feet   = total_inches / inches_per_foot;
-  inches = total_inches % inches_per_foot;
-  yards  = feet / feet_per_yard;
-  feet   = feet % feet_per_yard;
-  std::cout << "The distances corresponds to "
-            << yards  << " yards " 
+  double length {};                    // Length as decimal yards
+  unsigned int yards{};                // Whole yards
+  unsigned int feet {};                // Whole feet
+  unsigned int inches {};              // Whole inches
+
+  std::cout << "Enter a length in yards as a decimal: ";
+  std::cin >> length;
+
+  // Get the length as yards, feet, and inches
+  yards  = static_cast<unsigned int>(length);
+  feet   = static_cast<unsigned int>((length - yards) * feet_per_yard);
+  inches = static_cast<unsigned int>
+           (length * feet_per_yard * inches_per_foot) % inches_per_foot;
+
+  std::cout << length << " yards converts to "
+            << yards  << " yards "
             << feet   << " feet "
-            << inches << " inches." << std::endl;
+            << inches << " inches." << std:: endl;
 }

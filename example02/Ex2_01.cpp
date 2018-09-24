@@ -1,4 +1,4 @@
-// Writing values of variables to cout
+//(2.1)将变量的值写入cout
 #include <iostream>
 
 int main()

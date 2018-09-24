@@ -1,4 +1,4 @@
-// Using escape sequences
+//(1.2)使用转义
 #include <iostream>
 
 int main()

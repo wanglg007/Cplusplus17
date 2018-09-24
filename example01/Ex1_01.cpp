@@ -1,9 +1,9 @@
-// A complete C++ program
+//(1.1)一个完整的C++程序
 #include <iostream>
 
 int main()
 {
-    // Defines answer with value 42
+    // 用值42定义answer
     int answer{42};
 
     std::cout << "The answer to life, the universe, and everything is " << answer << std::endl;
