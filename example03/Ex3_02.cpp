@@ -1,11 +1,10 @@
 //(3.2）使用if语句(Using an if statement)
 #include <iostream>
 
-int main()
-{
+int main() {
     std::cout << "Enter an integer between 50 and 100: ";
 
-    int value {};
+    int value{};
     std::cin >> value;
 
     if (value)

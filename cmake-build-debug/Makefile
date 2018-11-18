@@ -149,6 +149,19 @@ Ex2_04/fast:
 .PHONY : Ex2_04/fast
 
 #=============================================================================
+# Target rules for targets named Ex4_06
+
+# Build rule for target.
+Ex4_06: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_06
+.PHONY : Ex4_06
+
+# fast build rule for target.
+Ex4_06/fast:
+	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/build
+.PHONY : Ex4_06/fast
+
+#=============================================================================
 # Target rules for targets named Ex1_01
 
 # Build rule for target.
@@ -160,6 +173,19 @@ Ex1_01: cmake_check_build_system
 Ex1_01/fast:
 	$(MAKE) -f CMakeFiles\Ex1_01.dir\build.make CMakeFiles/Ex1_01.dir/build
 .PHONY : Ex1_01/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_05
+
+# Build rule for target.
+Ex4_05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_05
+.PHONY : Ex4_05
+
+# fast build rule for target.
+Ex4_05/fast:
+	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/build
+.PHONY : Ex4_05/fast
 
 #=============================================================================
 # Target rules for targets named Ex1_02
@@ -251,6 +277,149 @@ Ex3_02: cmake_check_build_system
 Ex3_02/fast:
 	$(MAKE) -f CMakeFiles\Ex3_02.dir\build.make CMakeFiles/Ex3_02.dir/build
 .PHONY : Ex3_02/fast
+
+#=============================================================================
+# Target rules for targets named Ex3_03
+
+# Build rule for target.
+Ex3_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex3_03
+.PHONY : Ex3_03
+
+# fast build rule for target.
+Ex3_03/fast:
+	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/build
+.PHONY : Ex3_03/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_09
+
+# Build rule for target.
+Ex4_09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_09
+.PHONY : Ex4_09
+
+# fast build rule for target.
+Ex4_09/fast:
+	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/build
+.PHONY : Ex4_09/fast
+
+#=============================================================================
+# Target rules for targets named Ex3_04
+
+# Build rule for target.
+Ex3_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex3_04
+.PHONY : Ex3_04
+
+# fast build rule for target.
+Ex3_04/fast:
+	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/build
+.PHONY : Ex3_04/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_08
+
+# Build rule for target.
+Ex4_08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_08
+.PHONY : Ex4_08
+
+# fast build rule for target.
+Ex4_08/fast:
+	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/build
+.PHONY : Ex4_08/fast
+
+#=============================================================================
+# Target rules for targets named Ex3_05
+
+# Build rule for target.
+Ex3_05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex3_05
+.PHONY : Ex3_05
+
+# fast build rule for target.
+Ex3_05/fast:
+	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/build
+.PHONY : Ex3_05/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_01
+
+# Build rule for target.
+Ex4_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_01
+.PHONY : Ex4_01
+
+# fast build rule for target.
+Ex4_01/fast:
+	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/build
+.PHONY : Ex4_01/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_02
+
+# Build rule for target.
+Ex4_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_02
+.PHONY : Ex4_02
+
+# fast build rule for target.
+Ex4_02/fast:
+	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/build
+.PHONY : Ex4_02/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_03
+
+# Build rule for target.
+Ex4_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_03
+.PHONY : Ex4_03
+
+# fast build rule for target.
+Ex4_03/fast:
+	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/build
+.PHONY : Ex4_03/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_04
+
+# Build rule for target.
+Ex4_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_04
+.PHONY : Ex4_04
+
+# fast build rule for target.
+Ex4_04/fast:
+	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/build
+.PHONY : Ex4_04/fast
+
+#=============================================================================
+# Target rules for targets named Ex4_07
+
+# Build rule for target.
+Ex4_07: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex4_07
+.PHONY : Ex4_07
+
+# fast build rule for target.
+Ex4_07/fast:
+	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/build
+.PHONY : Ex4_07/fast
+
+#=============================================================================
+# Target rules for targets named Ex5_01
+
+# Build rule for target.
+Ex5_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex5_01
+.PHONY : Ex5_01
+
+# fast build rule for target.
+Ex5_01/fast:
+	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/build
+.PHONY : Ex5_01/fast
 
 example01/Ex1_01.obj: example01/Ex1_01.cpp.obj
 
@@ -522,6 +691,357 @@ example03/Ex3_02.cpp.s:
 	$(MAKE) -f CMakeFiles\Ex3_02.dir\build.make CMakeFiles/Ex3_02.dir/example03/Ex3_02.cpp.s
 .PHONY : example03/Ex3_02.cpp.s
 
+example03/Ex3_03.obj: example03/Ex3_03.cpp.obj
+
+.PHONY : example03/Ex3_03.obj
+
+# target to build an object file
+example03/Ex3_03.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/example03/Ex3_03.cpp.obj
+.PHONY : example03/Ex3_03.cpp.obj
+
+example03/Ex3_03.i: example03/Ex3_03.cpp.i
+
+.PHONY : example03/Ex3_03.i
+
+# target to preprocess a source file
+example03/Ex3_03.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/example03/Ex3_03.cpp.i
+.PHONY : example03/Ex3_03.cpp.i
+
+example03/Ex3_03.s: example03/Ex3_03.cpp.s
+
+.PHONY : example03/Ex3_03.s
+
+# target to generate assembly for a file
+example03/Ex3_03.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/example03/Ex3_03.cpp.s
+.PHONY : example03/Ex3_03.cpp.s
+
+example03/Ex3_04.obj: example03/Ex3_04.cpp.obj
+
+.PHONY : example03/Ex3_04.obj
+
+# target to build an object file
+example03/Ex3_04.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/example03/Ex3_04.cpp.obj
+.PHONY : example03/Ex3_04.cpp.obj
+
+example03/Ex3_04.i: example03/Ex3_04.cpp.i
+
+.PHONY : example03/Ex3_04.i
+
+# target to preprocess a source file
+example03/Ex3_04.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/example03/Ex3_04.cpp.i
+.PHONY : example03/Ex3_04.cpp.i
+
+example03/Ex3_04.s: example03/Ex3_04.cpp.s
+
+.PHONY : example03/Ex3_04.s
+
+# target to generate assembly for a file
+example03/Ex3_04.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/example03/Ex3_04.cpp.s
+.PHONY : example03/Ex3_04.cpp.s
+
+example03/Ex3_05.obj: example03/Ex3_05.cpp.obj
+
+.PHONY : example03/Ex3_05.obj
+
+# target to build an object file
+example03/Ex3_05.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/example03/Ex3_05.cpp.obj
+.PHONY : example03/Ex3_05.cpp.obj
+
+example03/Ex3_05.i: example03/Ex3_05.cpp.i
+
+.PHONY : example03/Ex3_05.i
+
+# target to preprocess a source file
+example03/Ex3_05.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/example03/Ex3_05.cpp.i
+.PHONY : example03/Ex3_05.cpp.i
+
+example03/Ex3_05.s: example03/Ex3_05.cpp.s
+
+.PHONY : example03/Ex3_05.s
+
+# target to generate assembly for a file
+example03/Ex3_05.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/example03/Ex3_05.cpp.s
+.PHONY : example03/Ex3_05.cpp.s
+
+example04/Ex4_01.obj: example04/Ex4_01.cpp.obj
+
+.PHONY : example04/Ex4_01.obj
+
+# target to build an object file
+example04/Ex4_01.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/example04/Ex4_01.cpp.obj
+.PHONY : example04/Ex4_01.cpp.obj
+
+example04/Ex4_01.i: example04/Ex4_01.cpp.i
+
+.PHONY : example04/Ex4_01.i
+
+# target to preprocess a source file
+example04/Ex4_01.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/example04/Ex4_01.cpp.i
+.PHONY : example04/Ex4_01.cpp.i
+
+example04/Ex4_01.s: example04/Ex4_01.cpp.s
+
+.PHONY : example04/Ex4_01.s
+
+# target to generate assembly for a file
+example04/Ex4_01.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/example04/Ex4_01.cpp.s
+.PHONY : example04/Ex4_01.cpp.s
+
+example04/Ex4_02.obj: example04/Ex4_02.cpp.obj
+
+.PHONY : example04/Ex4_02.obj
+
+# target to build an object file
+example04/Ex4_02.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/example04/Ex4_02.cpp.obj
+.PHONY : example04/Ex4_02.cpp.obj
+
+example04/Ex4_02.i: example04/Ex4_02.cpp.i
+
+.PHONY : example04/Ex4_02.i
+
+# target to preprocess a source file
+example04/Ex4_02.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/example04/Ex4_02.cpp.i
+.PHONY : example04/Ex4_02.cpp.i
+
+example04/Ex4_02.s: example04/Ex4_02.cpp.s
+
+.PHONY : example04/Ex4_02.s
+
+# target to generate assembly for a file
+example04/Ex4_02.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/example04/Ex4_02.cpp.s
+.PHONY : example04/Ex4_02.cpp.s
+
+example04/Ex4_03.obj: example04/Ex4_03.cpp.obj
+
+.PHONY : example04/Ex4_03.obj
+
+# target to build an object file
+example04/Ex4_03.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/example04/Ex4_03.cpp.obj
+.PHONY : example04/Ex4_03.cpp.obj
+
+example04/Ex4_03.i: example04/Ex4_03.cpp.i
+
+.PHONY : example04/Ex4_03.i
+
+# target to preprocess a source file
+example04/Ex4_03.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/example04/Ex4_03.cpp.i
+.PHONY : example04/Ex4_03.cpp.i
+
+example04/Ex4_03.s: example04/Ex4_03.cpp.s
+
+.PHONY : example04/Ex4_03.s
+
+# target to generate assembly for a file
+example04/Ex4_03.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/example04/Ex4_03.cpp.s
+.PHONY : example04/Ex4_03.cpp.s
+
+example04/Ex4_04.obj: example04/Ex4_04.cpp.obj
+
+.PHONY : example04/Ex4_04.obj
+
+# target to build an object file
+example04/Ex4_04.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.obj
+.PHONY : example04/Ex4_04.cpp.obj
+
+example04/Ex4_04.i: example04/Ex4_04.cpp.i
+
+.PHONY : example04/Ex4_04.i
+
+# target to preprocess a source file
+example04/Ex4_04.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.i
+.PHONY : example04/Ex4_04.cpp.i
+
+example04/Ex4_04.s: example04/Ex4_04.cpp.s
+
+.PHONY : example04/Ex4_04.s
+
+# target to generate assembly for a file
+example04/Ex4_04.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.s
+.PHONY : example04/Ex4_04.cpp.s
+
+example04/Ex4_05.obj: example04/Ex4_05.cpp.obj
+
+.PHONY : example04/Ex4_05.obj
+
+# target to build an object file
+example04/Ex4_05.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/example04/Ex4_05.cpp.obj
+.PHONY : example04/Ex4_05.cpp.obj
+
+example04/Ex4_05.i: example04/Ex4_05.cpp.i
+
+.PHONY : example04/Ex4_05.i
+
+# target to preprocess a source file
+example04/Ex4_05.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/example04/Ex4_05.cpp.i
+.PHONY : example04/Ex4_05.cpp.i
+
+example04/Ex4_05.s: example04/Ex4_05.cpp.s
+
+.PHONY : example04/Ex4_05.s
+
+# target to generate assembly for a file
+example04/Ex4_05.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/example04/Ex4_05.cpp.s
+.PHONY : example04/Ex4_05.cpp.s
+
+example04/Ex4_06.obj: example04/Ex4_06.cpp.obj
+
+.PHONY : example04/Ex4_06.obj
+
+# target to build an object file
+example04/Ex4_06.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/example04/Ex4_06.cpp.obj
+.PHONY : example04/Ex4_06.cpp.obj
+
+example04/Ex4_06.i: example04/Ex4_06.cpp.i
+
+.PHONY : example04/Ex4_06.i
+
+# target to preprocess a source file
+example04/Ex4_06.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/example04/Ex4_06.cpp.i
+.PHONY : example04/Ex4_06.cpp.i
+
+example04/Ex4_06.s: example04/Ex4_06.cpp.s
+
+.PHONY : example04/Ex4_06.s
+
+# target to generate assembly for a file
+example04/Ex4_06.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/example04/Ex4_06.cpp.s
+.PHONY : example04/Ex4_06.cpp.s
+
+example04/Ex4_07.obj: example04/Ex4_07.cpp.obj
+
+.PHONY : example04/Ex4_07.obj
+
+# target to build an object file
+example04/Ex4_07.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/example04/Ex4_07.cpp.obj
+.PHONY : example04/Ex4_07.cpp.obj
+
+example04/Ex4_07.i: example04/Ex4_07.cpp.i
+
+.PHONY : example04/Ex4_07.i
+
+# target to preprocess a source file
+example04/Ex4_07.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/example04/Ex4_07.cpp.i
+.PHONY : example04/Ex4_07.cpp.i
+
+example04/Ex4_07.s: example04/Ex4_07.cpp.s
+
+.PHONY : example04/Ex4_07.s
+
+# target to generate assembly for a file
+example04/Ex4_07.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/example04/Ex4_07.cpp.s
+.PHONY : example04/Ex4_07.cpp.s
+
+example04/Ex4_08.obj: example04/Ex4_08.cpp.obj
+
+.PHONY : example04/Ex4_08.obj
+
+# target to build an object file
+example04/Ex4_08.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/example04/Ex4_08.cpp.obj
+.PHONY : example04/Ex4_08.cpp.obj
+
+example04/Ex4_08.i: example04/Ex4_08.cpp.i
+
+.PHONY : example04/Ex4_08.i
+
+# target to preprocess a source file
+example04/Ex4_08.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/example04/Ex4_08.cpp.i
+.PHONY : example04/Ex4_08.cpp.i
+
+example04/Ex4_08.s: example04/Ex4_08.cpp.s
+
+.PHONY : example04/Ex4_08.s
+
+# target to generate assembly for a file
+example04/Ex4_08.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/example04/Ex4_08.cpp.s
+.PHONY : example04/Ex4_08.cpp.s
+
+example04/Ex4_09.obj: example04/Ex4_09.cpp.obj
+
+.PHONY : example04/Ex4_09.obj
+
+# target to build an object file
+example04/Ex4_09.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/example04/Ex4_09.cpp.obj
+.PHONY : example04/Ex4_09.cpp.obj
+
+example04/Ex4_09.i: example04/Ex4_09.cpp.i
+
+.PHONY : example04/Ex4_09.i
+
+# target to preprocess a source file
+example04/Ex4_09.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/example04/Ex4_09.cpp.i
+.PHONY : example04/Ex4_09.cpp.i
+
+example04/Ex4_09.s: example04/Ex4_09.cpp.s
+
+.PHONY : example04/Ex4_09.s
+
+# target to generate assembly for a file
+example04/Ex4_09.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/example04/Ex4_09.cpp.s
+.PHONY : example04/Ex4_09.cpp.s
+
+example05/Ex5_01.obj: example05/Ex5_01.cpp.obj
+
+.PHONY : example05/Ex5_01.obj
+
+# target to build an object file
+example05/Ex5_01.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/example05/Ex5_01.cpp.obj
+.PHONY : example05/Ex5_01.cpp.obj
+
+example05/Ex5_01.i: example05/Ex5_01.cpp.i
+
+.PHONY : example05/Ex5_01.i
+
+# target to preprocess a source file
+example05/Ex5_01.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/example05/Ex5_01.cpp.i
+.PHONY : example05/Ex5_01.cpp.i
+
+example05/Ex5_01.s: example05/Ex5_01.cpp.s
+
+.PHONY : example05/Ex5_01.s
+
+# target to generate assembly for a file
+example05/Ex5_01.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/example05/Ex5_01.cpp.s
+.PHONY : example05/Ex5_01.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -559,7 +1079,9 @@ help:
 	@echo ... main
 	@echo ... Ex2_01
 	@echo ... Ex2_04
+	@echo ... Ex4_06
 	@echo ... Ex1_01
+	@echo ... Ex4_05
 	@echo ... Ex1_02
 	@echo ... Ex2_02
 	@echo ... Ex2_03
@@ -567,6 +1089,17 @@ help:
 	@echo ... Ex2_06
 	@echo ... Ex3_01
 	@echo ... Ex3_02
+	@echo ... Ex3_03
+	@echo ... Ex4_09
+	@echo ... Ex3_04
+	@echo ... Ex4_08
+	@echo ... Ex3_05
+	@echo ... Ex4_01
+	@echo ... Ex4_02
+	@echo ... Ex4_03
+	@echo ... Ex4_04
+	@echo ... Ex4_07
+	@echo ... Ex5_01
 	@echo ... rebuild_cache
 	@echo ... example01/Ex1_01.obj
 	@echo ... example01/Ex1_01.i
@@ -598,6 +1131,45 @@ help:
 	@echo ... example03/Ex3_02.obj
 	@echo ... example03/Ex3_02.i
 	@echo ... example03/Ex3_02.s
+	@echo ... example03/Ex3_03.obj
+	@echo ... example03/Ex3_03.i
+	@echo ... example03/Ex3_03.s
+	@echo ... example03/Ex3_04.obj
+	@echo ... example03/Ex3_04.i
+	@echo ... example03/Ex3_04.s
+	@echo ... example03/Ex3_05.obj
+	@echo ... example03/Ex3_05.i
+	@echo ... example03/Ex3_05.s
+	@echo ... example04/Ex4_01.obj
+	@echo ... example04/Ex4_01.i
+	@echo ... example04/Ex4_01.s
+	@echo ... example04/Ex4_02.obj
+	@echo ... example04/Ex4_02.i
+	@echo ... example04/Ex4_02.s
+	@echo ... example04/Ex4_03.obj
+	@echo ... example04/Ex4_03.i
+	@echo ... example04/Ex4_03.s
+	@echo ... example04/Ex4_04.obj
+	@echo ... example04/Ex4_04.i
+	@echo ... example04/Ex4_04.s
+	@echo ... example04/Ex4_05.obj
+	@echo ... example04/Ex4_05.i
+	@echo ... example04/Ex4_05.s
+	@echo ... example04/Ex4_06.obj
+	@echo ... example04/Ex4_06.i
+	@echo ... example04/Ex4_06.s
+	@echo ... example04/Ex4_07.obj
+	@echo ... example04/Ex4_07.i
+	@echo ... example04/Ex4_07.s
+	@echo ... example04/Ex4_08.obj
+	@echo ... example04/Ex4_08.i
+	@echo ... example04/Ex4_08.s
+	@echo ... example04/Ex4_09.obj
+	@echo ... example04/Ex4_09.i
+	@echo ... example04/Ex4_09.s
+	@echo ... example05/Ex5_01.obj
+	@echo ... example05/Ex5_01.i
+	@echo ... example05/Ex5_01.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

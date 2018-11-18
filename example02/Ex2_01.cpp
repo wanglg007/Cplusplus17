@@ -3,6 +3,7 @@
 
 int main()
 {
+  //定义integer变量
   int apple_count {15};                            // Number of apples
   int orange_count {5};                            // Number of oranges
   int total_fruit {apple_count + orange_count};    // Total number of fruit

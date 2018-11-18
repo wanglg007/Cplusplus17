@@ -22,4 +22,12 @@ int main()
   std::cout << "The positive range for type long double is from "
             << std::numeric_limits<long double>::min() << " to "
             << std::numeric_limits<long double>::max() << std::endl;
+
+  //Finding other properties of fundamental types
+  float positive_infinity = std::numeric_limits<float>::infinity();
+  double negative_infinity = -std::numeric_limits<double>::infinity();
+  long double not_a_number = std::numeric_limits<long double>::quiet_NaN();
+  std::cout << positive_infinity << "->"
+            << negative_infinity << "->"
+            << not_a_number;
 }
