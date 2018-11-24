@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,27 +56,27 @@ include CMakeFiles/Ex4_04.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ex4_04.dir/flags.make
 
-CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.obj: CMakeFiles/Ex4_04.dir/flags.make
-CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.obj: ../example04/Ex4_04.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex4_04.dir\example04\Ex4_04.cpp.obj -c D:\Development_Github\My_Cplusplus17\example04\Ex4_04.cpp
+CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.obj: CMakeFiles/Ex4_04.dir/flags.make
+CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.obj: ../00_basement/example04/Ex4_04.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex4_04.dir\00_basement\example04\Ex4_04.cpp.obj -c D:\Development_Github\My_Cplusplus17\00_basement\example04\Ex4_04.cpp
 
-CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development_Github\My_Cplusplus17\example04\Ex4_04.cpp > CMakeFiles\Ex4_04.dir\example04\Ex4_04.cpp.i
+CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development_Github\My_Cplusplus17\00_basement\example04\Ex4_04.cpp > CMakeFiles\Ex4_04.dir\00_basement\example04\Ex4_04.cpp.i
 
-CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development_Github\My_Cplusplus17\example04\Ex4_04.cpp -o CMakeFiles\Ex4_04.dir\example04\Ex4_04.cpp.s
+CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development_Github\My_Cplusplus17\00_basement\example04\Ex4_04.cpp -o CMakeFiles\Ex4_04.dir\00_basement\example04\Ex4_04.cpp.s
 
 # Object files for target Ex4_04
 Ex4_04_OBJECTS = \
-"CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.obj"
+"CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.obj"
 
 # External object files for target Ex4_04
 Ex4_04_EXTERNAL_OBJECTS =
 
-Ex4_04.exe: CMakeFiles/Ex4_04.dir/example04/Ex4_04.cpp.obj
+Ex4_04.exe: CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.obj
 Ex4_04.exe: CMakeFiles/Ex4_04.dir/build.make
 Ex4_04.exe: CMakeFiles/Ex4_04.dir/linklibs.rsp
 Ex4_04.exe: CMakeFiles/Ex4_04.dir/objects1.rsp
