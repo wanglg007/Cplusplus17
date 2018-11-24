@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Ex7_02
+
+# Build rule for target.
+Ex7_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_02
+.PHONY : Ex7_02
+
+# fast build rule for target.
+Ex7_02/fast:
+	$(MAKE) -f CMakeFiles\Ex7_02.dir\build.make CMakeFiles/Ex7_02.dir/build
+.PHONY : Ex7_02/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -123,1004 +136,631 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Ex2_01
+# Target rules for targets named Ex7_01
 
 # Build rule for target.
-Ex2_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_01
-.PHONY : Ex2_01
+Ex7_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_01
+.PHONY : Ex7_01
 
 # fast build rule for target.
-Ex2_01/fast:
-	$(MAKE) -f CMakeFiles\Ex2_01.dir\build.make CMakeFiles/Ex2_01.dir/build
-.PHONY : Ex2_01/fast
+Ex7_01/fast:
+	$(MAKE) -f CMakeFiles\Ex7_01.dir\build.make CMakeFiles/Ex7_01.dir/build
+.PHONY : Ex7_01/fast
 
 #=============================================================================
-# Target rules for targets named Ex2_04
+# Target rules for targets named Ex7_03
 
 # Build rule for target.
-Ex2_04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_04
-.PHONY : Ex2_04
+Ex7_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_03
+.PHONY : Ex7_03
 
 # fast build rule for target.
-Ex2_04/fast:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/build
-.PHONY : Ex2_04/fast
+Ex7_03/fast:
+	$(MAKE) -f CMakeFiles\Ex7_03.dir\build.make CMakeFiles/Ex7_03.dir/build
+.PHONY : Ex7_03/fast
 
 #=============================================================================
-# Target rules for targets named Ex4_06
+# Target rules for targets named Ex7_04
 
 # Build rule for target.
-Ex4_06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_06
-.PHONY : Ex4_06
+Ex7_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_04
+.PHONY : Ex7_04
 
 # fast build rule for target.
-Ex4_06/fast:
-	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/build
-.PHONY : Ex4_06/fast
+Ex7_04/fast:
+	$(MAKE) -f CMakeFiles\Ex7_04.dir\build.make CMakeFiles/Ex7_04.dir/build
+.PHONY : Ex7_04/fast
 
 #=============================================================================
-# Target rules for targets named Ex1_01
+# Target rules for targets named Ex7_05
 
 # Build rule for target.
-Ex1_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex1_01
-.PHONY : Ex1_01
+Ex7_05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_05
+.PHONY : Ex7_05
 
 # fast build rule for target.
-Ex1_01/fast:
-	$(MAKE) -f CMakeFiles\Ex1_01.dir\build.make CMakeFiles/Ex1_01.dir/build
-.PHONY : Ex1_01/fast
+Ex7_05/fast:
+	$(MAKE) -f CMakeFiles\Ex7_05.dir\build.make CMakeFiles/Ex7_05.dir/build
+.PHONY : Ex7_05/fast
 
 #=============================================================================
-# Target rules for targets named Ex4_05
+# Target rules for targets named Ex7_06
 
 # Build rule for target.
-Ex4_05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_05
-.PHONY : Ex4_05
+Ex7_06: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_06
+.PHONY : Ex7_06
 
 # fast build rule for target.
-Ex4_05/fast:
-	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/build
-.PHONY : Ex4_05/fast
+Ex7_06/fast:
+	$(MAKE) -f CMakeFiles\Ex7_06.dir\build.make CMakeFiles/Ex7_06.dir/build
+.PHONY : Ex7_06/fast
 
 #=============================================================================
-# Target rules for targets named Ex1_02
+# Target rules for targets named Ex7_07
 
 # Build rule for target.
-Ex1_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex1_02
-.PHONY : Ex1_02
+Ex7_07: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_07
+.PHONY : Ex7_07
 
 # fast build rule for target.
-Ex1_02/fast:
-	$(MAKE) -f CMakeFiles\Ex1_02.dir\build.make CMakeFiles/Ex1_02.dir/build
-.PHONY : Ex1_02/fast
+Ex7_07/fast:
+	$(MAKE) -f CMakeFiles\Ex7_07.dir\build.make CMakeFiles/Ex7_07.dir/build
+.PHONY : Ex7_07/fast
 
 #=============================================================================
-# Target rules for targets named Ex2_02
+# Target rules for targets named Ex7_08
 
 # Build rule for target.
-Ex2_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_02
-.PHONY : Ex2_02
+Ex7_08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_08
+.PHONY : Ex7_08
 
 # fast build rule for target.
-Ex2_02/fast:
-	$(MAKE) -f CMakeFiles\Ex2_02.dir\build.make CMakeFiles/Ex2_02.dir/build
-.PHONY : Ex2_02/fast
+Ex7_08/fast:
+	$(MAKE) -f CMakeFiles\Ex7_08.dir\build.make CMakeFiles/Ex7_08.dir/build
+.PHONY : Ex7_08/fast
 
 #=============================================================================
-# Target rules for targets named Ex2_03
+# Target rules for targets named Ex7_09
 
 # Build rule for target.
-Ex2_03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_03
-.PHONY : Ex2_03
+Ex7_09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_09
+.PHONY : Ex7_09
 
 # fast build rule for target.
-Ex2_03/fast:
-	$(MAKE) -f CMakeFiles\Ex2_03.dir\build.make CMakeFiles/Ex2_03.dir/build
-.PHONY : Ex2_03/fast
+Ex7_09/fast:
+	$(MAKE) -f CMakeFiles\Ex7_09.dir\build.make CMakeFiles/Ex7_09.dir/build
+.PHONY : Ex7_09/fast
 
 #=============================================================================
-# Target rules for targets named Ex2_05
+# Target rules for targets named Ex7_10
 
 # Build rule for target.
-Ex2_05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_05
-.PHONY : Ex2_05
+Ex7_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_10
+.PHONY : Ex7_10
 
 # fast build rule for target.
-Ex2_05/fast:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/build
-.PHONY : Ex2_05/fast
+Ex7_10/fast:
+	$(MAKE) -f CMakeFiles\Ex7_10.dir\build.make CMakeFiles/Ex7_10.dir/build
+.PHONY : Ex7_10/fast
 
 #=============================================================================
-# Target rules for targets named Ex2_06
+# Target rules for targets named Ex7_11
 
 # Build rule for target.
-Ex2_06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex2_06
-.PHONY : Ex2_06
+Ex7_11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_11
+.PHONY : Ex7_11
 
 # fast build rule for target.
-Ex2_06/fast:
-	$(MAKE) -f CMakeFiles\Ex2_06.dir\build.make CMakeFiles/Ex2_06.dir/build
-.PHONY : Ex2_06/fast
+Ex7_11/fast:
+	$(MAKE) -f CMakeFiles\Ex7_11.dir\build.make CMakeFiles/Ex7_11.dir/build
+.PHONY : Ex7_11/fast
 
 #=============================================================================
-# Target rules for targets named Ex3_01
+# Target rules for targets named Ex7_12
 
 # Build rule for target.
-Ex3_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex3_01
-.PHONY : Ex3_01
+Ex7_12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_12
+.PHONY : Ex7_12
 
 # fast build rule for target.
-Ex3_01/fast:
-	$(MAKE) -f CMakeFiles\Ex3_01.dir\build.make CMakeFiles/Ex3_01.dir/build
-.PHONY : Ex3_01/fast
+Ex7_12/fast:
+	$(MAKE) -f CMakeFiles\Ex7_12.dir\build.make CMakeFiles/Ex7_12.dir/build
+.PHONY : Ex7_12/fast
 
 #=============================================================================
-# Target rules for targets named Ex3_02
+# Target rules for targets named Ex7_13
 
 # Build rule for target.
-Ex3_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex3_02
-.PHONY : Ex3_02
+Ex7_13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_13
+.PHONY : Ex7_13
 
 # fast build rule for target.
-Ex3_02/fast:
-	$(MAKE) -f CMakeFiles\Ex3_02.dir\build.make CMakeFiles/Ex3_02.dir/build
-.PHONY : Ex3_02/fast
+Ex7_13/fast:
+	$(MAKE) -f CMakeFiles\Ex7_13.dir\build.make CMakeFiles/Ex7_13.dir/build
+.PHONY : Ex7_13/fast
 
 #=============================================================================
-# Target rules for targets named Ex3_03
+# Target rules for targets named Ex7_14
 
 # Build rule for target.
-Ex3_03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex3_03
-.PHONY : Ex3_03
+Ex7_14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_14
+.PHONY : Ex7_14
 
 # fast build rule for target.
-Ex3_03/fast:
-	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/build
-.PHONY : Ex3_03/fast
+Ex7_14/fast:
+	$(MAKE) -f CMakeFiles\Ex7_14.dir\build.make CMakeFiles/Ex7_14.dir/build
+.PHONY : Ex7_14/fast
 
 #=============================================================================
-# Target rules for targets named Ex4_09
+# Target rules for targets named Ex7_15
 
 # Build rule for target.
-Ex4_09: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_09
-.PHONY : Ex4_09
+Ex7_15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_15
+.PHONY : Ex7_15
 
 # fast build rule for target.
-Ex4_09/fast:
-	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/build
-.PHONY : Ex4_09/fast
+Ex7_15/fast:
+	$(MAKE) -f CMakeFiles\Ex7_15.dir\build.make CMakeFiles/Ex7_15.dir/build
+.PHONY : Ex7_15/fast
 
 #=============================================================================
-# Target rules for targets named Ex3_04
+# Target rules for targets named Ex7_16
 
 # Build rule for target.
-Ex3_04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex3_04
-.PHONY : Ex3_04
+Ex7_16: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex7_16
+.PHONY : Ex7_16
 
 # fast build rule for target.
-Ex3_04/fast:
-	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/build
-.PHONY : Ex3_04/fast
+Ex7_16/fast:
+	$(MAKE) -f CMakeFiles\Ex7_16.dir\build.make CMakeFiles/Ex7_16.dir/build
+.PHONY : Ex7_16/fast
 
-#=============================================================================
-# Target rules for targets named Ex4_08
+00_basement/example07/Ex7_01.obj: 00_basement/example07/Ex7_01.cpp.obj
 
-# Build rule for target.
-Ex4_08: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_08
-.PHONY : Ex4_08
-
-# fast build rule for target.
-Ex4_08/fast:
-	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/build
-.PHONY : Ex4_08/fast
-
-#=============================================================================
-# Target rules for targets named Ex3_05
-
-# Build rule for target.
-Ex3_05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex3_05
-.PHONY : Ex3_05
-
-# fast build rule for target.
-Ex3_05/fast:
-	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/build
-.PHONY : Ex3_05/fast
-
-#=============================================================================
-# Target rules for targets named Ex3_06
-
-# Build rule for target.
-Ex3_06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex3_06
-.PHONY : Ex3_06
-
-# fast build rule for target.
-Ex3_06/fast:
-	$(MAKE) -f CMakeFiles\Ex3_06.dir\build.make CMakeFiles/Ex3_06.dir/build
-.PHONY : Ex3_06/fast
-
-#=============================================================================
-# Target rules for targets named Ex4_01
-
-# Build rule for target.
-Ex4_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_01
-.PHONY : Ex4_01
-
-# fast build rule for target.
-Ex4_01/fast:
-	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/build
-.PHONY : Ex4_01/fast
-
-#=============================================================================
-# Target rules for targets named Ex4_02
-
-# Build rule for target.
-Ex4_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_02
-.PHONY : Ex4_02
-
-# fast build rule for target.
-Ex4_02/fast:
-	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/build
-.PHONY : Ex4_02/fast
-
-#=============================================================================
-# Target rules for targets named Ex4_03
-
-# Build rule for target.
-Ex4_03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_03
-.PHONY : Ex4_03
-
-# fast build rule for target.
-Ex4_03/fast:
-	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/build
-.PHONY : Ex4_03/fast
-
-#=============================================================================
-# Target rules for targets named Ex4_04
-
-# Build rule for target.
-Ex4_04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_04
-.PHONY : Ex4_04
-
-# fast build rule for target.
-Ex4_04/fast:
-	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/build
-.PHONY : Ex4_04/fast
-
-#=============================================================================
-# Target rules for targets named Ex4_07
-
-# Build rule for target.
-Ex4_07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_07
-.PHONY : Ex4_07
-
-# fast build rule for target.
-Ex4_07/fast:
-	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/build
-.PHONY : Ex4_07/fast
-
-#=============================================================================
-# Target rules for targets named Ex4_10
-
-# Build rule for target.
-Ex4_10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex4_10
-.PHONY : Ex4_10
-
-# fast build rule for target.
-Ex4_10/fast:
-	$(MAKE) -f CMakeFiles\Ex4_10.dir\build.make CMakeFiles/Ex4_10.dir/build
-.PHONY : Ex4_10/fast
-
-#=============================================================================
-# Target rules for targets named Ex5_01
-
-# Build rule for target.
-Ex5_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex5_01
-.PHONY : Ex5_01
-
-# fast build rule for target.
-Ex5_01/fast:
-	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/build
-.PHONY : Ex5_01/fast
-
-00_basement/example01/Ex1_01.obj: 00_basement/example01/Ex1_01.cpp.obj
-
-.PHONY : 00_basement/example01/Ex1_01.obj
+.PHONY : 00_basement/example07/Ex7_01.obj
 
 # target to build an object file
-00_basement/example01/Ex1_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex1_01.dir\build.make CMakeFiles/Ex1_01.dir/00_basement/example01/Ex1_01.cpp.obj
-.PHONY : 00_basement/example01/Ex1_01.cpp.obj
+00_basement/example07/Ex7_01.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_01.dir\build.make CMakeFiles/Ex7_01.dir/00_basement/example07/Ex7_01.cpp.obj
+.PHONY : 00_basement/example07/Ex7_01.cpp.obj
 
-00_basement/example01/Ex1_01.i: 00_basement/example01/Ex1_01.cpp.i
+00_basement/example07/Ex7_01.i: 00_basement/example07/Ex7_01.cpp.i
 
-.PHONY : 00_basement/example01/Ex1_01.i
+.PHONY : 00_basement/example07/Ex7_01.i
 
 # target to preprocess a source file
-00_basement/example01/Ex1_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex1_01.dir\build.make CMakeFiles/Ex1_01.dir/00_basement/example01/Ex1_01.cpp.i
-.PHONY : 00_basement/example01/Ex1_01.cpp.i
+00_basement/example07/Ex7_01.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_01.dir\build.make CMakeFiles/Ex7_01.dir/00_basement/example07/Ex7_01.cpp.i
+.PHONY : 00_basement/example07/Ex7_01.cpp.i
 
-00_basement/example01/Ex1_01.s: 00_basement/example01/Ex1_01.cpp.s
+00_basement/example07/Ex7_01.s: 00_basement/example07/Ex7_01.cpp.s
 
-.PHONY : 00_basement/example01/Ex1_01.s
+.PHONY : 00_basement/example07/Ex7_01.s
 
 # target to generate assembly for a file
-00_basement/example01/Ex1_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex1_01.dir\build.make CMakeFiles/Ex1_01.dir/00_basement/example01/Ex1_01.cpp.s
-.PHONY : 00_basement/example01/Ex1_01.cpp.s
+00_basement/example07/Ex7_01.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_01.dir\build.make CMakeFiles/Ex7_01.dir/00_basement/example07/Ex7_01.cpp.s
+.PHONY : 00_basement/example07/Ex7_01.cpp.s
 
-00_basement/example01/Ex1_02.obj: 00_basement/example01/Ex1_02.cpp.obj
+00_basement/example07/Ex7_02.obj: 00_basement/example07/Ex7_02.cpp.obj
 
-.PHONY : 00_basement/example01/Ex1_02.obj
+.PHONY : 00_basement/example07/Ex7_02.obj
 
 # target to build an object file
-00_basement/example01/Ex1_02.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex1_02.dir\build.make CMakeFiles/Ex1_02.dir/00_basement/example01/Ex1_02.cpp.obj
-.PHONY : 00_basement/example01/Ex1_02.cpp.obj
+00_basement/example07/Ex7_02.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_02.dir\build.make CMakeFiles/Ex7_02.dir/00_basement/example07/Ex7_02.cpp.obj
+.PHONY : 00_basement/example07/Ex7_02.cpp.obj
 
-00_basement/example01/Ex1_02.i: 00_basement/example01/Ex1_02.cpp.i
+00_basement/example07/Ex7_02.i: 00_basement/example07/Ex7_02.cpp.i
 
-.PHONY : 00_basement/example01/Ex1_02.i
+.PHONY : 00_basement/example07/Ex7_02.i
 
 # target to preprocess a source file
-00_basement/example01/Ex1_02.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex1_02.dir\build.make CMakeFiles/Ex1_02.dir/00_basement/example01/Ex1_02.cpp.i
-.PHONY : 00_basement/example01/Ex1_02.cpp.i
+00_basement/example07/Ex7_02.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_02.dir\build.make CMakeFiles/Ex7_02.dir/00_basement/example07/Ex7_02.cpp.i
+.PHONY : 00_basement/example07/Ex7_02.cpp.i
 
-00_basement/example01/Ex1_02.s: 00_basement/example01/Ex1_02.cpp.s
+00_basement/example07/Ex7_02.s: 00_basement/example07/Ex7_02.cpp.s
 
-.PHONY : 00_basement/example01/Ex1_02.s
+.PHONY : 00_basement/example07/Ex7_02.s
 
 # target to generate assembly for a file
-00_basement/example01/Ex1_02.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex1_02.dir\build.make CMakeFiles/Ex1_02.dir/00_basement/example01/Ex1_02.cpp.s
-.PHONY : 00_basement/example01/Ex1_02.cpp.s
+00_basement/example07/Ex7_02.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_02.dir\build.make CMakeFiles/Ex7_02.dir/00_basement/example07/Ex7_02.cpp.s
+.PHONY : 00_basement/example07/Ex7_02.cpp.s
 
-00_basement/example02/Ex2_01.obj: 00_basement/example02/Ex2_01.cpp.obj
+00_basement/example07/Ex7_03.obj: 00_basement/example07/Ex7_03.cpp.obj
 
-.PHONY : 00_basement/example02/Ex2_01.obj
+.PHONY : 00_basement/example07/Ex7_03.obj
 
 # target to build an object file
-00_basement/example02/Ex2_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_01.dir\build.make CMakeFiles/Ex2_01.dir/00_basement/example02/Ex2_01.cpp.obj
-.PHONY : 00_basement/example02/Ex2_01.cpp.obj
+00_basement/example07/Ex7_03.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_03.dir\build.make CMakeFiles/Ex7_03.dir/00_basement/example07/Ex7_03.cpp.obj
+.PHONY : 00_basement/example07/Ex7_03.cpp.obj
 
-00_basement/example02/Ex2_01.i: 00_basement/example02/Ex2_01.cpp.i
+00_basement/example07/Ex7_03.i: 00_basement/example07/Ex7_03.cpp.i
 
-.PHONY : 00_basement/example02/Ex2_01.i
+.PHONY : 00_basement/example07/Ex7_03.i
 
 # target to preprocess a source file
-00_basement/example02/Ex2_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_01.dir\build.make CMakeFiles/Ex2_01.dir/00_basement/example02/Ex2_01.cpp.i
-.PHONY : 00_basement/example02/Ex2_01.cpp.i
+00_basement/example07/Ex7_03.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_03.dir\build.make CMakeFiles/Ex7_03.dir/00_basement/example07/Ex7_03.cpp.i
+.PHONY : 00_basement/example07/Ex7_03.cpp.i
 
-00_basement/example02/Ex2_01.s: 00_basement/example02/Ex2_01.cpp.s
+00_basement/example07/Ex7_03.s: 00_basement/example07/Ex7_03.cpp.s
 
-.PHONY : 00_basement/example02/Ex2_01.s
+.PHONY : 00_basement/example07/Ex7_03.s
 
 # target to generate assembly for a file
-00_basement/example02/Ex2_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_01.dir\build.make CMakeFiles/Ex2_01.dir/00_basement/example02/Ex2_01.cpp.s
-.PHONY : 00_basement/example02/Ex2_01.cpp.s
+00_basement/example07/Ex7_03.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_03.dir\build.make CMakeFiles/Ex7_03.dir/00_basement/example07/Ex7_03.cpp.s
+.PHONY : 00_basement/example07/Ex7_03.cpp.s
 
-00_basement/example02/Ex2_02.obj: 00_basement/example02/Ex2_02.cpp.obj
+00_basement/example07/Ex7_04.obj: 00_basement/example07/Ex7_04.cpp.obj
 
-.PHONY : 00_basement/example02/Ex2_02.obj
+.PHONY : 00_basement/example07/Ex7_04.obj
 
 # target to build an object file
-00_basement/example02/Ex2_02.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_02.dir\build.make CMakeFiles/Ex2_02.dir/00_basement/example02/Ex2_02.cpp.obj
-.PHONY : 00_basement/example02/Ex2_02.cpp.obj
+00_basement/example07/Ex7_04.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_04.dir\build.make CMakeFiles/Ex7_04.dir/00_basement/example07/Ex7_04.cpp.obj
+.PHONY : 00_basement/example07/Ex7_04.cpp.obj
 
-00_basement/example02/Ex2_02.i: 00_basement/example02/Ex2_02.cpp.i
+00_basement/example07/Ex7_04.i: 00_basement/example07/Ex7_04.cpp.i
 
-.PHONY : 00_basement/example02/Ex2_02.i
+.PHONY : 00_basement/example07/Ex7_04.i
 
 # target to preprocess a source file
-00_basement/example02/Ex2_02.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_02.dir\build.make CMakeFiles/Ex2_02.dir/00_basement/example02/Ex2_02.cpp.i
-.PHONY : 00_basement/example02/Ex2_02.cpp.i
+00_basement/example07/Ex7_04.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_04.dir\build.make CMakeFiles/Ex7_04.dir/00_basement/example07/Ex7_04.cpp.i
+.PHONY : 00_basement/example07/Ex7_04.cpp.i
 
-00_basement/example02/Ex2_02.s: 00_basement/example02/Ex2_02.cpp.s
+00_basement/example07/Ex7_04.s: 00_basement/example07/Ex7_04.cpp.s
 
-.PHONY : 00_basement/example02/Ex2_02.s
+.PHONY : 00_basement/example07/Ex7_04.s
 
 # target to generate assembly for a file
-00_basement/example02/Ex2_02.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_02.dir\build.make CMakeFiles/Ex2_02.dir/00_basement/example02/Ex2_02.cpp.s
-.PHONY : 00_basement/example02/Ex2_02.cpp.s
+00_basement/example07/Ex7_04.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_04.dir\build.make CMakeFiles/Ex7_04.dir/00_basement/example07/Ex7_04.cpp.s
+.PHONY : 00_basement/example07/Ex7_04.cpp.s
 
-00_basement/example02/Ex2_03.obj: 00_basement/example02/Ex2_03.cpp.obj
+00_basement/example07/Ex7_05.obj: 00_basement/example07/Ex7_05.cpp.obj
 
-.PHONY : 00_basement/example02/Ex2_03.obj
+.PHONY : 00_basement/example07/Ex7_05.obj
 
 # target to build an object file
-00_basement/example02/Ex2_03.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_03.dir\build.make CMakeFiles/Ex2_03.dir/00_basement/example02/Ex2_03.cpp.obj
-.PHONY : 00_basement/example02/Ex2_03.cpp.obj
+00_basement/example07/Ex7_05.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_05.dir\build.make CMakeFiles/Ex7_05.dir/00_basement/example07/Ex7_05.cpp.obj
+.PHONY : 00_basement/example07/Ex7_05.cpp.obj
 
-00_basement/example02/Ex2_03.i: 00_basement/example02/Ex2_03.cpp.i
+00_basement/example07/Ex7_05.i: 00_basement/example07/Ex7_05.cpp.i
 
-.PHONY : 00_basement/example02/Ex2_03.i
+.PHONY : 00_basement/example07/Ex7_05.i
 
 # target to preprocess a source file
-00_basement/example02/Ex2_03.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_03.dir\build.make CMakeFiles/Ex2_03.dir/00_basement/example02/Ex2_03.cpp.i
-.PHONY : 00_basement/example02/Ex2_03.cpp.i
+00_basement/example07/Ex7_05.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_05.dir\build.make CMakeFiles/Ex7_05.dir/00_basement/example07/Ex7_05.cpp.i
+.PHONY : 00_basement/example07/Ex7_05.cpp.i
 
-00_basement/example02/Ex2_03.s: 00_basement/example02/Ex2_03.cpp.s
+00_basement/example07/Ex7_05.s: 00_basement/example07/Ex7_05.cpp.s
 
-.PHONY : 00_basement/example02/Ex2_03.s
+.PHONY : 00_basement/example07/Ex7_05.s
 
 # target to generate assembly for a file
-00_basement/example02/Ex2_03.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_03.dir\build.make CMakeFiles/Ex2_03.dir/00_basement/example02/Ex2_03.cpp.s
-.PHONY : 00_basement/example02/Ex2_03.cpp.s
+00_basement/example07/Ex7_05.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_05.dir\build.make CMakeFiles/Ex7_05.dir/00_basement/example07/Ex7_05.cpp.s
+.PHONY : 00_basement/example07/Ex7_05.cpp.s
 
-00_basement/example02/Ex2_04.obj: 00_basement/example02/Ex2_04.cpp.obj
+00_basement/example07/Ex7_06.obj: 00_basement/example07/Ex7_06.cpp.obj
 
-.PHONY : 00_basement/example02/Ex2_04.obj
+.PHONY : 00_basement/example07/Ex7_06.obj
 
 # target to build an object file
-00_basement/example02/Ex2_04.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/00_basement/example02/Ex2_04.cpp.obj
-.PHONY : 00_basement/example02/Ex2_04.cpp.obj
+00_basement/example07/Ex7_06.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_06.dir\build.make CMakeFiles/Ex7_06.dir/00_basement/example07/Ex7_06.cpp.obj
+.PHONY : 00_basement/example07/Ex7_06.cpp.obj
 
-00_basement/example02/Ex2_04.i: 00_basement/example02/Ex2_04.cpp.i
+00_basement/example07/Ex7_06.i: 00_basement/example07/Ex7_06.cpp.i
 
-.PHONY : 00_basement/example02/Ex2_04.i
+.PHONY : 00_basement/example07/Ex7_06.i
 
 # target to preprocess a source file
-00_basement/example02/Ex2_04.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/00_basement/example02/Ex2_04.cpp.i
-.PHONY : 00_basement/example02/Ex2_04.cpp.i
+00_basement/example07/Ex7_06.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_06.dir\build.make CMakeFiles/Ex7_06.dir/00_basement/example07/Ex7_06.cpp.i
+.PHONY : 00_basement/example07/Ex7_06.cpp.i
 
-00_basement/example02/Ex2_04.s: 00_basement/example02/Ex2_04.cpp.s
+00_basement/example07/Ex7_06.s: 00_basement/example07/Ex7_06.cpp.s
 
-.PHONY : 00_basement/example02/Ex2_04.s
+.PHONY : 00_basement/example07/Ex7_06.s
 
 # target to generate assembly for a file
-00_basement/example02/Ex2_04.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_04.dir\build.make CMakeFiles/Ex2_04.dir/00_basement/example02/Ex2_04.cpp.s
-.PHONY : 00_basement/example02/Ex2_04.cpp.s
+00_basement/example07/Ex7_06.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_06.dir\build.make CMakeFiles/Ex7_06.dir/00_basement/example07/Ex7_06.cpp.s
+.PHONY : 00_basement/example07/Ex7_06.cpp.s
 
-00_basement/example02/Ex2_05.obj: 00_basement/example02/Ex2_05.cpp.obj
+00_basement/example07/Ex7_07.obj: 00_basement/example07/Ex7_07.cpp.obj
 
-.PHONY : 00_basement/example02/Ex2_05.obj
+.PHONY : 00_basement/example07/Ex7_07.obj
 
 # target to build an object file
-00_basement/example02/Ex2_05.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/00_basement/example02/Ex2_05.cpp.obj
-.PHONY : 00_basement/example02/Ex2_05.cpp.obj
+00_basement/example07/Ex7_07.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_07.dir\build.make CMakeFiles/Ex7_07.dir/00_basement/example07/Ex7_07.cpp.obj
+.PHONY : 00_basement/example07/Ex7_07.cpp.obj
 
-00_basement/example02/Ex2_05.i: 00_basement/example02/Ex2_05.cpp.i
+00_basement/example07/Ex7_07.i: 00_basement/example07/Ex7_07.cpp.i
 
-.PHONY : 00_basement/example02/Ex2_05.i
+.PHONY : 00_basement/example07/Ex7_07.i
 
 # target to preprocess a source file
-00_basement/example02/Ex2_05.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/00_basement/example02/Ex2_05.cpp.i
-.PHONY : 00_basement/example02/Ex2_05.cpp.i
+00_basement/example07/Ex7_07.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_07.dir\build.make CMakeFiles/Ex7_07.dir/00_basement/example07/Ex7_07.cpp.i
+.PHONY : 00_basement/example07/Ex7_07.cpp.i
 
-00_basement/example02/Ex2_05.s: 00_basement/example02/Ex2_05.cpp.s
+00_basement/example07/Ex7_07.s: 00_basement/example07/Ex7_07.cpp.s
 
-.PHONY : 00_basement/example02/Ex2_05.s
+.PHONY : 00_basement/example07/Ex7_07.s
 
 # target to generate assembly for a file
-00_basement/example02/Ex2_05.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_05.dir\build.make CMakeFiles/Ex2_05.dir/00_basement/example02/Ex2_05.cpp.s
-.PHONY : 00_basement/example02/Ex2_05.cpp.s
+00_basement/example07/Ex7_07.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_07.dir\build.make CMakeFiles/Ex7_07.dir/00_basement/example07/Ex7_07.cpp.s
+.PHONY : 00_basement/example07/Ex7_07.cpp.s
 
-00_basement/example02/Ex2_06.obj: 00_basement/example02/Ex2_06.cpp.obj
+00_basement/example07/Ex7_08.obj: 00_basement/example07/Ex7_08.cpp.obj
 
-.PHONY : 00_basement/example02/Ex2_06.obj
+.PHONY : 00_basement/example07/Ex7_08.obj
 
 # target to build an object file
-00_basement/example02/Ex2_06.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex2_06.dir\build.make CMakeFiles/Ex2_06.dir/00_basement/example02/Ex2_06.cpp.obj
-.PHONY : 00_basement/example02/Ex2_06.cpp.obj
+00_basement/example07/Ex7_08.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_08.dir\build.make CMakeFiles/Ex7_08.dir/00_basement/example07/Ex7_08.cpp.obj
+.PHONY : 00_basement/example07/Ex7_08.cpp.obj
 
-00_basement/example02/Ex2_06.i: 00_basement/example02/Ex2_06.cpp.i
+00_basement/example07/Ex7_08.i: 00_basement/example07/Ex7_08.cpp.i
 
-.PHONY : 00_basement/example02/Ex2_06.i
+.PHONY : 00_basement/example07/Ex7_08.i
 
 # target to preprocess a source file
-00_basement/example02/Ex2_06.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex2_06.dir\build.make CMakeFiles/Ex2_06.dir/00_basement/example02/Ex2_06.cpp.i
-.PHONY : 00_basement/example02/Ex2_06.cpp.i
+00_basement/example07/Ex7_08.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_08.dir\build.make CMakeFiles/Ex7_08.dir/00_basement/example07/Ex7_08.cpp.i
+.PHONY : 00_basement/example07/Ex7_08.cpp.i
 
-00_basement/example02/Ex2_06.s: 00_basement/example02/Ex2_06.cpp.s
+00_basement/example07/Ex7_08.s: 00_basement/example07/Ex7_08.cpp.s
 
-.PHONY : 00_basement/example02/Ex2_06.s
+.PHONY : 00_basement/example07/Ex7_08.s
 
 # target to generate assembly for a file
-00_basement/example02/Ex2_06.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex2_06.dir\build.make CMakeFiles/Ex2_06.dir/00_basement/example02/Ex2_06.cpp.s
-.PHONY : 00_basement/example02/Ex2_06.cpp.s
+00_basement/example07/Ex7_08.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_08.dir\build.make CMakeFiles/Ex7_08.dir/00_basement/example07/Ex7_08.cpp.s
+.PHONY : 00_basement/example07/Ex7_08.cpp.s
 
-00_basement/example03/Ex3_01.obj: 00_basement/example03/Ex3_01.cpp.obj
+00_basement/example07/Ex7_09.obj: 00_basement/example07/Ex7_09.cpp.obj
 
-.PHONY : 00_basement/example03/Ex3_01.obj
+.PHONY : 00_basement/example07/Ex7_09.obj
 
 # target to build an object file
-00_basement/example03/Ex3_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex3_01.dir\build.make CMakeFiles/Ex3_01.dir/00_basement/example03/Ex3_01.cpp.obj
-.PHONY : 00_basement/example03/Ex3_01.cpp.obj
+00_basement/example07/Ex7_09.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_09.dir\build.make CMakeFiles/Ex7_09.dir/00_basement/example07/Ex7_09.cpp.obj
+.PHONY : 00_basement/example07/Ex7_09.cpp.obj
 
-00_basement/example03/Ex3_01.i: 00_basement/example03/Ex3_01.cpp.i
+00_basement/example07/Ex7_09.i: 00_basement/example07/Ex7_09.cpp.i
 
-.PHONY : 00_basement/example03/Ex3_01.i
+.PHONY : 00_basement/example07/Ex7_09.i
 
 # target to preprocess a source file
-00_basement/example03/Ex3_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex3_01.dir\build.make CMakeFiles/Ex3_01.dir/00_basement/example03/Ex3_01.cpp.i
-.PHONY : 00_basement/example03/Ex3_01.cpp.i
+00_basement/example07/Ex7_09.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_09.dir\build.make CMakeFiles/Ex7_09.dir/00_basement/example07/Ex7_09.cpp.i
+.PHONY : 00_basement/example07/Ex7_09.cpp.i
 
-00_basement/example03/Ex3_01.s: 00_basement/example03/Ex3_01.cpp.s
+00_basement/example07/Ex7_09.s: 00_basement/example07/Ex7_09.cpp.s
 
-.PHONY : 00_basement/example03/Ex3_01.s
+.PHONY : 00_basement/example07/Ex7_09.s
 
 # target to generate assembly for a file
-00_basement/example03/Ex3_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex3_01.dir\build.make CMakeFiles/Ex3_01.dir/00_basement/example03/Ex3_01.cpp.s
-.PHONY : 00_basement/example03/Ex3_01.cpp.s
+00_basement/example07/Ex7_09.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_09.dir\build.make CMakeFiles/Ex7_09.dir/00_basement/example07/Ex7_09.cpp.s
+.PHONY : 00_basement/example07/Ex7_09.cpp.s
 
-00_basement/example03/Ex3_02.obj: 00_basement/example03/Ex3_02.cpp.obj
+00_basement/example07/Ex7_10.obj: 00_basement/example07/Ex7_10.cpp.obj
 
-.PHONY : 00_basement/example03/Ex3_02.obj
+.PHONY : 00_basement/example07/Ex7_10.obj
 
 # target to build an object file
-00_basement/example03/Ex3_02.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex3_02.dir\build.make CMakeFiles/Ex3_02.dir/00_basement/example03/Ex3_02.cpp.obj
-.PHONY : 00_basement/example03/Ex3_02.cpp.obj
+00_basement/example07/Ex7_10.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_10.dir\build.make CMakeFiles/Ex7_10.dir/00_basement/example07/Ex7_10.cpp.obj
+.PHONY : 00_basement/example07/Ex7_10.cpp.obj
 
-00_basement/example03/Ex3_02.i: 00_basement/example03/Ex3_02.cpp.i
+00_basement/example07/Ex7_10.i: 00_basement/example07/Ex7_10.cpp.i
 
-.PHONY : 00_basement/example03/Ex3_02.i
+.PHONY : 00_basement/example07/Ex7_10.i
 
 # target to preprocess a source file
-00_basement/example03/Ex3_02.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex3_02.dir\build.make CMakeFiles/Ex3_02.dir/00_basement/example03/Ex3_02.cpp.i
-.PHONY : 00_basement/example03/Ex3_02.cpp.i
+00_basement/example07/Ex7_10.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_10.dir\build.make CMakeFiles/Ex7_10.dir/00_basement/example07/Ex7_10.cpp.i
+.PHONY : 00_basement/example07/Ex7_10.cpp.i
 
-00_basement/example03/Ex3_02.s: 00_basement/example03/Ex3_02.cpp.s
+00_basement/example07/Ex7_10.s: 00_basement/example07/Ex7_10.cpp.s
 
-.PHONY : 00_basement/example03/Ex3_02.s
+.PHONY : 00_basement/example07/Ex7_10.s
 
 # target to generate assembly for a file
-00_basement/example03/Ex3_02.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex3_02.dir\build.make CMakeFiles/Ex3_02.dir/00_basement/example03/Ex3_02.cpp.s
-.PHONY : 00_basement/example03/Ex3_02.cpp.s
+00_basement/example07/Ex7_10.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_10.dir\build.make CMakeFiles/Ex7_10.dir/00_basement/example07/Ex7_10.cpp.s
+.PHONY : 00_basement/example07/Ex7_10.cpp.s
 
-00_basement/example03/Ex3_03.obj: 00_basement/example03/Ex3_03.cpp.obj
+00_basement/example07/Ex7_11.obj: 00_basement/example07/Ex7_11.cpp.obj
 
-.PHONY : 00_basement/example03/Ex3_03.obj
+.PHONY : 00_basement/example07/Ex7_11.obj
 
 # target to build an object file
-00_basement/example03/Ex3_03.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/00_basement/example03/Ex3_03.cpp.obj
-.PHONY : 00_basement/example03/Ex3_03.cpp.obj
+00_basement/example07/Ex7_11.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_11.dir\build.make CMakeFiles/Ex7_11.dir/00_basement/example07/Ex7_11.cpp.obj
+.PHONY : 00_basement/example07/Ex7_11.cpp.obj
 
-00_basement/example03/Ex3_03.i: 00_basement/example03/Ex3_03.cpp.i
+00_basement/example07/Ex7_11.i: 00_basement/example07/Ex7_11.cpp.i
 
-.PHONY : 00_basement/example03/Ex3_03.i
+.PHONY : 00_basement/example07/Ex7_11.i
 
 # target to preprocess a source file
-00_basement/example03/Ex3_03.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/00_basement/example03/Ex3_03.cpp.i
-.PHONY : 00_basement/example03/Ex3_03.cpp.i
+00_basement/example07/Ex7_11.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_11.dir\build.make CMakeFiles/Ex7_11.dir/00_basement/example07/Ex7_11.cpp.i
+.PHONY : 00_basement/example07/Ex7_11.cpp.i
 
-00_basement/example03/Ex3_03.s: 00_basement/example03/Ex3_03.cpp.s
+00_basement/example07/Ex7_11.s: 00_basement/example07/Ex7_11.cpp.s
 
-.PHONY : 00_basement/example03/Ex3_03.s
+.PHONY : 00_basement/example07/Ex7_11.s
 
 # target to generate assembly for a file
-00_basement/example03/Ex3_03.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex3_03.dir\build.make CMakeFiles/Ex3_03.dir/00_basement/example03/Ex3_03.cpp.s
-.PHONY : 00_basement/example03/Ex3_03.cpp.s
+00_basement/example07/Ex7_11.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_11.dir\build.make CMakeFiles/Ex7_11.dir/00_basement/example07/Ex7_11.cpp.s
+.PHONY : 00_basement/example07/Ex7_11.cpp.s
 
-00_basement/example03/Ex3_04.obj: 00_basement/example03/Ex3_04.cpp.obj
+00_basement/example07/Ex7_12.obj: 00_basement/example07/Ex7_12.cpp.obj
 
-.PHONY : 00_basement/example03/Ex3_04.obj
+.PHONY : 00_basement/example07/Ex7_12.obj
 
 # target to build an object file
-00_basement/example03/Ex3_04.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/00_basement/example03/Ex3_04.cpp.obj
-.PHONY : 00_basement/example03/Ex3_04.cpp.obj
+00_basement/example07/Ex7_12.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_12.dir\build.make CMakeFiles/Ex7_12.dir/00_basement/example07/Ex7_12.cpp.obj
+.PHONY : 00_basement/example07/Ex7_12.cpp.obj
 
-00_basement/example03/Ex3_04.i: 00_basement/example03/Ex3_04.cpp.i
+00_basement/example07/Ex7_12.i: 00_basement/example07/Ex7_12.cpp.i
 
-.PHONY : 00_basement/example03/Ex3_04.i
+.PHONY : 00_basement/example07/Ex7_12.i
 
 # target to preprocess a source file
-00_basement/example03/Ex3_04.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/00_basement/example03/Ex3_04.cpp.i
-.PHONY : 00_basement/example03/Ex3_04.cpp.i
+00_basement/example07/Ex7_12.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_12.dir\build.make CMakeFiles/Ex7_12.dir/00_basement/example07/Ex7_12.cpp.i
+.PHONY : 00_basement/example07/Ex7_12.cpp.i
 
-00_basement/example03/Ex3_04.s: 00_basement/example03/Ex3_04.cpp.s
+00_basement/example07/Ex7_12.s: 00_basement/example07/Ex7_12.cpp.s
 
-.PHONY : 00_basement/example03/Ex3_04.s
+.PHONY : 00_basement/example07/Ex7_12.s
 
 # target to generate assembly for a file
-00_basement/example03/Ex3_04.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex3_04.dir\build.make CMakeFiles/Ex3_04.dir/00_basement/example03/Ex3_04.cpp.s
-.PHONY : 00_basement/example03/Ex3_04.cpp.s
+00_basement/example07/Ex7_12.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_12.dir\build.make CMakeFiles/Ex7_12.dir/00_basement/example07/Ex7_12.cpp.s
+.PHONY : 00_basement/example07/Ex7_12.cpp.s
 
-00_basement/example03/Ex3_05.obj: 00_basement/example03/Ex3_05.cpp.obj
+00_basement/example07/Ex7_13.obj: 00_basement/example07/Ex7_13.cpp.obj
 
-.PHONY : 00_basement/example03/Ex3_05.obj
+.PHONY : 00_basement/example07/Ex7_13.obj
 
 # target to build an object file
-00_basement/example03/Ex3_05.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/00_basement/example03/Ex3_05.cpp.obj
-.PHONY : 00_basement/example03/Ex3_05.cpp.obj
+00_basement/example07/Ex7_13.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_13.dir\build.make CMakeFiles/Ex7_13.dir/00_basement/example07/Ex7_13.cpp.obj
+.PHONY : 00_basement/example07/Ex7_13.cpp.obj
 
-00_basement/example03/Ex3_05.i: 00_basement/example03/Ex3_05.cpp.i
+00_basement/example07/Ex7_13.i: 00_basement/example07/Ex7_13.cpp.i
 
-.PHONY : 00_basement/example03/Ex3_05.i
+.PHONY : 00_basement/example07/Ex7_13.i
 
 # target to preprocess a source file
-00_basement/example03/Ex3_05.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/00_basement/example03/Ex3_05.cpp.i
-.PHONY : 00_basement/example03/Ex3_05.cpp.i
+00_basement/example07/Ex7_13.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_13.dir\build.make CMakeFiles/Ex7_13.dir/00_basement/example07/Ex7_13.cpp.i
+.PHONY : 00_basement/example07/Ex7_13.cpp.i
 
-00_basement/example03/Ex3_05.s: 00_basement/example03/Ex3_05.cpp.s
+00_basement/example07/Ex7_13.s: 00_basement/example07/Ex7_13.cpp.s
 
-.PHONY : 00_basement/example03/Ex3_05.s
+.PHONY : 00_basement/example07/Ex7_13.s
 
 # target to generate assembly for a file
-00_basement/example03/Ex3_05.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex3_05.dir\build.make CMakeFiles/Ex3_05.dir/00_basement/example03/Ex3_05.cpp.s
-.PHONY : 00_basement/example03/Ex3_05.cpp.s
+00_basement/example07/Ex7_13.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_13.dir\build.make CMakeFiles/Ex7_13.dir/00_basement/example07/Ex7_13.cpp.s
+.PHONY : 00_basement/example07/Ex7_13.cpp.s
 
-00_basement/example03/Ex3_06.obj: 00_basement/example03/Ex3_06.cpp.obj
+00_basement/example07/Ex7_14.obj: 00_basement/example07/Ex7_14.cpp.obj
 
-.PHONY : 00_basement/example03/Ex3_06.obj
+.PHONY : 00_basement/example07/Ex7_14.obj
 
 # target to build an object file
-00_basement/example03/Ex3_06.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex3_06.dir\build.make CMakeFiles/Ex3_06.dir/00_basement/example03/Ex3_06.cpp.obj
-.PHONY : 00_basement/example03/Ex3_06.cpp.obj
+00_basement/example07/Ex7_14.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_14.dir\build.make CMakeFiles/Ex7_14.dir/00_basement/example07/Ex7_14.cpp.obj
+.PHONY : 00_basement/example07/Ex7_14.cpp.obj
 
-00_basement/example03/Ex3_06.i: 00_basement/example03/Ex3_06.cpp.i
+00_basement/example07/Ex7_14.i: 00_basement/example07/Ex7_14.cpp.i
 
-.PHONY : 00_basement/example03/Ex3_06.i
+.PHONY : 00_basement/example07/Ex7_14.i
 
 # target to preprocess a source file
-00_basement/example03/Ex3_06.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex3_06.dir\build.make CMakeFiles/Ex3_06.dir/00_basement/example03/Ex3_06.cpp.i
-.PHONY : 00_basement/example03/Ex3_06.cpp.i
+00_basement/example07/Ex7_14.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_14.dir\build.make CMakeFiles/Ex7_14.dir/00_basement/example07/Ex7_14.cpp.i
+.PHONY : 00_basement/example07/Ex7_14.cpp.i
 
-00_basement/example03/Ex3_06.s: 00_basement/example03/Ex3_06.cpp.s
+00_basement/example07/Ex7_14.s: 00_basement/example07/Ex7_14.cpp.s
 
-.PHONY : 00_basement/example03/Ex3_06.s
+.PHONY : 00_basement/example07/Ex7_14.s
 
 # target to generate assembly for a file
-00_basement/example03/Ex3_06.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex3_06.dir\build.make CMakeFiles/Ex3_06.dir/00_basement/example03/Ex3_06.cpp.s
-.PHONY : 00_basement/example03/Ex3_06.cpp.s
+00_basement/example07/Ex7_14.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_14.dir\build.make CMakeFiles/Ex7_14.dir/00_basement/example07/Ex7_14.cpp.s
+.PHONY : 00_basement/example07/Ex7_14.cpp.s
 
-00_basement/example04/Ex4_01.obj: 00_basement/example04/Ex4_01.cpp.obj
+00_basement/example07/Ex7_15.obj: 00_basement/example07/Ex7_15.cpp.obj
 
-.PHONY : 00_basement/example04/Ex4_01.obj
+.PHONY : 00_basement/example07/Ex7_15.obj
 
 # target to build an object file
-00_basement/example04/Ex4_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/00_basement/example04/Ex4_01.cpp.obj
-.PHONY : 00_basement/example04/Ex4_01.cpp.obj
+00_basement/example07/Ex7_15.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_15.dir\build.make CMakeFiles/Ex7_15.dir/00_basement/example07/Ex7_15.cpp.obj
+.PHONY : 00_basement/example07/Ex7_15.cpp.obj
 
-00_basement/example04/Ex4_01.i: 00_basement/example04/Ex4_01.cpp.i
+00_basement/example07/Ex7_15.i: 00_basement/example07/Ex7_15.cpp.i
 
-.PHONY : 00_basement/example04/Ex4_01.i
+.PHONY : 00_basement/example07/Ex7_15.i
 
 # target to preprocess a source file
-00_basement/example04/Ex4_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/00_basement/example04/Ex4_01.cpp.i
-.PHONY : 00_basement/example04/Ex4_01.cpp.i
+00_basement/example07/Ex7_15.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_15.dir\build.make CMakeFiles/Ex7_15.dir/00_basement/example07/Ex7_15.cpp.i
+.PHONY : 00_basement/example07/Ex7_15.cpp.i
 
-00_basement/example04/Ex4_01.s: 00_basement/example04/Ex4_01.cpp.s
+00_basement/example07/Ex7_15.s: 00_basement/example07/Ex7_15.cpp.s
 
-.PHONY : 00_basement/example04/Ex4_01.s
+.PHONY : 00_basement/example07/Ex7_15.s
 
 # target to generate assembly for a file
-00_basement/example04/Ex4_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_01.dir\build.make CMakeFiles/Ex4_01.dir/00_basement/example04/Ex4_01.cpp.s
-.PHONY : 00_basement/example04/Ex4_01.cpp.s
+00_basement/example07/Ex7_15.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_15.dir\build.make CMakeFiles/Ex7_15.dir/00_basement/example07/Ex7_15.cpp.s
+.PHONY : 00_basement/example07/Ex7_15.cpp.s
 
-00_basement/example04/Ex4_02.obj: 00_basement/example04/Ex4_02.cpp.obj
+00_basement/example07/Ex7_16.obj: 00_basement/example07/Ex7_16.cpp.obj
 
-.PHONY : 00_basement/example04/Ex4_02.obj
+.PHONY : 00_basement/example07/Ex7_16.obj
 
 # target to build an object file
-00_basement/example04/Ex4_02.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/00_basement/example04/Ex4_02.cpp.obj
-.PHONY : 00_basement/example04/Ex4_02.cpp.obj
+00_basement/example07/Ex7_16.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex7_16.dir\build.make CMakeFiles/Ex7_16.dir/00_basement/example07/Ex7_16.cpp.obj
+.PHONY : 00_basement/example07/Ex7_16.cpp.obj
 
-00_basement/example04/Ex4_02.i: 00_basement/example04/Ex4_02.cpp.i
+00_basement/example07/Ex7_16.i: 00_basement/example07/Ex7_16.cpp.i
 
-.PHONY : 00_basement/example04/Ex4_02.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_02.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/00_basement/example04/Ex4_02.cpp.i
-.PHONY : 00_basement/example04/Ex4_02.cpp.i
-
-00_basement/example04/Ex4_02.s: 00_basement/example04/Ex4_02.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_02.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_02.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_02.dir\build.make CMakeFiles/Ex4_02.dir/00_basement/example04/Ex4_02.cpp.s
-.PHONY : 00_basement/example04/Ex4_02.cpp.s
-
-00_basement/example04/Ex4_03.obj: 00_basement/example04/Ex4_03.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_03.obj
-
-# target to build an object file
-00_basement/example04/Ex4_03.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/00_basement/example04/Ex4_03.cpp.obj
-.PHONY : 00_basement/example04/Ex4_03.cpp.obj
-
-00_basement/example04/Ex4_03.i: 00_basement/example04/Ex4_03.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_03.i
+.PHONY : 00_basement/example07/Ex7_16.i
 
 # target to preprocess a source file
-00_basement/example04/Ex4_03.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/00_basement/example04/Ex4_03.cpp.i
-.PHONY : 00_basement/example04/Ex4_03.cpp.i
+00_basement/example07/Ex7_16.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex7_16.dir\build.make CMakeFiles/Ex7_16.dir/00_basement/example07/Ex7_16.cpp.i
+.PHONY : 00_basement/example07/Ex7_16.cpp.i
 
-00_basement/example04/Ex4_03.s: 00_basement/example04/Ex4_03.cpp.s
+00_basement/example07/Ex7_16.s: 00_basement/example07/Ex7_16.cpp.s
 
-.PHONY : 00_basement/example04/Ex4_03.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_03.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_03.dir\build.make CMakeFiles/Ex4_03.dir/00_basement/example04/Ex4_03.cpp.s
-.PHONY : 00_basement/example04/Ex4_03.cpp.s
-
-00_basement/example04/Ex4_04.obj: 00_basement/example04/Ex4_04.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_04.obj
-
-# target to build an object file
-00_basement/example04/Ex4_04.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.obj
-.PHONY : 00_basement/example04/Ex4_04.cpp.obj
-
-00_basement/example04/Ex4_04.i: 00_basement/example04/Ex4_04.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_04.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_04.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.i
-.PHONY : 00_basement/example04/Ex4_04.cpp.i
-
-00_basement/example04/Ex4_04.s: 00_basement/example04/Ex4_04.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_04.s
+.PHONY : 00_basement/example07/Ex7_16.s
 
 # target to generate assembly for a file
-00_basement/example04/Ex4_04.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_04.dir\build.make CMakeFiles/Ex4_04.dir/00_basement/example04/Ex4_04.cpp.s
-.PHONY : 00_basement/example04/Ex4_04.cpp.s
-
-00_basement/example04/Ex4_05.obj: 00_basement/example04/Ex4_05.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_05.obj
-
-# target to build an object file
-00_basement/example04/Ex4_05.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/00_basement/example04/Ex4_05.cpp.obj
-.PHONY : 00_basement/example04/Ex4_05.cpp.obj
-
-00_basement/example04/Ex4_05.i: 00_basement/example04/Ex4_05.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_05.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_05.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/00_basement/example04/Ex4_05.cpp.i
-.PHONY : 00_basement/example04/Ex4_05.cpp.i
-
-00_basement/example04/Ex4_05.s: 00_basement/example04/Ex4_05.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_05.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_05.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_05.dir\build.make CMakeFiles/Ex4_05.dir/00_basement/example04/Ex4_05.cpp.s
-.PHONY : 00_basement/example04/Ex4_05.cpp.s
-
-00_basement/example04/Ex4_06.obj: 00_basement/example04/Ex4_06.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_06.obj
-
-# target to build an object file
-00_basement/example04/Ex4_06.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/00_basement/example04/Ex4_06.cpp.obj
-.PHONY : 00_basement/example04/Ex4_06.cpp.obj
-
-00_basement/example04/Ex4_06.i: 00_basement/example04/Ex4_06.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_06.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_06.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/00_basement/example04/Ex4_06.cpp.i
-.PHONY : 00_basement/example04/Ex4_06.cpp.i
-
-00_basement/example04/Ex4_06.s: 00_basement/example04/Ex4_06.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_06.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_06.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_06.dir\build.make CMakeFiles/Ex4_06.dir/00_basement/example04/Ex4_06.cpp.s
-.PHONY : 00_basement/example04/Ex4_06.cpp.s
-
-00_basement/example04/Ex4_07.obj: 00_basement/example04/Ex4_07.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_07.obj
-
-# target to build an object file
-00_basement/example04/Ex4_07.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/00_basement/example04/Ex4_07.cpp.obj
-.PHONY : 00_basement/example04/Ex4_07.cpp.obj
-
-00_basement/example04/Ex4_07.i: 00_basement/example04/Ex4_07.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_07.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_07.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/00_basement/example04/Ex4_07.cpp.i
-.PHONY : 00_basement/example04/Ex4_07.cpp.i
-
-00_basement/example04/Ex4_07.s: 00_basement/example04/Ex4_07.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_07.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_07.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_07.dir\build.make CMakeFiles/Ex4_07.dir/00_basement/example04/Ex4_07.cpp.s
-.PHONY : 00_basement/example04/Ex4_07.cpp.s
-
-00_basement/example04/Ex4_08.obj: 00_basement/example04/Ex4_08.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_08.obj
-
-# target to build an object file
-00_basement/example04/Ex4_08.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/00_basement/example04/Ex4_08.cpp.obj
-.PHONY : 00_basement/example04/Ex4_08.cpp.obj
-
-00_basement/example04/Ex4_08.i: 00_basement/example04/Ex4_08.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_08.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_08.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/00_basement/example04/Ex4_08.cpp.i
-.PHONY : 00_basement/example04/Ex4_08.cpp.i
-
-00_basement/example04/Ex4_08.s: 00_basement/example04/Ex4_08.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_08.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_08.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_08.dir\build.make CMakeFiles/Ex4_08.dir/00_basement/example04/Ex4_08.cpp.s
-.PHONY : 00_basement/example04/Ex4_08.cpp.s
-
-00_basement/example04/Ex4_09.obj: 00_basement/example04/Ex4_09.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_09.obj
-
-# target to build an object file
-00_basement/example04/Ex4_09.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/00_basement/example04/Ex4_09.cpp.obj
-.PHONY : 00_basement/example04/Ex4_09.cpp.obj
-
-00_basement/example04/Ex4_09.i: 00_basement/example04/Ex4_09.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_09.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_09.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/00_basement/example04/Ex4_09.cpp.i
-.PHONY : 00_basement/example04/Ex4_09.cpp.i
-
-00_basement/example04/Ex4_09.s: 00_basement/example04/Ex4_09.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_09.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_09.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_09.dir\build.make CMakeFiles/Ex4_09.dir/00_basement/example04/Ex4_09.cpp.s
-.PHONY : 00_basement/example04/Ex4_09.cpp.s
-
-00_basement/example04/Ex4_10.obj: 00_basement/example04/Ex4_10.cpp.obj
-
-.PHONY : 00_basement/example04/Ex4_10.obj
-
-# target to build an object file
-00_basement/example04/Ex4_10.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex4_10.dir\build.make CMakeFiles/Ex4_10.dir/00_basement/example04/Ex4_10.cpp.obj
-.PHONY : 00_basement/example04/Ex4_10.cpp.obj
-
-00_basement/example04/Ex4_10.i: 00_basement/example04/Ex4_10.cpp.i
-
-.PHONY : 00_basement/example04/Ex4_10.i
-
-# target to preprocess a source file
-00_basement/example04/Ex4_10.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex4_10.dir\build.make CMakeFiles/Ex4_10.dir/00_basement/example04/Ex4_10.cpp.i
-.PHONY : 00_basement/example04/Ex4_10.cpp.i
-
-00_basement/example04/Ex4_10.s: 00_basement/example04/Ex4_10.cpp.s
-
-.PHONY : 00_basement/example04/Ex4_10.s
-
-# target to generate assembly for a file
-00_basement/example04/Ex4_10.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex4_10.dir\build.make CMakeFiles/Ex4_10.dir/00_basement/example04/Ex4_10.cpp.s
-.PHONY : 00_basement/example04/Ex4_10.cpp.s
-
-00_basement/example05/Ex5_01.obj: 00_basement/example05/Ex5_01.cpp.obj
-
-.PHONY : 00_basement/example05/Ex5_01.obj
-
-# target to build an object file
-00_basement/example05/Ex5_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/00_basement/example05/Ex5_01.cpp.obj
-.PHONY : 00_basement/example05/Ex5_01.cpp.obj
-
-00_basement/example05/Ex5_01.i: 00_basement/example05/Ex5_01.cpp.i
-
-.PHONY : 00_basement/example05/Ex5_01.i
-
-# target to preprocess a source file
-00_basement/example05/Ex5_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/00_basement/example05/Ex5_01.cpp.i
-.PHONY : 00_basement/example05/Ex5_01.cpp.i
-
-00_basement/example05/Ex5_01.s: 00_basement/example05/Ex5_01.cpp.s
-
-.PHONY : 00_basement/example05/Ex5_01.s
-
-# target to generate assembly for a file
-00_basement/example05/Ex5_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex5_01.dir\build.make CMakeFiles/Ex5_01.dir/00_basement/example05/Ex5_01.cpp.s
-.PHONY : 00_basement/example05/Ex5_01.cpp.s
+00_basement/example07/Ex7_16.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex7_16.dir\build.make CMakeFiles/Ex7_16.dir/00_basement/example07/Ex7_16.cpp.s
+.PHONY : 00_basement/example07/Ex7_16.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -1155,109 +795,73 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Ex7_02
 	@echo ... edit_cache
 	@echo ... main
-	@echo ... Ex2_01
-	@echo ... Ex2_04
-	@echo ... Ex4_06
-	@echo ... Ex1_01
-	@echo ... Ex4_05
-	@echo ... Ex1_02
-	@echo ... Ex2_02
-	@echo ... Ex2_03
-	@echo ... Ex2_05
-	@echo ... Ex2_06
-	@echo ... Ex3_01
-	@echo ... Ex3_02
-	@echo ... Ex3_03
-	@echo ... Ex4_09
-	@echo ... Ex3_04
-	@echo ... Ex4_08
-	@echo ... Ex3_05
-	@echo ... Ex3_06
-	@echo ... Ex4_01
-	@echo ... Ex4_02
-	@echo ... Ex4_03
-	@echo ... Ex4_04
-	@echo ... Ex4_07
-	@echo ... Ex4_10
-	@echo ... Ex5_01
+	@echo ... Ex7_01
+	@echo ... Ex7_03
+	@echo ... Ex7_04
+	@echo ... Ex7_05
+	@echo ... Ex7_06
+	@echo ... Ex7_07
+	@echo ... Ex7_08
+	@echo ... Ex7_09
+	@echo ... Ex7_10
+	@echo ... Ex7_11
+	@echo ... Ex7_12
+	@echo ... Ex7_13
+	@echo ... Ex7_14
+	@echo ... Ex7_15
+	@echo ... Ex7_16
 	@echo ... rebuild_cache
-	@echo ... 00_basement/example01/Ex1_01.obj
-	@echo ... 00_basement/example01/Ex1_01.i
-	@echo ... 00_basement/example01/Ex1_01.s
-	@echo ... 00_basement/example01/Ex1_02.obj
-	@echo ... 00_basement/example01/Ex1_02.i
-	@echo ... 00_basement/example01/Ex1_02.s
-	@echo ... 00_basement/example02/Ex2_01.obj
-	@echo ... 00_basement/example02/Ex2_01.i
-	@echo ... 00_basement/example02/Ex2_01.s
-	@echo ... 00_basement/example02/Ex2_02.obj
-	@echo ... 00_basement/example02/Ex2_02.i
-	@echo ... 00_basement/example02/Ex2_02.s
-	@echo ... 00_basement/example02/Ex2_03.obj
-	@echo ... 00_basement/example02/Ex2_03.i
-	@echo ... 00_basement/example02/Ex2_03.s
-	@echo ... 00_basement/example02/Ex2_04.obj
-	@echo ... 00_basement/example02/Ex2_04.i
-	@echo ... 00_basement/example02/Ex2_04.s
-	@echo ... 00_basement/example02/Ex2_05.obj
-	@echo ... 00_basement/example02/Ex2_05.i
-	@echo ... 00_basement/example02/Ex2_05.s
-	@echo ... 00_basement/example02/Ex2_06.obj
-	@echo ... 00_basement/example02/Ex2_06.i
-	@echo ... 00_basement/example02/Ex2_06.s
-	@echo ... 00_basement/example03/Ex3_01.obj
-	@echo ... 00_basement/example03/Ex3_01.i
-	@echo ... 00_basement/example03/Ex3_01.s
-	@echo ... 00_basement/example03/Ex3_02.obj
-	@echo ... 00_basement/example03/Ex3_02.i
-	@echo ... 00_basement/example03/Ex3_02.s
-	@echo ... 00_basement/example03/Ex3_03.obj
-	@echo ... 00_basement/example03/Ex3_03.i
-	@echo ... 00_basement/example03/Ex3_03.s
-	@echo ... 00_basement/example03/Ex3_04.obj
-	@echo ... 00_basement/example03/Ex3_04.i
-	@echo ... 00_basement/example03/Ex3_04.s
-	@echo ... 00_basement/example03/Ex3_05.obj
-	@echo ... 00_basement/example03/Ex3_05.i
-	@echo ... 00_basement/example03/Ex3_05.s
-	@echo ... 00_basement/example03/Ex3_06.obj
-	@echo ... 00_basement/example03/Ex3_06.i
-	@echo ... 00_basement/example03/Ex3_06.s
-	@echo ... 00_basement/example04/Ex4_01.obj
-	@echo ... 00_basement/example04/Ex4_01.i
-	@echo ... 00_basement/example04/Ex4_01.s
-	@echo ... 00_basement/example04/Ex4_02.obj
-	@echo ... 00_basement/example04/Ex4_02.i
-	@echo ... 00_basement/example04/Ex4_02.s
-	@echo ... 00_basement/example04/Ex4_03.obj
-	@echo ... 00_basement/example04/Ex4_03.i
-	@echo ... 00_basement/example04/Ex4_03.s
-	@echo ... 00_basement/example04/Ex4_04.obj
-	@echo ... 00_basement/example04/Ex4_04.i
-	@echo ... 00_basement/example04/Ex4_04.s
-	@echo ... 00_basement/example04/Ex4_05.obj
-	@echo ... 00_basement/example04/Ex4_05.i
-	@echo ... 00_basement/example04/Ex4_05.s
-	@echo ... 00_basement/example04/Ex4_06.obj
-	@echo ... 00_basement/example04/Ex4_06.i
-	@echo ... 00_basement/example04/Ex4_06.s
-	@echo ... 00_basement/example04/Ex4_07.obj
-	@echo ... 00_basement/example04/Ex4_07.i
-	@echo ... 00_basement/example04/Ex4_07.s
-	@echo ... 00_basement/example04/Ex4_08.obj
-	@echo ... 00_basement/example04/Ex4_08.i
-	@echo ... 00_basement/example04/Ex4_08.s
-	@echo ... 00_basement/example04/Ex4_09.obj
-	@echo ... 00_basement/example04/Ex4_09.i
-	@echo ... 00_basement/example04/Ex4_09.s
-	@echo ... 00_basement/example04/Ex4_10.obj
-	@echo ... 00_basement/example04/Ex4_10.i
-	@echo ... 00_basement/example04/Ex4_10.s
-	@echo ... 00_basement/example05/Ex5_01.obj
-	@echo ... 00_basement/example05/Ex5_01.i
-	@echo ... 00_basement/example05/Ex5_01.s
+	@echo ... 00_basement/example07/Ex7_01.obj
+	@echo ... 00_basement/example07/Ex7_01.i
+	@echo ... 00_basement/example07/Ex7_01.s
+	@echo ... 00_basement/example07/Ex7_02.obj
+	@echo ... 00_basement/example07/Ex7_02.i
+	@echo ... 00_basement/example07/Ex7_02.s
+	@echo ... 00_basement/example07/Ex7_03.obj
+	@echo ... 00_basement/example07/Ex7_03.i
+	@echo ... 00_basement/example07/Ex7_03.s
+	@echo ... 00_basement/example07/Ex7_04.obj
+	@echo ... 00_basement/example07/Ex7_04.i
+	@echo ... 00_basement/example07/Ex7_04.s
+	@echo ... 00_basement/example07/Ex7_05.obj
+	@echo ... 00_basement/example07/Ex7_05.i
+	@echo ... 00_basement/example07/Ex7_05.s
+	@echo ... 00_basement/example07/Ex7_06.obj
+	@echo ... 00_basement/example07/Ex7_06.i
+	@echo ... 00_basement/example07/Ex7_06.s
+	@echo ... 00_basement/example07/Ex7_07.obj
+	@echo ... 00_basement/example07/Ex7_07.i
+	@echo ... 00_basement/example07/Ex7_07.s
+	@echo ... 00_basement/example07/Ex7_08.obj
+	@echo ... 00_basement/example07/Ex7_08.i
+	@echo ... 00_basement/example07/Ex7_08.s
+	@echo ... 00_basement/example07/Ex7_09.obj
+	@echo ... 00_basement/example07/Ex7_09.i
+	@echo ... 00_basement/example07/Ex7_09.s
+	@echo ... 00_basement/example07/Ex7_10.obj
+	@echo ... 00_basement/example07/Ex7_10.i
+	@echo ... 00_basement/example07/Ex7_10.s
+	@echo ... 00_basement/example07/Ex7_11.obj
+	@echo ... 00_basement/example07/Ex7_11.i
+	@echo ... 00_basement/example07/Ex7_11.s
+	@echo ... 00_basement/example07/Ex7_12.obj
+	@echo ... 00_basement/example07/Ex7_12.i
+	@echo ... 00_basement/example07/Ex7_12.s
+	@echo ... 00_basement/example07/Ex7_13.obj
+	@echo ... 00_basement/example07/Ex7_13.i
+	@echo ... 00_basement/example07/Ex7_13.s
+	@echo ... 00_basement/example07/Ex7_14.obj
+	@echo ... 00_basement/example07/Ex7_14.i
+	@echo ... 00_basement/example07/Ex7_14.s
+	@echo ... 00_basement/example07/Ex7_15.obj
+	@echo ... 00_basement/example07/Ex7_15.i
+	@echo ... 00_basement/example07/Ex7_15.s
+	@echo ... 00_basement/example07/Ex7_16.obj
+	@echo ... 00_basement/example07/Ex7_16.i
+	@echo ... 00_basement/example07/Ex7_16.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
