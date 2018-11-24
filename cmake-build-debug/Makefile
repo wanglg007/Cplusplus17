@@ -135,6 +135,58 @@ Ex8_01/fast:
 	$(MAKE) -f CMakeFiles\Ex8_01.dir\build.make CMakeFiles/Ex8_01.dir/build
 .PHONY : Ex8_01/fast
 
+#=============================================================================
+# Target rules for targets named Ex8_02
+
+# Build rule for target.
+Ex8_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex8_02
+.PHONY : Ex8_02
+
+# fast build rule for target.
+Ex8_02/fast:
+	$(MAKE) -f CMakeFiles\Ex8_02.dir\build.make CMakeFiles/Ex8_02.dir/build
+.PHONY : Ex8_02/fast
+
+#=============================================================================
+# Target rules for targets named Ex8_03
+
+# Build rule for target.
+Ex8_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex8_03
+.PHONY : Ex8_03
+
+# fast build rule for target.
+Ex8_03/fast:
+	$(MAKE) -f CMakeFiles\Ex8_03.dir\build.make CMakeFiles/Ex8_03.dir/build
+.PHONY : Ex8_03/fast
+
+#=============================================================================
+# Target rules for targets named Ex8_04
+
+# Build rule for target.
+Ex8_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex8_04
+.PHONY : Ex8_04
+
+# fast build rule for target.
+Ex8_04/fast:
+	$(MAKE) -f CMakeFiles\Ex8_04.dir\build.make CMakeFiles/Ex8_04.dir/build
+.PHONY : Ex8_04/fast
+
+#=============================================================================
+# Target rules for targets named Ex8_05
+
+# Build rule for target.
+Ex8_05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex8_05
+.PHONY : Ex8_05
+
+# fast build rule for target.
+Ex8_05/fast:
+	$(MAKE) -f CMakeFiles\Ex8_05.dir\build.make CMakeFiles/Ex8_05.dir/build
+.PHONY : Ex8_05/fast
+
 00_basement/example08/Ex8_01.obj: 00_basement/example08/Ex8_01.cpp.obj
 
 .PHONY : 00_basement/example08/Ex8_01.obj
@@ -161,6 +213,114 @@ Ex8_01/fast:
 00_basement/example08/Ex8_01.cpp.s:
 	$(MAKE) -f CMakeFiles\Ex8_01.dir\build.make CMakeFiles/Ex8_01.dir/00_basement/example08/Ex8_01.cpp.s
 .PHONY : 00_basement/example08/Ex8_01.cpp.s
+
+00_basement/example08/Ex8_02.obj: 00_basement/example08/Ex8_02.cpp.obj
+
+.PHONY : 00_basement/example08/Ex8_02.obj
+
+# target to build an object file
+00_basement/example08/Ex8_02.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex8_02.dir\build.make CMakeFiles/Ex8_02.dir/00_basement/example08/Ex8_02.cpp.obj
+.PHONY : 00_basement/example08/Ex8_02.cpp.obj
+
+00_basement/example08/Ex8_02.i: 00_basement/example08/Ex8_02.cpp.i
+
+.PHONY : 00_basement/example08/Ex8_02.i
+
+# target to preprocess a source file
+00_basement/example08/Ex8_02.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex8_02.dir\build.make CMakeFiles/Ex8_02.dir/00_basement/example08/Ex8_02.cpp.i
+.PHONY : 00_basement/example08/Ex8_02.cpp.i
+
+00_basement/example08/Ex8_02.s: 00_basement/example08/Ex8_02.cpp.s
+
+.PHONY : 00_basement/example08/Ex8_02.s
+
+# target to generate assembly for a file
+00_basement/example08/Ex8_02.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex8_02.dir\build.make CMakeFiles/Ex8_02.dir/00_basement/example08/Ex8_02.cpp.s
+.PHONY : 00_basement/example08/Ex8_02.cpp.s
+
+00_basement/example08/Ex8_03.obj: 00_basement/example08/Ex8_03.cpp.obj
+
+.PHONY : 00_basement/example08/Ex8_03.obj
+
+# target to build an object file
+00_basement/example08/Ex8_03.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex8_03.dir\build.make CMakeFiles/Ex8_03.dir/00_basement/example08/Ex8_03.cpp.obj
+.PHONY : 00_basement/example08/Ex8_03.cpp.obj
+
+00_basement/example08/Ex8_03.i: 00_basement/example08/Ex8_03.cpp.i
+
+.PHONY : 00_basement/example08/Ex8_03.i
+
+# target to preprocess a source file
+00_basement/example08/Ex8_03.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex8_03.dir\build.make CMakeFiles/Ex8_03.dir/00_basement/example08/Ex8_03.cpp.i
+.PHONY : 00_basement/example08/Ex8_03.cpp.i
+
+00_basement/example08/Ex8_03.s: 00_basement/example08/Ex8_03.cpp.s
+
+.PHONY : 00_basement/example08/Ex8_03.s
+
+# target to generate assembly for a file
+00_basement/example08/Ex8_03.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex8_03.dir\build.make CMakeFiles/Ex8_03.dir/00_basement/example08/Ex8_03.cpp.s
+.PHONY : 00_basement/example08/Ex8_03.cpp.s
+
+00_basement/example08/Ex8_04.obj: 00_basement/example08/Ex8_04.cpp.obj
+
+.PHONY : 00_basement/example08/Ex8_04.obj
+
+# target to build an object file
+00_basement/example08/Ex8_04.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex8_04.dir\build.make CMakeFiles/Ex8_04.dir/00_basement/example08/Ex8_04.cpp.obj
+.PHONY : 00_basement/example08/Ex8_04.cpp.obj
+
+00_basement/example08/Ex8_04.i: 00_basement/example08/Ex8_04.cpp.i
+
+.PHONY : 00_basement/example08/Ex8_04.i
+
+# target to preprocess a source file
+00_basement/example08/Ex8_04.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex8_04.dir\build.make CMakeFiles/Ex8_04.dir/00_basement/example08/Ex8_04.cpp.i
+.PHONY : 00_basement/example08/Ex8_04.cpp.i
+
+00_basement/example08/Ex8_04.s: 00_basement/example08/Ex8_04.cpp.s
+
+.PHONY : 00_basement/example08/Ex8_04.s
+
+# target to generate assembly for a file
+00_basement/example08/Ex8_04.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex8_04.dir\build.make CMakeFiles/Ex8_04.dir/00_basement/example08/Ex8_04.cpp.s
+.PHONY : 00_basement/example08/Ex8_04.cpp.s
+
+00_basement/example08/Ex8_05.obj: 00_basement/example08/Ex8_05.cpp.obj
+
+.PHONY : 00_basement/example08/Ex8_05.obj
+
+# target to build an object file
+00_basement/example08/Ex8_05.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex8_05.dir\build.make CMakeFiles/Ex8_05.dir/00_basement/example08/Ex8_05.cpp.obj
+.PHONY : 00_basement/example08/Ex8_05.cpp.obj
+
+00_basement/example08/Ex8_05.i: 00_basement/example08/Ex8_05.cpp.i
+
+.PHONY : 00_basement/example08/Ex8_05.i
+
+# target to preprocess a source file
+00_basement/example08/Ex8_05.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex8_05.dir\build.make CMakeFiles/Ex8_05.dir/00_basement/example08/Ex8_05.cpp.i
+.PHONY : 00_basement/example08/Ex8_05.cpp.i
+
+00_basement/example08/Ex8_05.s: 00_basement/example08/Ex8_05.cpp.s
+
+.PHONY : 00_basement/example08/Ex8_05.s
+
+# target to generate assembly for a file
+00_basement/example08/Ex8_05.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex8_05.dir\build.make CMakeFiles/Ex8_05.dir/00_basement/example08/Ex8_05.cpp.s
+.PHONY : 00_basement/example08/Ex8_05.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -198,10 +358,26 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... Ex8_01
+	@echo ... Ex8_02
+	@echo ... Ex8_03
+	@echo ... Ex8_04
+	@echo ... Ex8_05
 	@echo ... rebuild_cache
 	@echo ... 00_basement/example08/Ex8_01.obj
 	@echo ... 00_basement/example08/Ex8_01.i
 	@echo ... 00_basement/example08/Ex8_01.s
+	@echo ... 00_basement/example08/Ex8_02.obj
+	@echo ... 00_basement/example08/Ex8_02.i
+	@echo ... 00_basement/example08/Ex8_02.s
+	@echo ... 00_basement/example08/Ex8_03.obj
+	@echo ... 00_basement/example08/Ex8_03.i
+	@echo ... 00_basement/example08/Ex8_03.s
+	@echo ... 00_basement/example08/Ex8_04.obj
+	@echo ... 00_basement/example08/Ex8_04.i
+	@echo ... 00_basement/example08/Ex8_04.s
+	@echo ... 00_basement/example08/Ex8_05.obj
+	@echo ... 00_basement/example08/Ex8_05.i
+	@echo ... 00_basement/example08/Ex8_05.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -75,4 +75,8 @@ add_executable(main main.cpp)
 #add_executable(Ex7_19 00_basement/example07/Ex7_19.cpp)
 ##########example08##########
 add_executable(Ex8_01 00_basement/example08/Ex8_01.cpp)
+add_executable(Ex8_02 00_basement/example08/Ex8_02.cpp)
+add_executable(Ex8_03 00_basement/example08/Ex8_03.cpp)
+add_executable(Ex8_04 00_basement/example08/Ex8_04.cpp)
+add_executable(Ex8_05 00_basement/example08/Ex8_05.cpp)
 ####################(2)boostexec####################

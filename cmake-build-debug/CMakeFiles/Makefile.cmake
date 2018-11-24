@@ -53,4 +53,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/Ex8_01.dir/DependInfo.cmake"
+  "CMakeFiles/Ex8_02.dir/DependInfo.cmake"
+  "CMakeFiles/Ex8_03.dir/DependInfo.cmake"
+  "CMakeFiles/Ex8_04.dir/DependInfo.cmake"
+  "CMakeFiles/Ex8_05.dir/DependInfo.cmake"
   )
