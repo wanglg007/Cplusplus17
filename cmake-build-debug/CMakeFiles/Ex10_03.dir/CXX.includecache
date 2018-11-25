@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_03/Box.cpp
+iostream
+-
+Box.h
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_03/Box.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_03/Box.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_03/Ex10_03.cpp
+iostream
+-
+Box.h
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_03/Box.h
+

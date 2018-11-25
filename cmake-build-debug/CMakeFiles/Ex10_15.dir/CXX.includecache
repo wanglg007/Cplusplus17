@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_15/Box.h
+iostream
+-
+iomanip
+-
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_15/Ex10_15.cpp
+cstdlib
+-
+ctime
+-
+Truckload.h
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_15/Truckload.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_15/Truckload.cpp
+Truckload.h
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_15/Truckload.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_15/Truckload.h
+Box.h
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_15/Box.h
+vector
+-
+memory
+-
+

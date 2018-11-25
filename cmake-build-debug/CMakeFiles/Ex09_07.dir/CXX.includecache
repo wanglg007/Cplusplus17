@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_07/Ex09_07.cpp
+iostream
+-
+vector
+-
+compare.h
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_07/compare.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_07/compare.cpp
+compare.h
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_07/compare.h
+limits
+-
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_07/compare.h
+vector
+-
+

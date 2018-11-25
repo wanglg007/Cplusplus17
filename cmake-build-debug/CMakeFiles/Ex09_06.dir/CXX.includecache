@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_06/Constants.cpp
+iostream
+-
+Constants.h
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_06/Constants.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_06/Constants.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_06/Ex09_06.cpp
+iostream
+-
+Constants.h
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_06/Constants.h
+

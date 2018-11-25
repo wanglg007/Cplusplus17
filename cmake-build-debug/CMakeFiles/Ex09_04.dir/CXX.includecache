@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_04/Ex09_04.cpp
+iostream
+-
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_04/Power.cpp
+

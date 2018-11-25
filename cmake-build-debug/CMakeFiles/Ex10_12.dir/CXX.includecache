@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_12/CylindricalBox.cpp
+CylindricalBox.h
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_12/CylindricalBox.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_12/CylindricalBox.h
+string
+-
+string_view
+-
+
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_12/Ex10_12.cpp
+iostream
+-
+CylindricalBox.h
+D:/Development_Github/My_Cplusplus17/00_basement/example10/Ex10_12/CylindricalBox.h
+

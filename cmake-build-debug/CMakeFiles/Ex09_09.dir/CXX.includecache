@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_09/Ex09_09.cpp
+vector
+-
+iostream
+-
+string
+-
+average.h
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_09/average.h
+
+D:/Development_Github/My_Cplusplus17/00_basement/example09/Ex09_09/average.h
+type_traits
+-
+vector
+-
+cassert
+-
+
