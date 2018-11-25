@@ -2,13 +2,22 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="My_Cplusplus17" targetName="Ex12_02" />
-      <config projectName="My_Cplusplus17" targetName="Ex12_01" />
-      <config projectName="My_Cplusplus17" targetName="Ex12_04" />
-      <config projectName="My_Cplusplus17" targetName="Ex12_03" />
-      <config projectName="My_Cplusplus17" targetName="Ex12_06" />
-      <config projectName="My_Cplusplus17" targetName="Ex12_05" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_01" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_12" />
       <config projectName="My_Cplusplus17" targetName="main" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_02" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_13" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_03" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_14" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_04" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_15" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_10" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_11" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_09" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_05" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_06" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_07" />
+      <config projectName="My_Cplusplus17" targetName="Ex18_08" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -18,62 +27,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_01/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_01/Ex11_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_02/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_02/Ex11_02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_03/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_03/Ex11_03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_04/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_04/Ex11_04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_05/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_05/Ex11_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_06/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_06/Ex11_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_07/Ex11_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_07/Integer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_08/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_08/Ex11_08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_09/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_09/Ex11_09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_10/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_10/Ex11_10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_10/Truckload.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_10/Truckload.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_11/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_11/Ex11_11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_11/Truckload.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_11/Truckload.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_12/Ex11_12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/Ex11_12/Message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example11/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_01/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_01/Carton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_01/Ex12_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_02/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_02/Carton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_02/Ex12_02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_03/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_03/Carton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_03/Ex12_03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_04/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_04/Carton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_04/Ex12_04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_05/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_05/Carton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_05/Ex12_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_06/Box.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_06/Carton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_06/CerealPack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_06/Contents.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Ex12_06/Ex12_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example13/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example14/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example15/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_01/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_01/Ex13_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_01/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_02/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_02/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_02/Ex13_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_02/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_03/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_03/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_03/Ex13_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_03/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_04/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_04/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_04/Ex13_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_04/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_05/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_05/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_05/Ex13_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_05/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_06/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_06/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_06/Ex13_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_06/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_07/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_07/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_07/Ex13_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_07/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_08/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_08/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_08/Ex13_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_08/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_09/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_09/Ex13_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_09/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_10/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_10/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_10/Ex13_10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_11/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_11/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_11/Ex13_11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_11/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_12/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_12/Can.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_12/Carton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_12/Ex13_12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_12/ToughPack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example13/Ex13_12/Vessel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Article/RAII.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_01/Ex14_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_02/Ex14_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_03/Ex14_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_03/MyTroubles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_04/Ex14_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_04/MyTroubles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_05/Ex14_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_05/MyTroubles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_06/Ex14_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_06/MyTroubles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_07/Ex14_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_07/MyTroubles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_08/DoubleArrayRAII.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_08/Ex14_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_08/MyTroubles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_09/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_09/Dimension_error.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example14/Ex14_09/Ex14_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_01/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_01/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_01/Ex15_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_02/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_02/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_02/Ex15_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_03/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_03/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_03/Ex15_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_04/Ex15_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example15/Ex15_04/Stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_01/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_01/Ex16_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_02/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_02/Ex16_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_03/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_03/Ex16_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_04/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_04/Ex16_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_05/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_05/Ex16_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_06/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_06/Ex16_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_07/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_07/Ex16_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_08/Array.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/Ex16_08/Ex16_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example16/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_01/Ex17_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_02/Ex17_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_02/Optimum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_03/Ex17_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_03/Less.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_03/Less.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_03/Optimum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_04/Ex17_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_04/Optimum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_05/Ex17_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_05/Nearer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_05/Optimum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_06/Ex17_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_06/Optimum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_07/Ex17_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_07/Optimum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_08/Ex17_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_08/Finder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_08/Finder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_08/Optimum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/Ex17_09/Ex17_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example17/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_01/Ex18_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_02/Ex18_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_03/Ex18_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_04/Ex18_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_05/Ex18_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_06/Ex18_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_07/Ex18_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_08/Box.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_08/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_08/Ex18_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_09/Ex18_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_10/Ex18_10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_11/Ex18_11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_12/Box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_12/Ex18_12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_13/Ex18_13.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_14/Ex18_14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/Ex18_15/Ex18_15.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example18/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_basement/example13/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_basement/example13/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_basement/example14/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_basement/example14/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_basement/example15/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_basement/example15/ReadMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex09_09.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex09_09.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -103,41 +197,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="283" />
-          <entry key="h" value="62" />
-          <entry key="txt" value="60" />
+          <entry key="cpp" value="340" />
+          <entry key="h" value="109" />
+          <entry key="txt" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="32" />
-          <entry key="ObjectiveC" value="345" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="CMakeLists.txt" value="38" />
+          <entry key="ObjectiveC" value="449" />
+          <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="2591" />
-          <entry key="txt" value="963" />
+          <entry key="h" value="6" />
+          <entry key="txt" value="1628" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="853" />
+          <entry key="CMakeLists.txt" value="1222" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="2590" />
-          <entry key="PLAIN_TEXT" value="110" />
+          <entry key="ObjectiveC" value="2596" />
+          <entry key="PLAIN_TEXT" value="406" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="119" column="92" selection-start-line="119" selection-start-column="92" selection-end-line="119" selection-end-column="92" />
+            <state relative-caret-position="346">
+              <caret line="189" column="65" selection-start-line="175" selection-start-column="1" selection-end-line="189" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_01/Ex18_01.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -150,19 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_03/Power.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_03/Ex09_03.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_04/Ex09_04.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_04/Power.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_05/Ex09_05.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_06/Constants.h" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_06/Constants.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_06/Ex09_06.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_07/Ex09_07.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_08/Ex09_08.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example09/Ex09_09/Ex09_09.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example10/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/00_basement/example10/Ex10_01/Ex10_01.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example10/Ex10_01/Box.h" />
         <option value="$PROJECT_DIR$/00_basement/example10/Ex10_01/Box.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example10/Ex10_02/Ex10_02.cpp" />
@@ -200,7 +291,20 @@
         <option value="$PROJECT_DIR$/00_basement/example12/Ex12_04/Ex12_04.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example12/Ex12_05/Ex12_05.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example12/Ex12_06/Ex12_06.cpp" />
+        <option value="$PROJECT_DIR$/00_basement/example13/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example14/Ex14_02/Ex14_02.cpp" />
+        <option value="$PROJECT_DIR$/00_basement/example14/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example14/Article/RAII.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example15/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example15/Ex15_01/Ex15_01.cpp" />
+        <option value="$PROJECT_DIR$/00_basement/example15/Ex15_02/Ex15_02.cpp" />
+        <option value="$PROJECT_DIR$/00_basement/example15/Ex15_05/Ex15_05.cpp" />
+        <option value="$PROJECT_DIR$/00_basement/example16/Ex16_01/Array.h" />
+        <option value="$PROJECT_DIR$/00_basement/example16/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example18/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example17/ReadMe.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example18/Ex18_01/Ex18_01.cpp" />
       </list>
     </option>
   </component>
@@ -210,7 +314,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="214" />
     <option name="y" value="24" />
     <option name="width" value="1346" />
@@ -241,14 +345,14 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="00_basement" type="462c0819:PsiDirectoryNode" />
-              <item name="example12" type="462c0819:PsiDirectoryNode" />
+              <item name="example18" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="00_basement" type="462c0819:PsiDirectoryNode" />
-              <item name="example12" type="462c0819:PsiDirectoryNode" />
-              <item name="Ex12_01" type="462c0819:PsiDirectoryNode" />
+              <item name="example18" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex18_01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,19 +364,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.25222552" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example17" />
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example12\Ex12_06" />
-      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example12\Ex12_05" />
-      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example12\Ex12_04" />
-      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example12\Ex12_03" />
-      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example12\Ex12_02" />
+      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example18" />
+      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example17" />
+      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example18\Ex18_15" />
+      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example18\Ex18_14" />
+      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example18\Ex18_13" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,38 +392,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex12_01">
+  <component name="RunManager" selected="Application.Ex18_01">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex12_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex12_01">
+    <configuration name="Ex18_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex12_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex12_02">
+    <configuration name="Ex18_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex12_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex12_03">
+    <configuration name="Ex18_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex12_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex12_04">
+    <configuration name="Ex18_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_04">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex12_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex12_05">
+    <configuration name="Ex18_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_05">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex12_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex12_06">
+    <configuration name="Ex18_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_06">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_07" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_07">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_08" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_08">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_09" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_09">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_14">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex18_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex18_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex18_15">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -330,12 +480,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.Ex12_01" />
-      <item itemvalue="Application.Ex12_02" />
-      <item itemvalue="Application.Ex12_03" />
-      <item itemvalue="Application.Ex12_04" />
-      <item itemvalue="Application.Ex12_05" />
-      <item itemvalue="Application.Ex12_06" />
+      <item itemvalue="Application.Ex18_01" />
+      <item itemvalue="Application.Ex18_02" />
+      <item itemvalue="Application.Ex18_03" />
+      <item itemvalue="Application.Ex18_04" />
+      <item itemvalue="Application.Ex18_05" />
+      <item itemvalue="Application.Ex18_06" />
+      <item itemvalue="Application.Ex18_07" />
+      <item itemvalue="Application.Ex18_08" />
+      <item itemvalue="Application.Ex18_09" />
+      <item itemvalue="Application.Ex18_10" />
+      <item itemvalue="Application.Ex18_11" />
+      <item itemvalue="Application.Ex18_12" />
+      <item itemvalue="Application.Ex18_13" />
+      <item itemvalue="Application.Ex18_14" />
+      <item itemvalue="Application.Ex18_15" />
       <item itemvalue="Application.main" />
     </list>
   </component>
@@ -359,12 +518,12 @@
       <workItem from="1542683076672" duration="98000" />
       <workItem from="1543047952889" duration="733000" />
       <workItem from="1543053933412" duration="8842000" />
-      <workItem from="1543112710758" duration="7755000" />
+      <workItem from="1543112710758" duration="15797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29853000" />
+    <option name="totallyTimeSpent" value="37895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -375,7 +534,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32676518" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2364532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,308 +580,215 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_12/CylindricalBox.h">
+    <entry file="file://$PROJECT_DIR$/00_basement/example14/Ex14_01/Ex14_01.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="90" />
+        <state relative-caret-position="199">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="60" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_12/Ex10_12.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_13/Box.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_13/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_13/Ex10_13.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_14/Package.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_14/Ex10_14.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/Ex10_15/Ex10_15.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_01/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_01/Ex11_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_06/Box.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_07/Integer.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_09/Box.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_10/Truckload.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_02/Ex11_02.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_02/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_03/Ex11_03.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_03/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_04/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_04/Ex11_04.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_05/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_05/Ex11_05.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_06/Ex11_06.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_07/Ex11_07.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_08/Ex11_08.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_09/Ex11_09.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_10/Ex11_10.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_11/Ex11_11.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_12/Message.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/Ex11_12/Ex11_12.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example13/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/00_basement/example14/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example15/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/ReadMe.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_04/Carton.h">
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_03/Array.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_01/Carton.h">
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_04/Ex15_04.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_01/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_02/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_02/Carton.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_02/Ex12_02.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_03/Ex12_03.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_03/Carton.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_03/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_04/Ex12_04.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_05/Box.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_05/Carton.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_05/Ex12_05.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_06/CerealPack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_06/Ex12_06.cpp">
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_01/Ex15_01.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_01/Box.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_01/Array.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1141">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding>
-            <element signature="e#42#61#0" expanded="true" />
+            <element signature="e#127#202#0" expanded="true" />
+            <element signature="e#348#360#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Ex12_01/Ex12_01.cpp">
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_02/Ex15_02.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/Ex15_05/Ex15_05.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="209">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#132#144#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_02/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_03/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_04/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_05/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_06/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_07/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_08/Array.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_01/Array.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_01/Ex16_01.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_02/Ex16_02.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example15/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_04/Ex16_04.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example16/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_01/Ex17_01.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_03/Ex17_03.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_04/Ex17_04.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_06/Ex17_06.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_07/Ex17_07.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_08/Ex17_08.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_09/Ex17_09.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_02/Ex18_02.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_03/Ex18_03.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_04/Ex18_04.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_05/Ex18_05.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_06/Ex18_06.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_08/Box.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_09/Ex18_09.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_10/Ex18_10.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_11/Ex18_11.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_12/Box.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_13/Ex18_13.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_14/Ex18_14.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_15/Ex18_15.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_07/Ex18_07.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_02/Ex17_02.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_05/Ex17_05.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example17/Ex17_05/Nearer.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="119" column="92" selection-start-line="119" selection-start-column="92" selection-end-line="119" selection-end-column="92" />
+        <state relative-caret-position="346">
+          <caret line="189" column="65" selection-start-line="175" selection-start-column="1" selection-end-line="189" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_01/Ex18_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>

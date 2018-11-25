@@ -1,0 +1,330 @@
+##RAII分析##
+Resource Acquisition Is Initialization机制是Bjarne Stroustrup首先提出的。要解决的是这样一个问题：在C++中，如果在这个程序段结束时需要完成一些资源释放工作，
+那么正常情况下没有什么问题，但是当异常抛出时，释放资源的语句就不会被执行。于是Bjarne Stroustrup就想到确保能运行资源释放代码的地方就是在这个程序段中放置的
+对象的析构函数，因为stack winding会保证它们的析构函数都会被执行。将初始化和资源释放都移动到一个包装类中的好处：(1)保证了资源的正常释放;(2)省去了在异常处理
+中冗长而重复甚至有些还不一定执行到的清理逻辑，进而确保了代码的异常安全;(3)简化代码体积。
+
+资源管理技术的关键在于：要保证资源的释放顺序与获取顺序严格相反。这自然联想到局部对象的创建和销毁过程。管理局部对象的任务非常简单，因为它们的创建和销毁工作是
+由系统自动完成的。只需在某个作用域（scope）中定义局部对象（这时系统自动调用构造函数以创建对象），然后就可以放心大胆地使用之，而不必担心有关善后工作；当控
+制流程超出这个作用域的范围时，系统会自动调用析构函数，从而销毁该对象。
+
+将资源抽象为类，用局部对象来表示资源，把管理资源的任务转化为管理局部对象的任务。这就是RAII惯用法的真谛！
+应用场景:
+(1)文件操作
+        void Func()
+        {
+          FILE *fp;
+          char* filename = "test.txt";
+          if((fp=fopen(filename,"r"))==NULL)
+          {
+              printf("not open");
+              exit(0);
+          }
+          ... // 如果在使用fp指针时产生异常并退出,那么fp文件就没有正常关闭
+          fclose(fp);
+        }
+在资源的获取到释放之间往往需要使用资源，但常常一些不可预计的异常是在使用过程中产生，就会使资源的释放环节没有得到执行。此时就可以让RAII惯用法大显身手。RAII的
+实现原理很简单，利用stack上的临时对象生命期是程序自动管理的这一特点，将资源释放操作封装在一个临时对象中。
+    class Resource{};
+    class RAII{
+    public:
+        RAII(Resource* aResource):r_(aResource){} //获取资源
+        ~RAII() {delete r_;} //释放资源
+        Resource* get()    {return r_ ;} //访问资源
+    private:
+        Resource* r_;
+    };
+比如文件操作的例子，我们的RAII临时对象类就可以写成：
+    class FileRAII{
+    public:
+        FileRAII(FILE* aFile):file_(aFile){}
+        ~FileRAII() { fclose(file_); }//在析构函数中进行文件关闭
+        FILE* get() {return file_;}
+    private:
+        FILE* file_;
+    };
+则上面这个打开文件的例子就可以用RAII改写为：
+    void Func()
+    {
+      FILE *fp;
+      char* filename = "test.txt";
+      if((fp=fopen(filename,"r"))==NULL)
+      {
+          printf("not open");
+          exit(0);
+      }
+      FileRAII fileRAII(fp);
+      ... // 如果 在使用fp指针时产生异常 并退出
+          // 那么 fileRAII在栈展开过程中会被自动释放，析构函数也就会自动地将fp关闭
+
+      // 即使所有代码是都正确执行了，也无需手动释放fp，fileRAII它的生命期在此结束时，它的析构函数会自动执行！
+     }
+这就是RAII的魅力，它免除了对需要谨慎使用资源时而产生的大量维护代码。在保证资源正确处理的情况下，还使得代码的可读性也提高了不少。RAII惯用法同样适用于需要
+管理多个资源的复杂对象。例如，Widget类的构造函数要获取两个资源：文件myFile和互斥锁myLock。每个资源的获取都有可能失败并且抛出异常。为了正常使用Widget对象，
+这里必须维护一个不变式（invariant）：当调用构造函数时，要么两个资源全都获得，对象创建成功；要么两个资源都没得到，对象创建失败。获取了文件而没有得到互斥锁
+的情况永远不能出现，也就是说，不允许建立Widget对象的“半成品”。如果将RAII惯用法应用于成员对象，那么就可以实现这个不变式：
+    class Widget {
+    public:
+        Widget(char const* myFile, char const* myLock)
+        : file_(myFile),     // 获取文件myFile
+          lock_(myLock)      // 获取互斥锁myLock
+        {}
+        // ...
+    private:
+        FileHandle file_;
+        LockHandle lock_;
+    };
+FileHandle和LockHandle类的对象作为Widget类的数据成员，分别表示需要获取的文件和互斥锁。资源的获取过程就是两个成员对象的初始化过程。在此系统会自动地为进行资源管理，
+程序员不必显式地添加任何异常处理代码。例如，当已经创建完file_，但尚未创建完lock_时，有一个异常被抛出，则系统会调用file_的析构函数，而不会调用lock_的析构函数。
+Bjarne所谓构造函数和析构函数“与异常处理的交互作用”，说的就是这种情形。
+RAII的本质内容是用对象代表资源，把管理资源的任务转化为管理对象的任务，将资源的获取和释放与对象的构造和析构对应起来，从而确保在对象的生存期内资源始终有效，对象销毁
+时资源必被释放。换句话说，拥有对象就等于拥有资源，对象存在则资源必定存在。由此可见，RAII惯用法是进行资源管理的有力武器。C++程序员依靠RAII写出的代码不仅简洁优雅，而
+且做到了异常安全。难怪微软的MSDN杂志在最近的一篇文章中承认：“若论资源管理，谁也比不过标准C++”。
+
+(2)创建自己的RAII类
+一般情况下，RAII临时对象不允许复制和赋值，当然更不允许在heap上创建，所以先写下一个RAII的base类，使子类私有继承Base类来禁用这些操作：
+    class RAIIBase
+    {
+    public:
+        RAIIBase(){}
+        ~RAIIBase(){}//由于不能使用该类的指针，定义虚函数是完全没有必要的
+
+        RAIIBase (const RAIIBase &);
+        RAIIBase & operator = (const RAIIBase &);
+        void * operator new(size_t size);
+        // 不定义任何成员
+    };
+当要写自己的RAII类时就可以直接继承该类的实现：
+    template<typename T>
+    class ResourceHandle: private RAIIBase //私有继承 禁用Base的所有继承操作
+    {
+    public:
+        explicit ResourceHandle(T * aResource):r_(aResource){}//获取资源
+        ~ResourceHandle() {delete r_;} //释放资源
+        T *get()    {return r_ ;} //访问资源
+    private:
+        T * r_;
+    };
+可以是用这个机制将文件操作包装起来完成一个异常安全的文件类。实现上，注意将复制构造函数和赋值符私有化，这个是通过一个私有继承类完成的，因为这两个操作在此并
+没有意义，当然这并不是RAII所要求的。
+    #include <IOSTREAM>
+    #include <STDEXCEPT>
+    #include <CSTDIO>
+
+    using namespace std;
+    class NonCopyable
+    {
+    public:
+    NonCopyable(){};
+    private:
+        NonCopyable (NonCopyable const &); // private copy constructor
+        NonCopyable & operator = (NonCopyable const &); // private assignment operator
+    };
+
+    class SafeFile:NonCopyable{
+    public:
+        SafeFile(const char* filename):fileHandler(fopen(filename,"w+"))
+        {
+            if( fileHandler == NULL )
+            {
+                throw runtime_error("Open Error!");
+            }
+        }
+        ~SafeFile()
+        {
+            fclose(fileHandler);
+        }
+
+        void write(const char* str)
+        {
+            if( fputs(str,fileHandler)==EOF )
+            {
+                throw runtime_error("Write Error!");
+            }
+        }
+
+        void write(const char* buffer, size_t num)
+        {
+            if( num!=0 && fwrite(buffer,num,1,fileHandler)==0 )
+            {
+                throw runtime_error("Write Error!");
+            }
+        }
+    private:
+        FILE *fileHandler;
+        SafeFile(const SafeFile&);
+        SafeFile &operator =(const SafeFile&);
+    };
+
+    int main(int argc, char *argv[])
+    {
+        SafeFile testVar("foo.test");
+        testVar.write("Hello RAII");
+    }
+C++的结构决定了其原生支持RAII，而在Java中，对象何时销毁是未知的，所以在Java中可以使用try-finally做相关处理。
+    (2.1)智能指针模拟:一个更复杂一点的例子是模拟智能指针，抽象出来的RAII类中实现了一个操作符*，直接返回存入的指针：
+    现在我们有一个类：
+    class Example {
+      SomeResource* p_;
+      SomeResource* p2_;
+    public:
+      Example() :
+        p_(new SomeResource()),
+        p2_(new SomeResource()) {
+        std::cout << "Creating Example, allocating SomeResource!/n";
+      }
+
+      Example(const Example& other) :
+        p_(new SomeResource(*other.p_)),
+        p2_(new SomeResource(*other.p2_)) {}
+
+      Example& operator=(const Example& other) {
+        // Self assignment?
+        if (this==&other)
+          return *this;
+
+        *p_=*other.p_;
+        *p2_=*other.p2_;
+        return *this;
+      }
+
+      ~Example() {
+         std::cout << "Deleting Example, freeing SomeResource!/n";
+         delete p_;
+         delete p2_;
+      }
+    };
+假设在创建SomeResource的时候可能会有异常，那么当p_指向的资源被创建但p2_指向的资源创建失败时，Example的实例就整个创建失败，那么p_指向的资源就存在内存泄露问题。
+用下边的这个方法可以为权宜之计：
+    Example() : p_(0),p2_(0)
+    {
+      try {
+        p_=new SomeResource();
+        p2_=new SomeResource("H",true);
+        std::cout << "Creating Example, allocating SomeResource!/n";
+      }
+      catch(...) {
+        delete p2_;
+        delete p_;
+        throw;
+      }
+    }
+但是可以利用一个对象在离开一个域中会调用析构函数的特性，在构造函数中完成初始化，在析构函数中完成清理工作，将需要操作和保护的指针作为成员变量放入RAII中。
+    template <TYPENAME T>
+    class RAII {
+      T* p_;
+    public:
+      explicit RAII(T* p) : p_(p) {}
+
+      ~RAII() {
+        delete p_;
+      }
+
+      void reset(T* p) {
+        delete p_;
+        p_=p;
+      }
+
+      T* get() const {
+         return p_;
+      }
+
+      T& operator*() const {
+         return *p_;
+      }
+
+      void swap(RAII& other) {
+        std::swap(p_,other.p_);
+      }
+
+    private:
+      RAII(const RAII& other);
+      RAII& operator=(const RAII& other);
+    };
+在具体使用把保护的指针Someresource放在RAII中：
+     class Example {
+      RAII<SOMERESOURCE> p_;
+      RAII<SOMERESOURCE> p2_;
+    public:
+      Example() :
+        p_(new SomeResource()),
+        p2_(new SomeResource()) {}
+
+      Example(const Example& other)
+        : p_(new SomeResource(*other.p_)),
+          p2_(new SomeResource(*other.p2_)) {}
+
+      Example& operator=(const Example& other) {
+        // Self assignment?
+        if (this==&other)
+          return *this;
+
+        *p_=*other.p_;
+        *p2_=*other.p2_;
+        return *this;
+      }
+
+      ~Example() {
+        std::cout << "Deleting Example, freeing SomeResource!/n";
+      }
+    };
+现在即使p_成功而p2_失败，那么在Stack winding时也会调用RAII的析构函数保证了p_指向的Someresource被析构。这种方法较之例1中需要实现被组合的指针类型相应的接口不同，
+这里不需要对接口进行封装。当然，在例中，你也可以提供一个getPointer的函数直接将句柄提供出来。其实在Example中，已经不需要析构函数，因为RAII类会帮它照顾好这一切的。
+这有点像auto_ptr。
+    (2.2) 锁操作
+    #include <CSTDIO>
+    #include <STDLIB.H>
+    #include <PTHREAD.H>
+
+    int counter = 0;
+    void* routine(void *ptr);
+    pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+
+    class NonCopyable
+    {
+    public:
+        NonCopyable(){};
+    private:
+        NonCopyable (NonCopyable const &); // private copy constructor
+        NonCopyable & operator = (NonCopyable const &); // private assignment operator
+    };
+
+    class ScopeMutex:NonCopyable
+    {
+    public:
+        ScopeMutex(pthread_mutex_t* mutex):mutex_(mutex){
+            pthread_mutex_lock( mutex_ );
+        }
+
+        ~ScopeMutex(){
+            pthread_mutex_unlock( mutex_ );
+        }
+    private:
+        pthread_mutex_t *mutex_;
+    };
+
+    int main(int argc, char *argv[])
+    {
+        int rc1, rc2;
+        pthread_t thread1, thread2;
+        if( (rc1=pthread_create( &thread1, NULL, routine, NULL)) )
+        {
+            printf("Thread creation failed: %d/n", rc1);
+        }
+
+        if( (rc2=pthread_create( &thread2, NULL, routine, NULL)) )
+        {
+            printf("Thread creation failed: %d/n", rc1);
+        }
+        pthread_join( thread1, NULL);
+        pthread_join( thread2, NULL);
+    }
+
+    void* routine(void *ptr)
+    {
+        ScopeMutex scopeMutex(&mutex);
+        counter++;
+        printf("%d/n",counter);
+    }
+总结:RAII机制保证了异常安全，并且也为程序员在编写动态分配内存的程序时提供了安全保证。缺点是有些操作可能会抛出异常，如果放在析构函数中进行则不能将错误传递出去，
+那么此时析构函数就必须自己处理异常。这在某些时候是很繁琐的。
