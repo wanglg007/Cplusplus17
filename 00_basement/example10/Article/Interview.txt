@@ -1,0 +1,147 @@
+(1)我们可以用static修饰一个类的成员函数，也可以用const修饰类的成员函数（写在函数的最后表示不能修改成员变量，不是指写在前面表示返回值为常量）。请问：
+能不能同时用static和const修饰类的成员函数？
+分析：答案是不可以。C++编译器在实现const的成员函数的时候为了确保该函数不能修改类的实例的状态，会在函数中添加一个隐式的参数const this*。但当一个成员为static的时候，
+该函数是没有this指针的。也就是说此时static的用法和static是冲突的。
+(2)运行下面中的代码，得到的结果是什么？
+   class A
+   {
+   private:
+           int m_value;
+   public:
+           A(int value)
+           {
+                   m_value = value;
+           }
+
+           void Print1()
+           {
+                   printf("hello world");
+           }
+
+           void Print2()
+           {
+                   printf("%d", m_value);
+           }
+   };
+
+   int _tmain(int argc, _TCHAR* argv[])
+   {
+           A* pA = NULL;
+           pA->Print1();
+           pA->Print2();
+           return 0;
+   }
+分析：答案是Print1调用正常，打印出hello world，但运行至Print2时，程序崩溃。调用Print1时并不需要pA的地址，因为Print1的函数地址是固定的。编译器会给Print1传入一个
+this指针，该指针为NULL，但在Print1中该this指针并没有用到。只要程序运行时没有访问不该访问的内存就不会出错，因此运行正常。在运行print2时，需要this指针才能得到
+m_value的值。由于此时this指针为NULL，因此程序崩溃了。
+(3)运行下面中的代码，得到的结果是什么？
+   class A
+   {
+   private:
+           int m_value;
+   public:
+           A(int value)
+           {
+                   m_value = value;
+           }
+
+           void Print1()
+           {
+                   printf("hello world");
+           }
+
+           virtual void Print2()
+           {
+                   printf("hello world");
+           }
+   };
+   int _tmain(int argc, _TCHAR* argv[])
+   {
+           A* pA = NULL;
+           pA->Print1();
+           pA->Print2();
+           return 0;
+   }
+分析：答案是Print1调用正常，打印出hello world，但运行至Print2时，程序崩溃。Print1的调用情况和上面的题目一样，不在赘述。由于Print2是虚函数。C++调用虚函数的时候，
+要根据实例（即this指针指向的实例）中虚函数表指针得到虚函数表，再从虚函数表中找到函数的地址。由于这一步需要访问实例的地址（即this指针），而此时this指针为空指针，
+因此导致内存访问出错。
+(4)静态成员函数能不能同时也是虚函数？
+分析：答案是不能。调用静态成员函数不要实例。但调用虚函数需要从一个实例中指向虚函数表的指针以得到函数的地址，因此调用虚函数需要一个实例。两者相互矛盾。
+(5)运行下图中的C++代码，输出是什么？
+   #include <iostream>
+   class A
+   {
+   private:
+           int n1;
+           int n2;
+   public:
+           A(): n2(0), n1(n2 + 2)
+           {
+           }
+
+           void Print()
+           {
+                   std::cout << "n1: " << n1 << ", n2: " << n2 << std::endl;
+           }
+   };
+   int _tmain(int argc, _TCHAR* argv[])
+   {
+           A a;
+           a.Print();
+           return 0;
+   }
+答案：输出n1是一个随机的数字，n2为0。在C++中，成员变量的初始化顺序与变量在类型中的申明顺序相同，而与它们在构造函数的初始化列表中的顺序无关。因此在这道题中，
+会首先初始化n1，而初始n1的参数n2还没有初始化，是一个随机值，因此n1就是一个随机值。初始化n2时，根据参数0对其初始化，故n2=0。
+(6)编译运行下图中的C++代码，结果是什么？（A）编译错误；（B）编译成功，运行时程序崩溃；（C）编译运行正常，输出10。请选择正确答案并分析原因。
+   #include <iostream>
+   class A
+   {
+   private:
+           int value;
+   public:
+           A(int n)
+           {
+                   value = n;
+           }
+
+           A(A other)
+           {
+                   value = other.value;
+           }
+
+           void Print()
+           {
+                   std::cout << value << std::endl;
+           }
+   };
+
+   int _tmain(int argc, _TCHAR* argv[])
+   {
+           A a = 10;
+           A b = a;
+           b.Print();
+           return 0;
+   }
+答案：编译错误。在复制构造函数中传入的参数是A的一个实例。由于是传值，把形参拷贝到实参会调用复制构造函数。因此如果允许复制构造函数传值，那么会形成永无休止的
+递归并造成栈溢出。因此C++的标准不允许复制构造函数传值参数，而必须是传引用或者常量引用。在Visual Studio和GCC中，都将编译出错。
+(7)运行下图中的C++代码，输出是什么？
+   int SizeOf(char pString[])
+   {
+           return sizeof(pString);
+   }
+   int _tmain(int argc, _TCHAR* argv[])
+   {
+           char* pString1 = "google";
+           int size1 = sizeof(pString1);
+           int size2 = sizeof(*pString1);
+
+           char pString2[100] = "google";
+           int size3 = sizeof(pString2);
+           int size4 = SizeOf(pString2);
+           printf("%d, %d, %d, %d", size1, size2, size3, size4);
+           return 0;
+   }
+答案：4, 1, 100, 4。pString1是一个指针。在32位机器上，任意指针都占4个字节的空间。*pString1是字符串pString1的第一个字符。一个字符占一个字节。pString2是一个数组，
+sizeof(pString2)是求数组的大小。这个数组包含100个字符，因此大小是100个字节。而在函数SizeOf中，虽然传入的参数是一个字符数组，当数组作为函数的参数进行传递时，数组
+就自动退化为同类型的指针。因此size4也是一个指针的大小，为4.
+(8)
