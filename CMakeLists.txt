@@ -18,6 +18,7 @@ add_executable(main main.cpp)
 #add_executable(Ex2_04 00_basement/example02/Ex2_04.cpp)
 #add_executable(Ex2_05 00_basement/example02/Ex2_05.cpp)
 #add_executable(Ex2_06 00_basement/example02/Ex2_06.cpp)
+#add_executable(Ex2_07 00_basement/example02/Ex2_07.cpp)
 ##########example03##########
 #add_executable(Ex3_01 00_basement/example03/Ex3_01.cpp)
 #add_executable(Ex3_02 00_basement/example03/Ex3_02.cpp)

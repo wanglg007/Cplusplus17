@@ -27,18 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_basement/example01/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example02/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example03/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example04/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example05/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example06/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example07/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example08/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example09/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example10/Article/Interview.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_basement/example12/Article/interview.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_basement/example02/Ex2_07.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,30 +52,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="341" />
+          <entry key="cpp" value="348" />
           <entry key="h" value="109" />
-          <entry key="txt" value="93" />
+          <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="38" />
-          <entry key="ObjectiveC" value="450" />
+          <entry key="CMakeLists.txt" value="39" />
+          <entry key="ObjectiveC" value="457" />
           <entry key="PLAIN_TEXT" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2591" />
+          <entry key="cpp" value="2603" />
           <entry key="h" value="6" />
-          <entry key="txt" value="1793" />
+          <entry key="txt" value="1795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1222" />
+          <entry key="CMakeLists.txt" value="1224" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="2596" />
+          <entry key="ObjectiveC" value="2608" />
           <entry key="PLAIN_TEXT" value="571" />
         </counts>
       </usages-collector>
@@ -92,29 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_basement/example10/Article/Interview.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="146" column="2" selection-start-line="146" selection-start-column="2" selection-end-line="146" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/00_basement/example01/Article/Interview.txt">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_basement/example12/Article/interview.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+            <state relative-caret-position="209">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -127,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_basement/example10/Ex10_02/Cube.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example10/Ex10_03/Ex10_03.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example10/Ex10_04/Ex10_04.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example10/Ex10_05/Ex10_05.cpp" />
@@ -173,11 +145,12 @@
         <option value="$PROJECT_DIR$/00_basement/example16/ReadMe.txt" />
         <option value="$PROJECT_DIR$/00_basement/example18/ReadMe.txt" />
         <option value="$PROJECT_DIR$/00_basement/example17/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/00_basement/example18/Ex18_01/Ex18_01.cpp" />
         <option value="$PROJECT_DIR$/00_basement/example12/Article/interview.txt" />
         <option value="$PROJECT_DIR$/00_basement/example10/Article/Interview.txt" />
         <option value="$PROJECT_DIR$/00_basement/example01/Article/Interview.txt" />
+        <option value="$PROJECT_DIR$/00_basement/example02/Ex2_07.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -187,7 +160,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="214" />
     <option name="y" value="24" />
     <option name="width" value="1346" />
@@ -218,27 +191,7 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="00_basement" type="462c0819:PsiDirectoryNode" />
-              <item name="example01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="00_basement" type="462c0819:PsiDirectoryNode" />
-              <item name="example01" type="462c0819:PsiDirectoryNode" />
-              <item name="Article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="00_basement" type="462c0819:PsiDirectoryNode" />
-              <item name="example12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="00_basement" type="462c0819:PsiDirectoryNode" />
-              <item name="example12" type="462c0819:PsiDirectoryNode" />
-              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="example02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,12 +357,12 @@
       <workItem from="1542683076672" duration="98000" />
       <workItem from="1543047952889" duration="733000" />
       <workItem from="1543053933412" duration="8842000" />
-      <workItem from="1543112710758" duration="18809000" />
+      <workItem from="1543112710758" duration="19161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40907000" />
+    <option name="totallyTimeSpent" value="41259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -466,35 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_06/Array.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_07/Array.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_08/Array.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_01/Array.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_01/Ex16_01.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_02/Ex16_02.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example15/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_basement/example16/Ex16_04/Ex16_04.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -602,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="174" column="29" lean-forward="true" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_basement/example02/Article/Interview.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -664,6 +581,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example01/Ex1_01.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example01/Ex1_02.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example03/Ex3_01.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example03/Ex3_06.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example02/Ex2_05.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example02/Ex2_06.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_basement/example02/Ex2_07.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#126#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>
