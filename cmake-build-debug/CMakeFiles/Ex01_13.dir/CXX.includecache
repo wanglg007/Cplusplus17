@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/01_boost/example01/Ex01_13.cpp
+boost/current_function.hpp
+-
+iostream
+-
+
+D:/Development_Install/Library/boost_1_68_0/boost/current_function.hpp
+
