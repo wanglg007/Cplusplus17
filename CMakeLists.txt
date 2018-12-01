@@ -48,7 +48,16 @@ add_executable(main main.cpp)
 #add_executable(Ex01_18 01_boost/example01/Ex01_18.cpp)
 #add_executable(Ex01_19 01_boost/example01/Ex01_19.cpp)
 ##########example02#########
-
+#add_executable(Ex02_01 01_boost/example02/Ex02_01.cpp)
+#add_executable(Ex02_02 01_boost/example02/Ex02_02.cpp)
+#add_executable(Ex02_03 01_boost/example02/Ex02_03.cpp)
+#add_executable(Ex02_04 01_boost/example02/Ex02_04.cpp)
+#add_executable(Ex02_05 01_boost/example02/Ex02_05.cpp)
+#add_executable(Ex02_06 01_boost/example02/Ex02_06.cpp)
+#add_executable(Ex02_07 01_boost/example02/Ex02_07.cpp)
+#add_executable(Ex02_08 01_boost/example02/Ex02_08.cpp)
+#add_executable(Ex02_09 01_boost/example02/Ex02_09.cpp)
+#add_executable(Ex02_10 01_boost/example02/Ex02_10.cpp)
 ##########example03##########
 
 ##########example04##########

@@ -2,23 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="My_Cplusplus17" targetName="Ex01_02" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_13" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_01" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_12" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_11" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_06" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_17" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_05" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_16" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_04" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_03" />
       <config projectName="My_Cplusplus17" targetName="main" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_09" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_08" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_19" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_07" />
-      <config projectName="My_Cplusplus17" targetName="Ex01_18" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -28,42 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_13.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_16.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_17.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_18.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/Ex01_19.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example01/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Ex02_10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example02/Widget.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/01_boost/example01/Ex01_01.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/01_boost/example01/Ex01_01.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex01_01.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Ex01_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Ex01_01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_Cplusplus17.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_Cplusplus17.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,33 +50,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="416" />
-          <entry key="h" value="111" />
+          <entry key="cpp" value="452" />
+          <entry key="h" value="113" />
           <entry key="hpp" value="2" />
-          <entry key="txt" value="109" />
+          <entry key="txt" value="118" />
           <entry key="txt_00basement" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="48" />
-          <entry key="ObjectiveC" value="529" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="CMakeLists.txt" value="53" />
+          <entry key="ObjectiveC" value="567" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6655" />
-          <entry key="h" value="6" />
-          <entry key="txt" value="2124" />
+          <entry key="cpp" value="7378" />
+          <entry key="h" value="321" />
+          <entry key="txt" value="2318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1465" />
-          <entry key="Doxygen file" value="65" />
-          <entry key="ObjectiveC" value="6596" />
-          <entry key="PLAIN_TEXT" value="659" />
+          <entry key="CMakeLists.txt" value="1503" />
+          <entry key="Doxygen file" value="115" />
+          <entry key="ObjectiveC" value="7584" />
+          <entry key="PLAIN_TEXT" value="815" />
         </counts>
       </usages-collector>
     </session>
@@ -121,10 +84,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_boost/example01/ReadMe.txt">
+        <entry file="file://$PROJECT_DIR$/01_boost/example02/ReadMe.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
+              <caret column="37" selection-start-column="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -132,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="48" column="55" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="48" selection-end-column="55" />
+            <state relative-caret-position="231">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -146,19 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_basement/example11/Ex11_10/Ex11_10.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example11/Ex11_11/Ex11_11.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example11/Ex11_12/Ex11_12.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example12/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/00_basement/example12/Ex12_01/Ex12_01.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example12/Ex12_02/Ex12_02.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example12/Ex12_03/Ex12_03.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example12/Ex12_04/Ex12_04.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example12/Ex12_05/Ex12_05.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example12/Ex12_06/Ex12_06.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example13/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/00_basement/example14/Ex14_02/Ex14_02.cpp" />
-        <option value="$PROJECT_DIR$/00_basement/example14/ReadMe.txt" />
         <option value="$PROJECT_DIR$/00_basement/example14/Article/RAII.txt" />
         <option value="$PROJECT_DIR$/00_basement/example15/ReadMe.txt" />
         <option value="$PROJECT_DIR$/00_basement/example15/Ex15_01/Ex15_01.cpp" />
@@ -196,6 +146,19 @@
         <option value="$PROJECT_DIR$/01_boost/example01/Ex01_17.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example01/Ex01_18.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example01/Ex01_19.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Logger.h" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Widget.h" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_02.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_04.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_10.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_01.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_03.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_05.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_06.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_07.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_09.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/Ex02_08.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example02/ReadMe.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
@@ -207,8 +170,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="110" />
-    <option name="y" value="1" />
+    <option name="x" value="425" />
+    <option name="y" value="16" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -236,7 +199,7 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="01_boost" type="462c0819:PsiDirectoryNode" />
-              <item name="example01" type="462c0819:PsiDirectoryNode" />
+              <item name="example02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,11 +221,11 @@
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example02" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example01" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost" />
       <recent name="D:\Development_Github\My_Cplusplus17" />
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example10" />
-      <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example09" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,12 +279,12 @@
       <workItem from="1543112710758" duration="19954000" />
       <workItem from="1543151482205" duration="1241000" />
       <workItem from="1543228884685" duration="895000" />
-      <workItem from="1543650834997" duration="14475000" />
+      <workItem from="1543650834997" duration="20869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58663000" />
+    <option name="totallyTimeSpent" value="65057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -332,17 +295,17 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32730561" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43349755" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.35303777" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.35139573" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.47619048" />
+      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.47454843" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -378,57 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_basement/example18/Ex18_01/Ex18_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example02/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example03/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example04/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example06/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example07/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example08/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example09/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example05/Article/Interview.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example10/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example11/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_basement/example12/Article/interview.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_basement/example10/Article/Interview.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -673,14 +585,128 @@
     <entry file="file://$PROJECT_DIR$/01_boost/example01/ReadMe.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <caret selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Logger.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#35#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Widget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_02.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_03.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_04.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_05.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_06.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_09.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_08.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_07.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/Ex02_10.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example02/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="48" column="55" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="48" selection-end-column="55" />
+        <state relative-caret-position="231">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
