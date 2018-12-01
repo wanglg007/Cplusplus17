@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Ex18_06
-
-# Build rule for target.
-Ex18_06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_06
-.PHONY : Ex18_06
-
-# fast build rule for target.
-Ex18_06/fast:
-	$(MAKE) -f CMakeFiles\Ex18_06.dir\build.make CMakeFiles/Ex18_06.dir/build
-.PHONY : Ex18_06/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -136,618 +123,204 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Ex18_01
+# Target rules for targets named Ex00_01
 
 # Build rule for target.
-Ex18_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_01
-.PHONY : Ex18_01
+Ex00_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex00_01
+.PHONY : Ex00_01
 
 # fast build rule for target.
-Ex18_01/fast:
-	$(MAKE) -f CMakeFiles\Ex18_01.dir\build.make CMakeFiles/Ex18_01.dir/build
-.PHONY : Ex18_01/fast
+Ex00_01/fast:
+	$(MAKE) -f CMakeFiles\Ex00_01.dir\build.make CMakeFiles/Ex00_01.dir/build
+.PHONY : Ex00_01/fast
 
 #=============================================================================
-# Target rules for targets named Ex18_02
+# Target rules for targets named Ex00_02
 
 # Build rule for target.
-Ex18_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_02
-.PHONY : Ex18_02
+Ex00_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex00_02
+.PHONY : Ex00_02
 
 # fast build rule for target.
-Ex18_02/fast:
-	$(MAKE) -f CMakeFiles\Ex18_02.dir\build.make CMakeFiles/Ex18_02.dir/build
-.PHONY : Ex18_02/fast
+Ex00_02/fast:
+	$(MAKE) -f CMakeFiles\Ex00_02.dir\build.make CMakeFiles/Ex00_02.dir/build
+.PHONY : Ex00_02/fast
 
 #=============================================================================
-# Target rules for targets named Ex18_03
+# Target rules for targets named Ex00_03
 
 # Build rule for target.
-Ex18_03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_03
-.PHONY : Ex18_03
+Ex00_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex00_03
+.PHONY : Ex00_03
 
 # fast build rule for target.
-Ex18_03/fast:
-	$(MAKE) -f CMakeFiles\Ex18_03.dir\build.make CMakeFiles/Ex18_03.dir/build
-.PHONY : Ex18_03/fast
+Ex00_03/fast:
+	$(MAKE) -f CMakeFiles\Ex00_03.dir\build.make CMakeFiles/Ex00_03.dir/build
+.PHONY : Ex00_03/fast
 
 #=============================================================================
-# Target rules for targets named Ex18_04
+# Target rules for targets named Ex00_04
 
 # Build rule for target.
-Ex18_04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_04
-.PHONY : Ex18_04
+Ex00_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex00_04
+.PHONY : Ex00_04
 
 # fast build rule for target.
-Ex18_04/fast:
-	$(MAKE) -f CMakeFiles\Ex18_04.dir\build.make CMakeFiles/Ex18_04.dir/build
-.PHONY : Ex18_04/fast
+Ex00_04/fast:
+	$(MAKE) -f CMakeFiles\Ex00_04.dir\build.make CMakeFiles/Ex00_04.dir/build
+.PHONY : Ex00_04/fast
 
 #=============================================================================
-# Target rules for targets named Ex18_05
+# Target rules for targets named Ex00_05
 
 # Build rule for target.
-Ex18_05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_05
-.PHONY : Ex18_05
+Ex00_05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex00_05
+.PHONY : Ex00_05
 
 # fast build rule for target.
-Ex18_05/fast:
-	$(MAKE) -f CMakeFiles\Ex18_05.dir\build.make CMakeFiles/Ex18_05.dir/build
-.PHONY : Ex18_05/fast
+Ex00_05/fast:
+	$(MAKE) -f CMakeFiles\Ex00_05.dir\build.make CMakeFiles/Ex00_05.dir/build
+.PHONY : Ex00_05/fast
 
-#=============================================================================
-# Target rules for targets named Ex18_07
+01_boost/example00/Ex00_01.obj: 01_boost/example00/Ex00_01.cpp.obj
 
-# Build rule for target.
-Ex18_07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_07
-.PHONY : Ex18_07
-
-# fast build rule for target.
-Ex18_07/fast:
-	$(MAKE) -f CMakeFiles\Ex18_07.dir\build.make CMakeFiles/Ex18_07.dir/build
-.PHONY : Ex18_07/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_08
-
-# Build rule for target.
-Ex18_08: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_08
-.PHONY : Ex18_08
-
-# fast build rule for target.
-Ex18_08/fast:
-	$(MAKE) -f CMakeFiles\Ex18_08.dir\build.make CMakeFiles/Ex18_08.dir/build
-.PHONY : Ex18_08/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_09
-
-# Build rule for target.
-Ex18_09: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_09
-.PHONY : Ex18_09
-
-# fast build rule for target.
-Ex18_09/fast:
-	$(MAKE) -f CMakeFiles\Ex18_09.dir\build.make CMakeFiles/Ex18_09.dir/build
-.PHONY : Ex18_09/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_10
-
-# Build rule for target.
-Ex18_10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_10
-.PHONY : Ex18_10
-
-# fast build rule for target.
-Ex18_10/fast:
-	$(MAKE) -f CMakeFiles\Ex18_10.dir\build.make CMakeFiles/Ex18_10.dir/build
-.PHONY : Ex18_10/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_11
-
-# Build rule for target.
-Ex18_11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_11
-.PHONY : Ex18_11
-
-# fast build rule for target.
-Ex18_11/fast:
-	$(MAKE) -f CMakeFiles\Ex18_11.dir\build.make CMakeFiles/Ex18_11.dir/build
-.PHONY : Ex18_11/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_12
-
-# Build rule for target.
-Ex18_12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_12
-.PHONY : Ex18_12
-
-# fast build rule for target.
-Ex18_12/fast:
-	$(MAKE) -f CMakeFiles\Ex18_12.dir\build.make CMakeFiles/Ex18_12.dir/build
-.PHONY : Ex18_12/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_13
-
-# Build rule for target.
-Ex18_13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_13
-.PHONY : Ex18_13
-
-# fast build rule for target.
-Ex18_13/fast:
-	$(MAKE) -f CMakeFiles\Ex18_13.dir\build.make CMakeFiles/Ex18_13.dir/build
-.PHONY : Ex18_13/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_14
-
-# Build rule for target.
-Ex18_14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_14
-.PHONY : Ex18_14
-
-# fast build rule for target.
-Ex18_14/fast:
-	$(MAKE) -f CMakeFiles\Ex18_14.dir\build.make CMakeFiles/Ex18_14.dir/build
-.PHONY : Ex18_14/fast
-
-#=============================================================================
-# Target rules for targets named Ex18_15
-
-# Build rule for target.
-Ex18_15: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex18_15
-.PHONY : Ex18_15
-
-# fast build rule for target.
-Ex18_15/fast:
-	$(MAKE) -f CMakeFiles\Ex18_15.dir\build.make CMakeFiles/Ex18_15.dir/build
-.PHONY : Ex18_15/fast
-
-00_basement/example18/Ex18_01/Ex18_01.obj: 00_basement/example18/Ex18_01/Ex18_01.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_01/Ex18_01.obj
+.PHONY : 01_boost/example00/Ex00_01.obj
 
 # target to build an object file
-00_basement/example18/Ex18_01/Ex18_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_01.dir\build.make CMakeFiles/Ex18_01.dir/00_basement/example18/Ex18_01/Ex18_01.cpp.obj
-.PHONY : 00_basement/example18/Ex18_01/Ex18_01.cpp.obj
+01_boost/example00/Ex00_01.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex00_01.dir\build.make CMakeFiles/Ex00_01.dir/01_boost/example00/Ex00_01.cpp.obj
+.PHONY : 01_boost/example00/Ex00_01.cpp.obj
 
-00_basement/example18/Ex18_01/Ex18_01.i: 00_basement/example18/Ex18_01/Ex18_01.cpp.i
+01_boost/example00/Ex00_01.i: 01_boost/example00/Ex00_01.cpp.i
 
-.PHONY : 00_basement/example18/Ex18_01/Ex18_01.i
+.PHONY : 01_boost/example00/Ex00_01.i
 
 # target to preprocess a source file
-00_basement/example18/Ex18_01/Ex18_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_01.dir\build.make CMakeFiles/Ex18_01.dir/00_basement/example18/Ex18_01/Ex18_01.cpp.i
-.PHONY : 00_basement/example18/Ex18_01/Ex18_01.cpp.i
+01_boost/example00/Ex00_01.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex00_01.dir\build.make CMakeFiles/Ex00_01.dir/01_boost/example00/Ex00_01.cpp.i
+.PHONY : 01_boost/example00/Ex00_01.cpp.i
 
-00_basement/example18/Ex18_01/Ex18_01.s: 00_basement/example18/Ex18_01/Ex18_01.cpp.s
+01_boost/example00/Ex00_01.s: 01_boost/example00/Ex00_01.cpp.s
 
-.PHONY : 00_basement/example18/Ex18_01/Ex18_01.s
+.PHONY : 01_boost/example00/Ex00_01.s
 
 # target to generate assembly for a file
-00_basement/example18/Ex18_01/Ex18_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_01.dir\build.make CMakeFiles/Ex18_01.dir/00_basement/example18/Ex18_01/Ex18_01.cpp.s
-.PHONY : 00_basement/example18/Ex18_01/Ex18_01.cpp.s
+01_boost/example00/Ex00_01.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex00_01.dir\build.make CMakeFiles/Ex00_01.dir/01_boost/example00/Ex00_01.cpp.s
+.PHONY : 01_boost/example00/Ex00_01.cpp.s
 
-00_basement/example18/Ex18_02/Ex18_02.obj: 00_basement/example18/Ex18_02/Ex18_02.cpp.obj
+01_boost/example00/Ex00_02.obj: 01_boost/example00/Ex00_02.cpp.obj
 
-.PHONY : 00_basement/example18/Ex18_02/Ex18_02.obj
+.PHONY : 01_boost/example00/Ex00_02.obj
 
 # target to build an object file
-00_basement/example18/Ex18_02/Ex18_02.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_02.dir\build.make CMakeFiles/Ex18_02.dir/00_basement/example18/Ex18_02/Ex18_02.cpp.obj
-.PHONY : 00_basement/example18/Ex18_02/Ex18_02.cpp.obj
+01_boost/example00/Ex00_02.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex00_02.dir\build.make CMakeFiles/Ex00_02.dir/01_boost/example00/Ex00_02.cpp.obj
+.PHONY : 01_boost/example00/Ex00_02.cpp.obj
 
-00_basement/example18/Ex18_02/Ex18_02.i: 00_basement/example18/Ex18_02/Ex18_02.cpp.i
+01_boost/example00/Ex00_02.i: 01_boost/example00/Ex00_02.cpp.i
 
-.PHONY : 00_basement/example18/Ex18_02/Ex18_02.i
+.PHONY : 01_boost/example00/Ex00_02.i
 
 # target to preprocess a source file
-00_basement/example18/Ex18_02/Ex18_02.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_02.dir\build.make CMakeFiles/Ex18_02.dir/00_basement/example18/Ex18_02/Ex18_02.cpp.i
-.PHONY : 00_basement/example18/Ex18_02/Ex18_02.cpp.i
+01_boost/example00/Ex00_02.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex00_02.dir\build.make CMakeFiles/Ex00_02.dir/01_boost/example00/Ex00_02.cpp.i
+.PHONY : 01_boost/example00/Ex00_02.cpp.i
 
-00_basement/example18/Ex18_02/Ex18_02.s: 00_basement/example18/Ex18_02/Ex18_02.cpp.s
+01_boost/example00/Ex00_02.s: 01_boost/example00/Ex00_02.cpp.s
 
-.PHONY : 00_basement/example18/Ex18_02/Ex18_02.s
+.PHONY : 01_boost/example00/Ex00_02.s
 
 # target to generate assembly for a file
-00_basement/example18/Ex18_02/Ex18_02.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_02.dir\build.make CMakeFiles/Ex18_02.dir/00_basement/example18/Ex18_02/Ex18_02.cpp.s
-.PHONY : 00_basement/example18/Ex18_02/Ex18_02.cpp.s
+01_boost/example00/Ex00_02.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex00_02.dir\build.make CMakeFiles/Ex00_02.dir/01_boost/example00/Ex00_02.cpp.s
+.PHONY : 01_boost/example00/Ex00_02.cpp.s
 
-00_basement/example18/Ex18_03/Ex18_03.obj: 00_basement/example18/Ex18_03/Ex18_03.cpp.obj
+01_boost/example00/Ex00_03.obj: 01_boost/example00/Ex00_03.cpp.obj
 
-.PHONY : 00_basement/example18/Ex18_03/Ex18_03.obj
+.PHONY : 01_boost/example00/Ex00_03.obj
 
 # target to build an object file
-00_basement/example18/Ex18_03/Ex18_03.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_03.dir\build.make CMakeFiles/Ex18_03.dir/00_basement/example18/Ex18_03/Ex18_03.cpp.obj
-.PHONY : 00_basement/example18/Ex18_03/Ex18_03.cpp.obj
+01_boost/example00/Ex00_03.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex00_03.dir\build.make CMakeFiles/Ex00_03.dir/01_boost/example00/Ex00_03.cpp.obj
+.PHONY : 01_boost/example00/Ex00_03.cpp.obj
 
-00_basement/example18/Ex18_03/Ex18_03.i: 00_basement/example18/Ex18_03/Ex18_03.cpp.i
+01_boost/example00/Ex00_03.i: 01_boost/example00/Ex00_03.cpp.i
 
-.PHONY : 00_basement/example18/Ex18_03/Ex18_03.i
+.PHONY : 01_boost/example00/Ex00_03.i
 
 # target to preprocess a source file
-00_basement/example18/Ex18_03/Ex18_03.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_03.dir\build.make CMakeFiles/Ex18_03.dir/00_basement/example18/Ex18_03/Ex18_03.cpp.i
-.PHONY : 00_basement/example18/Ex18_03/Ex18_03.cpp.i
+01_boost/example00/Ex00_03.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex00_03.dir\build.make CMakeFiles/Ex00_03.dir/01_boost/example00/Ex00_03.cpp.i
+.PHONY : 01_boost/example00/Ex00_03.cpp.i
 
-00_basement/example18/Ex18_03/Ex18_03.s: 00_basement/example18/Ex18_03/Ex18_03.cpp.s
+01_boost/example00/Ex00_03.s: 01_boost/example00/Ex00_03.cpp.s
 
-.PHONY : 00_basement/example18/Ex18_03/Ex18_03.s
+.PHONY : 01_boost/example00/Ex00_03.s
 
 # target to generate assembly for a file
-00_basement/example18/Ex18_03/Ex18_03.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_03.dir\build.make CMakeFiles/Ex18_03.dir/00_basement/example18/Ex18_03/Ex18_03.cpp.s
-.PHONY : 00_basement/example18/Ex18_03/Ex18_03.cpp.s
+01_boost/example00/Ex00_03.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex00_03.dir\build.make CMakeFiles/Ex00_03.dir/01_boost/example00/Ex00_03.cpp.s
+.PHONY : 01_boost/example00/Ex00_03.cpp.s
 
-00_basement/example18/Ex18_04/Ex18_04.obj: 00_basement/example18/Ex18_04/Ex18_04.cpp.obj
+01_boost/example00/Ex00_04.obj: 01_boost/example00/Ex00_04.cpp.obj
 
-.PHONY : 00_basement/example18/Ex18_04/Ex18_04.obj
+.PHONY : 01_boost/example00/Ex00_04.obj
 
 # target to build an object file
-00_basement/example18/Ex18_04/Ex18_04.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_04.dir\build.make CMakeFiles/Ex18_04.dir/00_basement/example18/Ex18_04/Ex18_04.cpp.obj
-.PHONY : 00_basement/example18/Ex18_04/Ex18_04.cpp.obj
+01_boost/example00/Ex00_04.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex00_04.dir\build.make CMakeFiles/Ex00_04.dir/01_boost/example00/Ex00_04.cpp.obj
+.PHONY : 01_boost/example00/Ex00_04.cpp.obj
 
-00_basement/example18/Ex18_04/Ex18_04.i: 00_basement/example18/Ex18_04/Ex18_04.cpp.i
+01_boost/example00/Ex00_04.i: 01_boost/example00/Ex00_04.cpp.i
 
-.PHONY : 00_basement/example18/Ex18_04/Ex18_04.i
+.PHONY : 01_boost/example00/Ex00_04.i
 
 # target to preprocess a source file
-00_basement/example18/Ex18_04/Ex18_04.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_04.dir\build.make CMakeFiles/Ex18_04.dir/00_basement/example18/Ex18_04/Ex18_04.cpp.i
-.PHONY : 00_basement/example18/Ex18_04/Ex18_04.cpp.i
+01_boost/example00/Ex00_04.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex00_04.dir\build.make CMakeFiles/Ex00_04.dir/01_boost/example00/Ex00_04.cpp.i
+.PHONY : 01_boost/example00/Ex00_04.cpp.i
 
-00_basement/example18/Ex18_04/Ex18_04.s: 00_basement/example18/Ex18_04/Ex18_04.cpp.s
+01_boost/example00/Ex00_04.s: 01_boost/example00/Ex00_04.cpp.s
 
-.PHONY : 00_basement/example18/Ex18_04/Ex18_04.s
+.PHONY : 01_boost/example00/Ex00_04.s
 
 # target to generate assembly for a file
-00_basement/example18/Ex18_04/Ex18_04.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_04.dir\build.make CMakeFiles/Ex18_04.dir/00_basement/example18/Ex18_04/Ex18_04.cpp.s
-.PHONY : 00_basement/example18/Ex18_04/Ex18_04.cpp.s
+01_boost/example00/Ex00_04.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex00_04.dir\build.make CMakeFiles/Ex00_04.dir/01_boost/example00/Ex00_04.cpp.s
+.PHONY : 01_boost/example00/Ex00_04.cpp.s
 
-00_basement/example18/Ex18_05/Ex18_05.obj: 00_basement/example18/Ex18_05/Ex18_05.cpp.obj
+01_boost/example00/Ex00_05.obj: 01_boost/example00/Ex00_05.cpp.obj
 
-.PHONY : 00_basement/example18/Ex18_05/Ex18_05.obj
+.PHONY : 01_boost/example00/Ex00_05.obj
 
 # target to build an object file
-00_basement/example18/Ex18_05/Ex18_05.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_05.dir\build.make CMakeFiles/Ex18_05.dir/00_basement/example18/Ex18_05/Ex18_05.cpp.obj
-.PHONY : 00_basement/example18/Ex18_05/Ex18_05.cpp.obj
+01_boost/example00/Ex00_05.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex00_05.dir\build.make CMakeFiles/Ex00_05.dir/01_boost/example00/Ex00_05.cpp.obj
+.PHONY : 01_boost/example00/Ex00_05.cpp.obj
 
-00_basement/example18/Ex18_05/Ex18_05.i: 00_basement/example18/Ex18_05/Ex18_05.cpp.i
+01_boost/example00/Ex00_05.i: 01_boost/example00/Ex00_05.cpp.i
 
-.PHONY : 00_basement/example18/Ex18_05/Ex18_05.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_05/Ex18_05.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_05.dir\build.make CMakeFiles/Ex18_05.dir/00_basement/example18/Ex18_05/Ex18_05.cpp.i
-.PHONY : 00_basement/example18/Ex18_05/Ex18_05.cpp.i
-
-00_basement/example18/Ex18_05/Ex18_05.s: 00_basement/example18/Ex18_05/Ex18_05.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_05/Ex18_05.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_05/Ex18_05.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_05.dir\build.make CMakeFiles/Ex18_05.dir/00_basement/example18/Ex18_05/Ex18_05.cpp.s
-.PHONY : 00_basement/example18/Ex18_05/Ex18_05.cpp.s
-
-00_basement/example18/Ex18_06/Ex18_06.obj: 00_basement/example18/Ex18_06/Ex18_06.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_06/Ex18_06.obj
-
-# target to build an object file
-00_basement/example18/Ex18_06/Ex18_06.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_06.dir\build.make CMakeFiles/Ex18_06.dir/00_basement/example18/Ex18_06/Ex18_06.cpp.obj
-.PHONY : 00_basement/example18/Ex18_06/Ex18_06.cpp.obj
-
-00_basement/example18/Ex18_06/Ex18_06.i: 00_basement/example18/Ex18_06/Ex18_06.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_06/Ex18_06.i
+.PHONY : 01_boost/example00/Ex00_05.i
 
 # target to preprocess a source file
-00_basement/example18/Ex18_06/Ex18_06.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_06.dir\build.make CMakeFiles/Ex18_06.dir/00_basement/example18/Ex18_06/Ex18_06.cpp.i
-.PHONY : 00_basement/example18/Ex18_06/Ex18_06.cpp.i
+01_boost/example00/Ex00_05.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex00_05.dir\build.make CMakeFiles/Ex00_05.dir/01_boost/example00/Ex00_05.cpp.i
+.PHONY : 01_boost/example00/Ex00_05.cpp.i
 
-00_basement/example18/Ex18_06/Ex18_06.s: 00_basement/example18/Ex18_06/Ex18_06.cpp.s
+01_boost/example00/Ex00_05.s: 01_boost/example00/Ex00_05.cpp.s
 
-.PHONY : 00_basement/example18/Ex18_06/Ex18_06.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_06/Ex18_06.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_06.dir\build.make CMakeFiles/Ex18_06.dir/00_basement/example18/Ex18_06/Ex18_06.cpp.s
-.PHONY : 00_basement/example18/Ex18_06/Ex18_06.cpp.s
-
-00_basement/example18/Ex18_07/Ex18_07.obj: 00_basement/example18/Ex18_07/Ex18_07.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_07/Ex18_07.obj
-
-# target to build an object file
-00_basement/example18/Ex18_07/Ex18_07.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_07.dir\build.make CMakeFiles/Ex18_07.dir/00_basement/example18/Ex18_07/Ex18_07.cpp.obj
-.PHONY : 00_basement/example18/Ex18_07/Ex18_07.cpp.obj
-
-00_basement/example18/Ex18_07/Ex18_07.i: 00_basement/example18/Ex18_07/Ex18_07.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_07/Ex18_07.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_07/Ex18_07.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_07.dir\build.make CMakeFiles/Ex18_07.dir/00_basement/example18/Ex18_07/Ex18_07.cpp.i
-.PHONY : 00_basement/example18/Ex18_07/Ex18_07.cpp.i
-
-00_basement/example18/Ex18_07/Ex18_07.s: 00_basement/example18/Ex18_07/Ex18_07.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_07/Ex18_07.s
+.PHONY : 01_boost/example00/Ex00_05.s
 
 # target to generate assembly for a file
-00_basement/example18/Ex18_07/Ex18_07.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_07.dir\build.make CMakeFiles/Ex18_07.dir/00_basement/example18/Ex18_07/Ex18_07.cpp.s
-.PHONY : 00_basement/example18/Ex18_07/Ex18_07.cpp.s
-
-00_basement/example18/Ex18_08/Box.obj: 00_basement/example18/Ex18_08/Box.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_08/Box.obj
-
-# target to build an object file
-00_basement/example18/Ex18_08/Box.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_08.dir\build.make CMakeFiles/Ex18_08.dir/00_basement/example18/Ex18_08/Box.cpp.obj
-.PHONY : 00_basement/example18/Ex18_08/Box.cpp.obj
-
-00_basement/example18/Ex18_08/Box.i: 00_basement/example18/Ex18_08/Box.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_08/Box.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_08/Box.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_08.dir\build.make CMakeFiles/Ex18_08.dir/00_basement/example18/Ex18_08/Box.cpp.i
-.PHONY : 00_basement/example18/Ex18_08/Box.cpp.i
-
-00_basement/example18/Ex18_08/Box.s: 00_basement/example18/Ex18_08/Box.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_08/Box.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_08/Box.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_08.dir\build.make CMakeFiles/Ex18_08.dir/00_basement/example18/Ex18_08/Box.cpp.s
-.PHONY : 00_basement/example18/Ex18_08/Box.cpp.s
-
-00_basement/example18/Ex18_08/Ex18_08.obj: 00_basement/example18/Ex18_08/Ex18_08.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_08/Ex18_08.obj
-
-# target to build an object file
-00_basement/example18/Ex18_08/Ex18_08.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_08.dir\build.make CMakeFiles/Ex18_08.dir/00_basement/example18/Ex18_08/Ex18_08.cpp.obj
-.PHONY : 00_basement/example18/Ex18_08/Ex18_08.cpp.obj
-
-00_basement/example18/Ex18_08/Ex18_08.i: 00_basement/example18/Ex18_08/Ex18_08.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_08/Ex18_08.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_08/Ex18_08.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_08.dir\build.make CMakeFiles/Ex18_08.dir/00_basement/example18/Ex18_08/Ex18_08.cpp.i
-.PHONY : 00_basement/example18/Ex18_08/Ex18_08.cpp.i
-
-00_basement/example18/Ex18_08/Ex18_08.s: 00_basement/example18/Ex18_08/Ex18_08.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_08/Ex18_08.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_08/Ex18_08.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_08.dir\build.make CMakeFiles/Ex18_08.dir/00_basement/example18/Ex18_08/Ex18_08.cpp.s
-.PHONY : 00_basement/example18/Ex18_08/Ex18_08.cpp.s
-
-00_basement/example18/Ex18_09/Ex18_09.obj: 00_basement/example18/Ex18_09/Ex18_09.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_09/Ex18_09.obj
-
-# target to build an object file
-00_basement/example18/Ex18_09/Ex18_09.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_09.dir\build.make CMakeFiles/Ex18_09.dir/00_basement/example18/Ex18_09/Ex18_09.cpp.obj
-.PHONY : 00_basement/example18/Ex18_09/Ex18_09.cpp.obj
-
-00_basement/example18/Ex18_09/Ex18_09.i: 00_basement/example18/Ex18_09/Ex18_09.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_09/Ex18_09.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_09/Ex18_09.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_09.dir\build.make CMakeFiles/Ex18_09.dir/00_basement/example18/Ex18_09/Ex18_09.cpp.i
-.PHONY : 00_basement/example18/Ex18_09/Ex18_09.cpp.i
-
-00_basement/example18/Ex18_09/Ex18_09.s: 00_basement/example18/Ex18_09/Ex18_09.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_09/Ex18_09.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_09/Ex18_09.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_09.dir\build.make CMakeFiles/Ex18_09.dir/00_basement/example18/Ex18_09/Ex18_09.cpp.s
-.PHONY : 00_basement/example18/Ex18_09/Ex18_09.cpp.s
-
-00_basement/example18/Ex18_10/Ex18_10.obj: 00_basement/example18/Ex18_10/Ex18_10.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_10/Ex18_10.obj
-
-# target to build an object file
-00_basement/example18/Ex18_10/Ex18_10.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_10.dir\build.make CMakeFiles/Ex18_10.dir/00_basement/example18/Ex18_10/Ex18_10.cpp.obj
-.PHONY : 00_basement/example18/Ex18_10/Ex18_10.cpp.obj
-
-00_basement/example18/Ex18_10/Ex18_10.i: 00_basement/example18/Ex18_10/Ex18_10.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_10/Ex18_10.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_10/Ex18_10.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_10.dir\build.make CMakeFiles/Ex18_10.dir/00_basement/example18/Ex18_10/Ex18_10.cpp.i
-.PHONY : 00_basement/example18/Ex18_10/Ex18_10.cpp.i
-
-00_basement/example18/Ex18_10/Ex18_10.s: 00_basement/example18/Ex18_10/Ex18_10.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_10/Ex18_10.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_10/Ex18_10.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_10.dir\build.make CMakeFiles/Ex18_10.dir/00_basement/example18/Ex18_10/Ex18_10.cpp.s
-.PHONY : 00_basement/example18/Ex18_10/Ex18_10.cpp.s
-
-00_basement/example18/Ex18_11/Ex18_11.obj: 00_basement/example18/Ex18_11/Ex18_11.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_11/Ex18_11.obj
-
-# target to build an object file
-00_basement/example18/Ex18_11/Ex18_11.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_11.dir\build.make CMakeFiles/Ex18_11.dir/00_basement/example18/Ex18_11/Ex18_11.cpp.obj
-.PHONY : 00_basement/example18/Ex18_11/Ex18_11.cpp.obj
-
-00_basement/example18/Ex18_11/Ex18_11.i: 00_basement/example18/Ex18_11/Ex18_11.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_11/Ex18_11.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_11/Ex18_11.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_11.dir\build.make CMakeFiles/Ex18_11.dir/00_basement/example18/Ex18_11/Ex18_11.cpp.i
-.PHONY : 00_basement/example18/Ex18_11/Ex18_11.cpp.i
-
-00_basement/example18/Ex18_11/Ex18_11.s: 00_basement/example18/Ex18_11/Ex18_11.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_11/Ex18_11.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_11/Ex18_11.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_11.dir\build.make CMakeFiles/Ex18_11.dir/00_basement/example18/Ex18_11/Ex18_11.cpp.s
-.PHONY : 00_basement/example18/Ex18_11/Ex18_11.cpp.s
-
-00_basement/example18/Ex18_12/Ex18_12.obj: 00_basement/example18/Ex18_12/Ex18_12.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_12/Ex18_12.obj
-
-# target to build an object file
-00_basement/example18/Ex18_12/Ex18_12.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_12.dir\build.make CMakeFiles/Ex18_12.dir/00_basement/example18/Ex18_12/Ex18_12.cpp.obj
-.PHONY : 00_basement/example18/Ex18_12/Ex18_12.cpp.obj
-
-00_basement/example18/Ex18_12/Ex18_12.i: 00_basement/example18/Ex18_12/Ex18_12.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_12/Ex18_12.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_12/Ex18_12.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_12.dir\build.make CMakeFiles/Ex18_12.dir/00_basement/example18/Ex18_12/Ex18_12.cpp.i
-.PHONY : 00_basement/example18/Ex18_12/Ex18_12.cpp.i
-
-00_basement/example18/Ex18_12/Ex18_12.s: 00_basement/example18/Ex18_12/Ex18_12.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_12/Ex18_12.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_12/Ex18_12.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_12.dir\build.make CMakeFiles/Ex18_12.dir/00_basement/example18/Ex18_12/Ex18_12.cpp.s
-.PHONY : 00_basement/example18/Ex18_12/Ex18_12.cpp.s
-
-00_basement/example18/Ex18_13/Ex18_13.obj: 00_basement/example18/Ex18_13/Ex18_13.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_13/Ex18_13.obj
-
-# target to build an object file
-00_basement/example18/Ex18_13/Ex18_13.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_13.dir\build.make CMakeFiles/Ex18_13.dir/00_basement/example18/Ex18_13/Ex18_13.cpp.obj
-.PHONY : 00_basement/example18/Ex18_13/Ex18_13.cpp.obj
-
-00_basement/example18/Ex18_13/Ex18_13.i: 00_basement/example18/Ex18_13/Ex18_13.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_13/Ex18_13.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_13/Ex18_13.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_13.dir\build.make CMakeFiles/Ex18_13.dir/00_basement/example18/Ex18_13/Ex18_13.cpp.i
-.PHONY : 00_basement/example18/Ex18_13/Ex18_13.cpp.i
-
-00_basement/example18/Ex18_13/Ex18_13.s: 00_basement/example18/Ex18_13/Ex18_13.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_13/Ex18_13.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_13/Ex18_13.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_13.dir\build.make CMakeFiles/Ex18_13.dir/00_basement/example18/Ex18_13/Ex18_13.cpp.s
-.PHONY : 00_basement/example18/Ex18_13/Ex18_13.cpp.s
-
-00_basement/example18/Ex18_14/Ex18_14.obj: 00_basement/example18/Ex18_14/Ex18_14.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_14/Ex18_14.obj
-
-# target to build an object file
-00_basement/example18/Ex18_14/Ex18_14.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_14.dir\build.make CMakeFiles/Ex18_14.dir/00_basement/example18/Ex18_14/Ex18_14.cpp.obj
-.PHONY : 00_basement/example18/Ex18_14/Ex18_14.cpp.obj
-
-00_basement/example18/Ex18_14/Ex18_14.i: 00_basement/example18/Ex18_14/Ex18_14.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_14/Ex18_14.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_14/Ex18_14.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_14.dir\build.make CMakeFiles/Ex18_14.dir/00_basement/example18/Ex18_14/Ex18_14.cpp.i
-.PHONY : 00_basement/example18/Ex18_14/Ex18_14.cpp.i
-
-00_basement/example18/Ex18_14/Ex18_14.s: 00_basement/example18/Ex18_14/Ex18_14.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_14/Ex18_14.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_14/Ex18_14.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_14.dir\build.make CMakeFiles/Ex18_14.dir/00_basement/example18/Ex18_14/Ex18_14.cpp.s
-.PHONY : 00_basement/example18/Ex18_14/Ex18_14.cpp.s
-
-00_basement/example18/Ex18_15/Ex18_15.obj: 00_basement/example18/Ex18_15/Ex18_15.cpp.obj
-
-.PHONY : 00_basement/example18/Ex18_15/Ex18_15.obj
-
-# target to build an object file
-00_basement/example18/Ex18_15/Ex18_15.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex18_15.dir\build.make CMakeFiles/Ex18_15.dir/00_basement/example18/Ex18_15/Ex18_15.cpp.obj
-.PHONY : 00_basement/example18/Ex18_15/Ex18_15.cpp.obj
-
-00_basement/example18/Ex18_15/Ex18_15.i: 00_basement/example18/Ex18_15/Ex18_15.cpp.i
-
-.PHONY : 00_basement/example18/Ex18_15/Ex18_15.i
-
-# target to preprocess a source file
-00_basement/example18/Ex18_15/Ex18_15.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex18_15.dir\build.make CMakeFiles/Ex18_15.dir/00_basement/example18/Ex18_15/Ex18_15.cpp.i
-.PHONY : 00_basement/example18/Ex18_15/Ex18_15.cpp.i
-
-00_basement/example18/Ex18_15/Ex18_15.s: 00_basement/example18/Ex18_15/Ex18_15.cpp.s
-
-.PHONY : 00_basement/example18/Ex18_15/Ex18_15.s
-
-# target to generate assembly for a file
-00_basement/example18/Ex18_15/Ex18_15.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex18_15.dir\build.make CMakeFiles/Ex18_15.dir/00_basement/example18/Ex18_15/Ex18_15.cpp.s
-.PHONY : 00_basement/example18/Ex18_15/Ex18_15.cpp.s
+01_boost/example00/Ex00_05.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex00_05.dir\build.make CMakeFiles/Ex00_05.dir/01_boost/example00/Ex00_05.cpp.s
+.PHONY : 01_boost/example00/Ex00_05.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -782,72 +355,29 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Ex18_06
 	@echo ... edit_cache
 	@echo ... main
-	@echo ... Ex18_01
-	@echo ... Ex18_02
-	@echo ... Ex18_03
-	@echo ... Ex18_04
-	@echo ... Ex18_05
-	@echo ... Ex18_07
-	@echo ... Ex18_08
-	@echo ... Ex18_09
-	@echo ... Ex18_10
-	@echo ... Ex18_11
-	@echo ... Ex18_12
-	@echo ... Ex18_13
-	@echo ... Ex18_14
-	@echo ... Ex18_15
+	@echo ... Ex00_01
+	@echo ... Ex00_02
+	@echo ... Ex00_03
+	@echo ... Ex00_04
+	@echo ... Ex00_05
 	@echo ... rebuild_cache
-	@echo ... 00_basement/example18/Ex18_01/Ex18_01.obj
-	@echo ... 00_basement/example18/Ex18_01/Ex18_01.i
-	@echo ... 00_basement/example18/Ex18_01/Ex18_01.s
-	@echo ... 00_basement/example18/Ex18_02/Ex18_02.obj
-	@echo ... 00_basement/example18/Ex18_02/Ex18_02.i
-	@echo ... 00_basement/example18/Ex18_02/Ex18_02.s
-	@echo ... 00_basement/example18/Ex18_03/Ex18_03.obj
-	@echo ... 00_basement/example18/Ex18_03/Ex18_03.i
-	@echo ... 00_basement/example18/Ex18_03/Ex18_03.s
-	@echo ... 00_basement/example18/Ex18_04/Ex18_04.obj
-	@echo ... 00_basement/example18/Ex18_04/Ex18_04.i
-	@echo ... 00_basement/example18/Ex18_04/Ex18_04.s
-	@echo ... 00_basement/example18/Ex18_05/Ex18_05.obj
-	@echo ... 00_basement/example18/Ex18_05/Ex18_05.i
-	@echo ... 00_basement/example18/Ex18_05/Ex18_05.s
-	@echo ... 00_basement/example18/Ex18_06/Ex18_06.obj
-	@echo ... 00_basement/example18/Ex18_06/Ex18_06.i
-	@echo ... 00_basement/example18/Ex18_06/Ex18_06.s
-	@echo ... 00_basement/example18/Ex18_07/Ex18_07.obj
-	@echo ... 00_basement/example18/Ex18_07/Ex18_07.i
-	@echo ... 00_basement/example18/Ex18_07/Ex18_07.s
-	@echo ... 00_basement/example18/Ex18_08/Box.obj
-	@echo ... 00_basement/example18/Ex18_08/Box.i
-	@echo ... 00_basement/example18/Ex18_08/Box.s
-	@echo ... 00_basement/example18/Ex18_08/Ex18_08.obj
-	@echo ... 00_basement/example18/Ex18_08/Ex18_08.i
-	@echo ... 00_basement/example18/Ex18_08/Ex18_08.s
-	@echo ... 00_basement/example18/Ex18_09/Ex18_09.obj
-	@echo ... 00_basement/example18/Ex18_09/Ex18_09.i
-	@echo ... 00_basement/example18/Ex18_09/Ex18_09.s
-	@echo ... 00_basement/example18/Ex18_10/Ex18_10.obj
-	@echo ... 00_basement/example18/Ex18_10/Ex18_10.i
-	@echo ... 00_basement/example18/Ex18_10/Ex18_10.s
-	@echo ... 00_basement/example18/Ex18_11/Ex18_11.obj
-	@echo ... 00_basement/example18/Ex18_11/Ex18_11.i
-	@echo ... 00_basement/example18/Ex18_11/Ex18_11.s
-	@echo ... 00_basement/example18/Ex18_12/Ex18_12.obj
-	@echo ... 00_basement/example18/Ex18_12/Ex18_12.i
-	@echo ... 00_basement/example18/Ex18_12/Ex18_12.s
-	@echo ... 00_basement/example18/Ex18_13/Ex18_13.obj
-	@echo ... 00_basement/example18/Ex18_13/Ex18_13.i
-	@echo ... 00_basement/example18/Ex18_13/Ex18_13.s
-	@echo ... 00_basement/example18/Ex18_14/Ex18_14.obj
-	@echo ... 00_basement/example18/Ex18_14/Ex18_14.i
-	@echo ... 00_basement/example18/Ex18_14/Ex18_14.s
-	@echo ... 00_basement/example18/Ex18_15/Ex18_15.obj
-	@echo ... 00_basement/example18/Ex18_15/Ex18_15.i
-	@echo ... 00_basement/example18/Ex18_15/Ex18_15.s
+	@echo ... 01_boost/example00/Ex00_01.obj
+	@echo ... 01_boost/example00/Ex00_01.i
+	@echo ... 01_boost/example00/Ex00_01.s
+	@echo ... 01_boost/example00/Ex00_02.obj
+	@echo ... 01_boost/example00/Ex00_02.i
+	@echo ... 01_boost/example00/Ex00_02.s
+	@echo ... 01_boost/example00/Ex00_03.obj
+	@echo ... 01_boost/example00/Ex00_03.i
+	@echo ... 01_boost/example00/Ex00_03.s
+	@echo ... 01_boost/example00/Ex00_04.obj
+	@echo ... 01_boost/example00/Ex00_04.i
+	@echo ... 01_boost/example00/Ex00_04.s
+	@echo ... 01_boost/example00/Ex00_05.obj
+	@echo ... 01_boost/example00/Ex00_05.i
+	@echo ... 01_boost/example00/Ex00_05.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -22,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/FindBoost.cmake"
   "C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -51,20 +52,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Ex18_06.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_01.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_02.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_03.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_04.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_05.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_07.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_08.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_09.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_10.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_11.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_12.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_13.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_14.dir/DependInfo.cmake"
-  "CMakeFiles/Ex18_15.dir/DependInfo.cmake"
+  "CMakeFiles/Ex00_01.dir/DependInfo.cmake"
+  "CMakeFiles/Ex00_02.dir/DependInfo.cmake"
+  "CMakeFiles/Ex00_03.dir/DependInfo.cmake"
+  "CMakeFiles/Ex00_04.dir/DependInfo.cmake"
+  "CMakeFiles/Ex00_05.dir/DependInfo.cmake"
   )

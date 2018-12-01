@@ -57,6 +57,7 @@ include CMakeFiles/Ex18_15.dir/progress.make
 include CMakeFiles/Ex18_15.dir/flags.make
 
 CMakeFiles/Ex18_15.dir/00_basement/example18/Ex18_15/Ex18_15.cpp.obj: CMakeFiles/Ex18_15.dir/flags.make
+CMakeFiles/Ex18_15.dir/00_basement/example18/Ex18_15/Ex18_15.cpp.obj: CMakeFiles/Ex18_15.dir/includes_CXX.rsp
 CMakeFiles/Ex18_15.dir/00_basement/example18/Ex18_15/Ex18_15.cpp.obj: ../00_basement/example18/Ex18_15/Ex18_15.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex18_15.dir/00_basement/example18/Ex18_15/Ex18_15.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex18_15.dir\00_basement\example18\Ex18_15\Ex18_15.cpp.obj -c D:\Development_Github\My_Cplusplus17\00_basement\example18\Ex18_15\Ex18_15.cpp
