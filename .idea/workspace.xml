@@ -2,17 +2,25 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="My_Cplusplus17" targetName="Ex07_09" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_07" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_08" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_05" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_06" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_03" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_08" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_09" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_06" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_17" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_07" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_18" />
       <config projectName="My_Cplusplus17" targetName="main" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_04" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_01" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_02" />
-      <config projectName="My_Cplusplus17" targetName="Ex07_10" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_04" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_15" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_05" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_16" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_02" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_13" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_03" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_14" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_11" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_01" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_12" />
+      <config projectName="My_Cplusplus17" targetName="Ex08_10" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -22,6 +30,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_13.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_15.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_16.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/Ex08_18.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -54,7 +80,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="574" />
+          <entry key="cpp" value="575" />
           <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="5" />
@@ -65,7 +91,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="59" />
-          <entry key="ObjectiveC" value="709" />
+          <entry key="ObjectiveC" value="710" />
           <entry key="PLAIN_TEXT" value="89" />
         </counts>
       </usages-collector>
@@ -75,12 +101,12 @@
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
-          <entry key="txt" value="2851" />
+          <entry key="txt" value="2919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1899" />
+          <entry key="CMakeLists.txt" value="1967" />
           <entry key="Doxygen file" value="209" />
           <entry key="ObjectiveC" value="8545" />
           <entry key="PLAIN_TEXT" value="952" />
@@ -93,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="163" selection-start-line="163" selection-start-column="1" selection-end-line="172" selection-end-column="55" />
+            <state relative-caret-position="265">
+              <caret line="190" column="49" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -198,7 +224,7 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="01_boost" type="462c0819:PsiDirectoryNode" />
-              <item name="example07" type="462c0819:PsiDirectoryNode" />
+              <item name="example08" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,11 +241,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example08" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example07" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example06" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example05" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example10" />
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example17" />
@@ -244,6 +270,96 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex08_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_05">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_06">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_07" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_07">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_08" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_08">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_09" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_09">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_14">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_15">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_16" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_16" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_16">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_17" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_17" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_17">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_18" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex08_18" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex08_18">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -251,6 +367,24 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.Ex08_01" />
+      <item itemvalue="Application.Ex08_02" />
+      <item itemvalue="Application.Ex08_03" />
+      <item itemvalue="Application.Ex08_04" />
+      <item itemvalue="Application.Ex08_05" />
+      <item itemvalue="Application.Ex08_06" />
+      <item itemvalue="Application.Ex08_07" />
+      <item itemvalue="Application.Ex08_08" />
+      <item itemvalue="Application.Ex08_09" />
+      <item itemvalue="Application.Ex08_10" />
+      <item itemvalue="Application.Ex08_11" />
+      <item itemvalue="Application.Ex08_12" />
+      <item itemvalue="Application.Ex08_13" />
+      <item itemvalue="Application.Ex08_14" />
+      <item itemvalue="Application.Ex08_15" />
+      <item itemvalue="Application.Ex08_16" />
+      <item itemvalue="Application.Ex08_17" />
+      <item itemvalue="Application.Ex08_18" />
       <item itemvalue="Application.main" />
     </list>
   </component>
@@ -278,12 +412,12 @@
       <workItem from="1543151482205" duration="1241000" />
       <workItem from="1543228884685" duration="895000" />
       <workItem from="1543650834997" duration="21077000" />
-      <workItem from="1543718734566" duration="17454000" />
+      <workItem from="1543718734566" duration="17782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82719000" />
+    <option name="totallyTimeSpent" value="83047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -340,16 +474,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_25.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_24.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -712,10 +836,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example08/Ex08_18.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="163" selection-start-line="163" selection-start-column="1" selection-end-line="172" selection-end-column="55" />
+        <state relative-caret-position="265">
+          <caret line="190" column="49" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
         </state>
       </provider>
     </entry>

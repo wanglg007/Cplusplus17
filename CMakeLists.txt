@@ -172,7 +172,24 @@ add_executable(main main.cpp)
 #add_executable(Ex07_09 01_boost/example07/Ex07_09.cpp)
 #add_executable(Ex07_10 01_boost/example07/Ex07_10.cpp)
 ##########example08##########
-
+add_executable(Ex08_01 01_boost/example08/Ex08_01.cpp)
+add_executable(Ex08_02 01_boost/example08/Ex08_02.cpp)
+add_executable(Ex08_03 01_boost/example08/Ex08_03.cpp)
+add_executable(Ex08_04 01_boost/example08/Ex08_04.cpp)
+add_executable(Ex08_05 01_boost/example08/Ex08_05.cpp)
+add_executable(Ex08_06 01_boost/example08/Ex08_06.cpp)
+add_executable(Ex08_07 01_boost/example08/Ex08_07.cpp)
+add_executable(Ex08_08 01_boost/example08/Ex08_08.cpp)
+add_executable(Ex08_09 01_boost/example08/Ex08_09.cpp)
+add_executable(Ex08_10 01_boost/example08/Ex08_10.cpp)
+add_executable(Ex08_11 01_boost/example08/Ex08_11.cpp)
+add_executable(Ex08_12 01_boost/example08/Ex08_12.cpp)
+add_executable(Ex08_13 01_boost/example08/Ex08_13.cpp)
+add_executable(Ex08_14 01_boost/example08/Ex08_14.cpp)
+add_executable(Ex08_15 01_boost/example08/Ex08_15.cpp)
+add_executable(Ex08_16 01_boost/example08/Ex08_16.cpp)
+add_executable(Ex08_17 01_boost/example08/Ex08_17.cpp)
+add_executable(Ex08_18 01_boost/example08/Ex08_18.cpp)
 ##########example09##########
 
 ##########example10##########

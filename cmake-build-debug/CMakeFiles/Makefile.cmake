@@ -52,5 +52,23 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Ex08_07.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_01.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_02.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_03.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_04.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_05.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_06.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_08.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_09.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_10.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_11.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_12.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_13.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_14.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_15.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_16.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_17.dir/DependInfo.cmake"
+  "CMakeFiles/Ex08_18.dir/DependInfo.cmake"
   )
