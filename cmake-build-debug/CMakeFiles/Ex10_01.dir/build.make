@@ -56,47 +56,33 @@ include CMakeFiles/Ex10_01.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ex10_01.dir/flags.make
 
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.obj: CMakeFiles/Ex10_01.dir/flags.make
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.obj: ../00_basement/example10/Ex10_01/Ex10_01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex10_01.dir\00_basement\example10\Ex10_01\Ex10_01.cpp.obj -c D:\Development_Github\My_Cplusplus17\00_basement\example10\Ex10_01\Ex10_01.cpp
+CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.obj: CMakeFiles/Ex10_01.dir/flags.make
+CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.obj: CMakeFiles/Ex10_01.dir/includes_CXX.rsp
+CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.obj: ../01_boost/example10/Ex10_01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex10_01.dir\01_boost\example10\Ex10_01.cpp.obj -c D:\Development_Github\My_Cplusplus17\01_boost\example10\Ex10_01.cpp
 
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development_Github\My_Cplusplus17\00_basement\example10\Ex10_01\Ex10_01.cpp > CMakeFiles\Ex10_01.dir\00_basement\example10\Ex10_01\Ex10_01.cpp.i
+CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development_Github\My_Cplusplus17\01_boost\example10\Ex10_01.cpp > CMakeFiles\Ex10_01.dir\01_boost\example10\Ex10_01.cpp.i
 
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development_Github\My_Cplusplus17\00_basement\example10\Ex10_01\Ex10_01.cpp -o CMakeFiles\Ex10_01.dir\00_basement\example10\Ex10_01\Ex10_01.cpp.s
-
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.obj: CMakeFiles/Ex10_01.dir/flags.make
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.obj: ../00_basement/example10/Ex10_01/Box.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex10_01.dir\00_basement\example10\Ex10_01\Box.cpp.obj -c D:\Development_Github\My_Cplusplus17\00_basement\example10\Ex10_01\Box.cpp
-
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development_Github\My_Cplusplus17\00_basement\example10\Ex10_01\Box.cpp > CMakeFiles\Ex10_01.dir\00_basement\example10\Ex10_01\Box.cpp.i
-
-CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development_Github\My_Cplusplus17\00_basement\example10\Ex10_01\Box.cpp -o CMakeFiles\Ex10_01.dir\00_basement\example10\Ex10_01\Box.cpp.s
+CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development_Github\My_Cplusplus17\01_boost\example10\Ex10_01.cpp -o CMakeFiles\Ex10_01.dir\01_boost\example10\Ex10_01.cpp.s
 
 # Object files for target Ex10_01
 Ex10_01_OBJECTS = \
-"CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.obj" \
-"CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.obj"
+"CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.obj"
 
 # External object files for target Ex10_01
 Ex10_01_EXTERNAL_OBJECTS =
 
-Ex10_01.exe: CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Ex10_01.cpp.obj
-Ex10_01.exe: CMakeFiles/Ex10_01.dir/00_basement/example10/Ex10_01/Box.cpp.obj
+Ex10_01.exe: CMakeFiles/Ex10_01.dir/01_boost/example10/Ex10_01.cpp.obj
 Ex10_01.exe: CMakeFiles/Ex10_01.dir/build.make
 Ex10_01.exe: CMakeFiles/Ex10_01.dir/linklibs.rsp
 Ex10_01.exe: CMakeFiles/Ex10_01.dir/objects1.rsp
 Ex10_01.exe: CMakeFiles/Ex10_01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Ex10_01.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ex10_01.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ex10_01.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
