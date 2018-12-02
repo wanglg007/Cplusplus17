@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Ex04_03
-
-# Build rule for target.
-Ex04_03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_03
-.PHONY : Ex04_03
-
-# fast build rule for target.
-Ex04_03/fast:
-	$(MAKE) -f CMakeFiles\Ex04_03.dir\build.make CMakeFiles/Ex04_03.dir/build
-.PHONY : Ex04_03/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -136,1031 +123,284 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Ex04_01
+# Target rules for targets named Ex05_08
 
 # Build rule for target.
-Ex04_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_01
-.PHONY : Ex04_01
+Ex05_08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_08
+.PHONY : Ex05_08
 
 # fast build rule for target.
-Ex04_01/fast:
-	$(MAKE) -f CMakeFiles\Ex04_01.dir\build.make CMakeFiles/Ex04_01.dir/build
-.PHONY : Ex04_01/fast
+Ex05_08/fast:
+	$(MAKE) -f CMakeFiles\Ex05_08.dir\build.make CMakeFiles/Ex05_08.dir/build
+.PHONY : Ex05_08/fast
 
 #=============================================================================
-# Target rules for targets named Ex04_02
+# Target rules for targets named Ex05_09
 
 # Build rule for target.
-Ex04_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_02
-.PHONY : Ex04_02
+Ex05_09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_09
+.PHONY : Ex05_09
 
 # fast build rule for target.
-Ex04_02/fast:
-	$(MAKE) -f CMakeFiles\Ex04_02.dir\build.make CMakeFiles/Ex04_02.dir/build
-.PHONY : Ex04_02/fast
+Ex05_09/fast:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/build
+.PHONY : Ex05_09/fast
 
 #=============================================================================
-# Target rules for targets named Ex04_04
+# Target rules for targets named Ex05_01
 
 # Build rule for target.
-Ex04_04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_04
-.PHONY : Ex04_04
+Ex05_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_01
+.PHONY : Ex05_01
 
 # fast build rule for target.
-Ex04_04/fast:
-	$(MAKE) -f CMakeFiles\Ex04_04.dir\build.make CMakeFiles/Ex04_04.dir/build
-.PHONY : Ex04_04/fast
+Ex05_01/fast:
+	$(MAKE) -f CMakeFiles\Ex05_01.dir\build.make CMakeFiles/Ex05_01.dir/build
+.PHONY : Ex05_01/fast
 
 #=============================================================================
-# Target rules for targets named Ex04_05
+# Target rules for targets named Ex05_04
 
 # Build rule for target.
-Ex04_05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_05
-.PHONY : Ex04_05
+Ex05_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_04
+.PHONY : Ex05_04
 
 # fast build rule for target.
-Ex04_05/fast:
-	$(MAKE) -f CMakeFiles\Ex04_05.dir\build.make CMakeFiles/Ex04_05.dir/build
-.PHONY : Ex04_05/fast
+Ex05_04/fast:
+	$(MAKE) -f CMakeFiles\Ex05_04.dir\build.make CMakeFiles/Ex05_04.dir/build
+.PHONY : Ex05_04/fast
 
 #=============================================================================
-# Target rules for targets named Ex04_06
+# Target rules for targets named Ex05_05
 
 # Build rule for target.
-Ex04_06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_06
-.PHONY : Ex04_06
+Ex05_05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_05
+.PHONY : Ex05_05
 
 # fast build rule for target.
-Ex04_06/fast:
-	$(MAKE) -f CMakeFiles\Ex04_06.dir\build.make CMakeFiles/Ex04_06.dir/build
-.PHONY : Ex04_06/fast
+Ex05_05/fast:
+	$(MAKE) -f CMakeFiles\Ex05_05.dir\build.make CMakeFiles/Ex05_05.dir/build
+.PHONY : Ex05_05/fast
 
 #=============================================================================
-# Target rules for targets named Ex04_07
+# Target rules for targets named Ex05_06
 
 # Build rule for target.
-Ex04_07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_07
-.PHONY : Ex04_07
+Ex05_06: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_06
+.PHONY : Ex05_06
 
 # fast build rule for target.
-Ex04_07/fast:
-	$(MAKE) -f CMakeFiles\Ex04_07.dir\build.make CMakeFiles/Ex04_07.dir/build
-.PHONY : Ex04_07/fast
+Ex05_06/fast:
+	$(MAKE) -f CMakeFiles\Ex05_06.dir\build.make CMakeFiles/Ex05_06.dir/build
+.PHONY : Ex05_06/fast
 
 #=============================================================================
-# Target rules for targets named Ex04_08
+# Target rules for targets named Ex05_07
 
 # Build rule for target.
-Ex04_08: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_08
-.PHONY : Ex04_08
+Ex05_07: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_07
+.PHONY : Ex05_07
 
 # fast build rule for target.
-Ex04_08/fast:
-	$(MAKE) -f CMakeFiles\Ex04_08.dir\build.make CMakeFiles/Ex04_08.dir/build
-.PHONY : Ex04_08/fast
+Ex05_07/fast:
+	$(MAKE) -f CMakeFiles\Ex05_07.dir\build.make CMakeFiles/Ex05_07.dir/build
+.PHONY : Ex05_07/fast
 
-#=============================================================================
-# Target rules for targets named Ex04_09
+01_boost/example05/Ex05_01.obj: 01_boost/example05/Ex05_01.cpp.obj
 
-# Build rule for target.
-Ex04_09: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_09
-.PHONY : Ex04_09
-
-# fast build rule for target.
-Ex04_09/fast:
-	$(MAKE) -f CMakeFiles\Ex04_09.dir\build.make CMakeFiles/Ex04_09.dir/build
-.PHONY : Ex04_09/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_10
-
-# Build rule for target.
-Ex04_10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_10
-.PHONY : Ex04_10
-
-# fast build rule for target.
-Ex04_10/fast:
-	$(MAKE) -f CMakeFiles\Ex04_10.dir\build.make CMakeFiles/Ex04_10.dir/build
-.PHONY : Ex04_10/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_11
-
-# Build rule for target.
-Ex04_11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_11
-.PHONY : Ex04_11
-
-# fast build rule for target.
-Ex04_11/fast:
-	$(MAKE) -f CMakeFiles\Ex04_11.dir\build.make CMakeFiles/Ex04_11.dir/build
-.PHONY : Ex04_11/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_12
-
-# Build rule for target.
-Ex04_12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_12
-.PHONY : Ex04_12
-
-# fast build rule for target.
-Ex04_12/fast:
-	$(MAKE) -f CMakeFiles\Ex04_12.dir\build.make CMakeFiles/Ex04_12.dir/build
-.PHONY : Ex04_12/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_13
-
-# Build rule for target.
-Ex04_13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_13
-.PHONY : Ex04_13
-
-# fast build rule for target.
-Ex04_13/fast:
-	$(MAKE) -f CMakeFiles\Ex04_13.dir\build.make CMakeFiles/Ex04_13.dir/build
-.PHONY : Ex04_13/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_14
-
-# Build rule for target.
-Ex04_14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_14
-.PHONY : Ex04_14
-
-# fast build rule for target.
-Ex04_14/fast:
-	$(MAKE) -f CMakeFiles\Ex04_14.dir\build.make CMakeFiles/Ex04_14.dir/build
-.PHONY : Ex04_14/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_15
-
-# Build rule for target.
-Ex04_15: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_15
-.PHONY : Ex04_15
-
-# fast build rule for target.
-Ex04_15/fast:
-	$(MAKE) -f CMakeFiles\Ex04_15.dir\build.make CMakeFiles/Ex04_15.dir/build
-.PHONY : Ex04_15/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_16
-
-# Build rule for target.
-Ex04_16: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_16
-.PHONY : Ex04_16
-
-# fast build rule for target.
-Ex04_16/fast:
-	$(MAKE) -f CMakeFiles\Ex04_16.dir\build.make CMakeFiles/Ex04_16.dir/build
-.PHONY : Ex04_16/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_17
-
-# Build rule for target.
-Ex04_17: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_17
-.PHONY : Ex04_17
-
-# fast build rule for target.
-Ex04_17/fast:
-	$(MAKE) -f CMakeFiles\Ex04_17.dir\build.make CMakeFiles/Ex04_17.dir/build
-.PHONY : Ex04_17/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_18
-
-# Build rule for target.
-Ex04_18: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_18
-.PHONY : Ex04_18
-
-# fast build rule for target.
-Ex04_18/fast:
-	$(MAKE) -f CMakeFiles\Ex04_18.dir\build.make CMakeFiles/Ex04_18.dir/build
-.PHONY : Ex04_18/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_19
-
-# Build rule for target.
-Ex04_19: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_19
-.PHONY : Ex04_19
-
-# fast build rule for target.
-Ex04_19/fast:
-	$(MAKE) -f CMakeFiles\Ex04_19.dir\build.make CMakeFiles/Ex04_19.dir/build
-.PHONY : Ex04_19/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_20
-
-# Build rule for target.
-Ex04_20: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_20
-.PHONY : Ex04_20
-
-# fast build rule for target.
-Ex04_20/fast:
-	$(MAKE) -f CMakeFiles\Ex04_20.dir\build.make CMakeFiles/Ex04_20.dir/build
-.PHONY : Ex04_20/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_21
-
-# Build rule for target.
-Ex04_21: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_21
-.PHONY : Ex04_21
-
-# fast build rule for target.
-Ex04_21/fast:
-	$(MAKE) -f CMakeFiles\Ex04_21.dir\build.make CMakeFiles/Ex04_21.dir/build
-.PHONY : Ex04_21/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_22
-
-# Build rule for target.
-Ex04_22: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_22
-.PHONY : Ex04_22
-
-# fast build rule for target.
-Ex04_22/fast:
-	$(MAKE) -f CMakeFiles\Ex04_22.dir\build.make CMakeFiles/Ex04_22.dir/build
-.PHONY : Ex04_22/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_23
-
-# Build rule for target.
-Ex04_23: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_23
-.PHONY : Ex04_23
-
-# fast build rule for target.
-Ex04_23/fast:
-	$(MAKE) -f CMakeFiles\Ex04_23.dir\build.make CMakeFiles/Ex04_23.dir/build
-.PHONY : Ex04_23/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_24
-
-# Build rule for target.
-Ex04_24: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_24
-.PHONY : Ex04_24
-
-# fast build rule for target.
-Ex04_24/fast:
-	$(MAKE) -f CMakeFiles\Ex04_24.dir\build.make CMakeFiles/Ex04_24.dir/build
-.PHONY : Ex04_24/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_25
-
-# Build rule for target.
-Ex04_25: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_25
-.PHONY : Ex04_25
-
-# fast build rule for target.
-Ex04_25/fast:
-	$(MAKE) -f CMakeFiles\Ex04_25.dir\build.make CMakeFiles/Ex04_25.dir/build
-.PHONY : Ex04_25/fast
-
-#=============================================================================
-# Target rules for targets named Ex04_26
-
-# Build rule for target.
-Ex04_26: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex04_26
-.PHONY : Ex04_26
-
-# fast build rule for target.
-Ex04_26/fast:
-	$(MAKE) -f CMakeFiles\Ex04_26.dir\build.make CMakeFiles/Ex04_26.dir/build
-.PHONY : Ex04_26/fast
-
-01_boost/example04/Ex04_01.obj: 01_boost/example04/Ex04_01.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_01.obj
+.PHONY : 01_boost/example05/Ex05_01.obj
 
 # target to build an object file
-01_boost/example04/Ex04_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_01.dir\build.make CMakeFiles/Ex04_01.dir/01_boost/example04/Ex04_01.cpp.obj
-.PHONY : 01_boost/example04/Ex04_01.cpp.obj
+01_boost/example05/Ex05_01.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_01.dir\build.make CMakeFiles/Ex05_01.dir/01_boost/example05/Ex05_01.cpp.obj
+.PHONY : 01_boost/example05/Ex05_01.cpp.obj
 
-01_boost/example04/Ex04_01.i: 01_boost/example04/Ex04_01.cpp.i
+01_boost/example05/Ex05_01.i: 01_boost/example05/Ex05_01.cpp.i
 
-.PHONY : 01_boost/example04/Ex04_01.i
+.PHONY : 01_boost/example05/Ex05_01.i
 
 # target to preprocess a source file
-01_boost/example04/Ex04_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_01.dir\build.make CMakeFiles/Ex04_01.dir/01_boost/example04/Ex04_01.cpp.i
-.PHONY : 01_boost/example04/Ex04_01.cpp.i
+01_boost/example05/Ex05_01.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_01.dir\build.make CMakeFiles/Ex05_01.dir/01_boost/example05/Ex05_01.cpp.i
+.PHONY : 01_boost/example05/Ex05_01.cpp.i
 
-01_boost/example04/Ex04_01.s: 01_boost/example04/Ex04_01.cpp.s
+01_boost/example05/Ex05_01.s: 01_boost/example05/Ex05_01.cpp.s
 
-.PHONY : 01_boost/example04/Ex04_01.s
+.PHONY : 01_boost/example05/Ex05_01.s
 
 # target to generate assembly for a file
-01_boost/example04/Ex04_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_01.dir\build.make CMakeFiles/Ex04_01.dir/01_boost/example04/Ex04_01.cpp.s
-.PHONY : 01_boost/example04/Ex04_01.cpp.s
+01_boost/example05/Ex05_01.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_01.dir\build.make CMakeFiles/Ex05_01.dir/01_boost/example05/Ex05_01.cpp.s
+.PHONY : 01_boost/example05/Ex05_01.cpp.s
 
-01_boost/example04/Ex04_02.obj: 01_boost/example04/Ex04_02.cpp.obj
+01_boost/example05/Ex05_04.obj: 01_boost/example05/Ex05_04.cpp.obj
 
-.PHONY : 01_boost/example04/Ex04_02.obj
+.PHONY : 01_boost/example05/Ex05_04.obj
 
 # target to build an object file
-01_boost/example04/Ex04_02.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_02.dir\build.make CMakeFiles/Ex04_02.dir/01_boost/example04/Ex04_02.cpp.obj
-.PHONY : 01_boost/example04/Ex04_02.cpp.obj
+01_boost/example05/Ex05_04.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_04.dir\build.make CMakeFiles/Ex05_04.dir/01_boost/example05/Ex05_04.cpp.obj
+.PHONY : 01_boost/example05/Ex05_04.cpp.obj
 
-01_boost/example04/Ex04_02.i: 01_boost/example04/Ex04_02.cpp.i
+01_boost/example05/Ex05_04.i: 01_boost/example05/Ex05_04.cpp.i
 
-.PHONY : 01_boost/example04/Ex04_02.i
+.PHONY : 01_boost/example05/Ex05_04.i
 
 # target to preprocess a source file
-01_boost/example04/Ex04_02.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_02.dir\build.make CMakeFiles/Ex04_02.dir/01_boost/example04/Ex04_02.cpp.i
-.PHONY : 01_boost/example04/Ex04_02.cpp.i
+01_boost/example05/Ex05_04.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_04.dir\build.make CMakeFiles/Ex05_04.dir/01_boost/example05/Ex05_04.cpp.i
+.PHONY : 01_boost/example05/Ex05_04.cpp.i
 
-01_boost/example04/Ex04_02.s: 01_boost/example04/Ex04_02.cpp.s
+01_boost/example05/Ex05_04.s: 01_boost/example05/Ex05_04.cpp.s
 
-.PHONY : 01_boost/example04/Ex04_02.s
+.PHONY : 01_boost/example05/Ex05_04.s
 
 # target to generate assembly for a file
-01_boost/example04/Ex04_02.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_02.dir\build.make CMakeFiles/Ex04_02.dir/01_boost/example04/Ex04_02.cpp.s
-.PHONY : 01_boost/example04/Ex04_02.cpp.s
+01_boost/example05/Ex05_04.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_04.dir\build.make CMakeFiles/Ex05_04.dir/01_boost/example05/Ex05_04.cpp.s
+.PHONY : 01_boost/example05/Ex05_04.cpp.s
 
-01_boost/example04/Ex04_03.obj: 01_boost/example04/Ex04_03.cpp.obj
+01_boost/example05/Ex05_05.obj: 01_boost/example05/Ex05_05.cpp.obj
 
-.PHONY : 01_boost/example04/Ex04_03.obj
+.PHONY : 01_boost/example05/Ex05_05.obj
 
 # target to build an object file
-01_boost/example04/Ex04_03.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_03.dir\build.make CMakeFiles/Ex04_03.dir/01_boost/example04/Ex04_03.cpp.obj
-.PHONY : 01_boost/example04/Ex04_03.cpp.obj
+01_boost/example05/Ex05_05.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_05.dir\build.make CMakeFiles/Ex05_05.dir/01_boost/example05/Ex05_05.cpp.obj
+.PHONY : 01_boost/example05/Ex05_05.cpp.obj
 
-01_boost/example04/Ex04_03.i: 01_boost/example04/Ex04_03.cpp.i
+01_boost/example05/Ex05_05.i: 01_boost/example05/Ex05_05.cpp.i
 
-.PHONY : 01_boost/example04/Ex04_03.i
+.PHONY : 01_boost/example05/Ex05_05.i
 
 # target to preprocess a source file
-01_boost/example04/Ex04_03.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_03.dir\build.make CMakeFiles/Ex04_03.dir/01_boost/example04/Ex04_03.cpp.i
-.PHONY : 01_boost/example04/Ex04_03.cpp.i
+01_boost/example05/Ex05_05.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_05.dir\build.make CMakeFiles/Ex05_05.dir/01_boost/example05/Ex05_05.cpp.i
+.PHONY : 01_boost/example05/Ex05_05.cpp.i
 
-01_boost/example04/Ex04_03.s: 01_boost/example04/Ex04_03.cpp.s
+01_boost/example05/Ex05_05.s: 01_boost/example05/Ex05_05.cpp.s
 
-.PHONY : 01_boost/example04/Ex04_03.s
+.PHONY : 01_boost/example05/Ex05_05.s
 
 # target to generate assembly for a file
-01_boost/example04/Ex04_03.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_03.dir\build.make CMakeFiles/Ex04_03.dir/01_boost/example04/Ex04_03.cpp.s
-.PHONY : 01_boost/example04/Ex04_03.cpp.s
+01_boost/example05/Ex05_05.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_05.dir\build.make CMakeFiles/Ex05_05.dir/01_boost/example05/Ex05_05.cpp.s
+.PHONY : 01_boost/example05/Ex05_05.cpp.s
 
-01_boost/example04/Ex04_04.obj: 01_boost/example04/Ex04_04.cpp.obj
+01_boost/example05/Ex05_06.obj: 01_boost/example05/Ex05_06.cpp.obj
 
-.PHONY : 01_boost/example04/Ex04_04.obj
+.PHONY : 01_boost/example05/Ex05_06.obj
 
 # target to build an object file
-01_boost/example04/Ex04_04.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_04.dir\build.make CMakeFiles/Ex04_04.dir/01_boost/example04/Ex04_04.cpp.obj
-.PHONY : 01_boost/example04/Ex04_04.cpp.obj
+01_boost/example05/Ex05_06.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_06.dir\build.make CMakeFiles/Ex05_06.dir/01_boost/example05/Ex05_06.cpp.obj
+.PHONY : 01_boost/example05/Ex05_06.cpp.obj
 
-01_boost/example04/Ex04_04.i: 01_boost/example04/Ex04_04.cpp.i
+01_boost/example05/Ex05_06.i: 01_boost/example05/Ex05_06.cpp.i
 
-.PHONY : 01_boost/example04/Ex04_04.i
+.PHONY : 01_boost/example05/Ex05_06.i
 
 # target to preprocess a source file
-01_boost/example04/Ex04_04.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_04.dir\build.make CMakeFiles/Ex04_04.dir/01_boost/example04/Ex04_04.cpp.i
-.PHONY : 01_boost/example04/Ex04_04.cpp.i
+01_boost/example05/Ex05_06.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_06.dir\build.make CMakeFiles/Ex05_06.dir/01_boost/example05/Ex05_06.cpp.i
+.PHONY : 01_boost/example05/Ex05_06.cpp.i
 
-01_boost/example04/Ex04_04.s: 01_boost/example04/Ex04_04.cpp.s
+01_boost/example05/Ex05_06.s: 01_boost/example05/Ex05_06.cpp.s
 
-.PHONY : 01_boost/example04/Ex04_04.s
+.PHONY : 01_boost/example05/Ex05_06.s
 
 # target to generate assembly for a file
-01_boost/example04/Ex04_04.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_04.dir\build.make CMakeFiles/Ex04_04.dir/01_boost/example04/Ex04_04.cpp.s
-.PHONY : 01_boost/example04/Ex04_04.cpp.s
+01_boost/example05/Ex05_06.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_06.dir\build.make CMakeFiles/Ex05_06.dir/01_boost/example05/Ex05_06.cpp.s
+.PHONY : 01_boost/example05/Ex05_06.cpp.s
 
-01_boost/example04/Ex04_05.obj: 01_boost/example04/Ex04_05.cpp.obj
+01_boost/example05/Ex05_07.obj: 01_boost/example05/Ex05_07.cpp.obj
 
-.PHONY : 01_boost/example04/Ex04_05.obj
+.PHONY : 01_boost/example05/Ex05_07.obj
 
 # target to build an object file
-01_boost/example04/Ex04_05.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_05.dir\build.make CMakeFiles/Ex04_05.dir/01_boost/example04/Ex04_05.cpp.obj
-.PHONY : 01_boost/example04/Ex04_05.cpp.obj
+01_boost/example05/Ex05_07.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_07.dir\build.make CMakeFiles/Ex05_07.dir/01_boost/example05/Ex05_07.cpp.obj
+.PHONY : 01_boost/example05/Ex05_07.cpp.obj
 
-01_boost/example04/Ex04_05.i: 01_boost/example04/Ex04_05.cpp.i
+01_boost/example05/Ex05_07.i: 01_boost/example05/Ex05_07.cpp.i
 
-.PHONY : 01_boost/example04/Ex04_05.i
+.PHONY : 01_boost/example05/Ex05_07.i
 
 # target to preprocess a source file
-01_boost/example04/Ex04_05.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_05.dir\build.make CMakeFiles/Ex04_05.dir/01_boost/example04/Ex04_05.cpp.i
-.PHONY : 01_boost/example04/Ex04_05.cpp.i
+01_boost/example05/Ex05_07.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_07.dir\build.make CMakeFiles/Ex05_07.dir/01_boost/example05/Ex05_07.cpp.i
+.PHONY : 01_boost/example05/Ex05_07.cpp.i
 
-01_boost/example04/Ex04_05.s: 01_boost/example04/Ex04_05.cpp.s
+01_boost/example05/Ex05_07.s: 01_boost/example05/Ex05_07.cpp.s
 
-.PHONY : 01_boost/example04/Ex04_05.s
+.PHONY : 01_boost/example05/Ex05_07.s
 
 # target to generate assembly for a file
-01_boost/example04/Ex04_05.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_05.dir\build.make CMakeFiles/Ex04_05.dir/01_boost/example04/Ex04_05.cpp.s
-.PHONY : 01_boost/example04/Ex04_05.cpp.s
+01_boost/example05/Ex05_07.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_07.dir\build.make CMakeFiles/Ex05_07.dir/01_boost/example05/Ex05_07.cpp.s
+.PHONY : 01_boost/example05/Ex05_07.cpp.s
 
-01_boost/example04/Ex04_06.obj: 01_boost/example04/Ex04_06.cpp.obj
+01_boost/example05/Ex05_08.obj: 01_boost/example05/Ex05_08.cpp.obj
 
-.PHONY : 01_boost/example04/Ex04_06.obj
+.PHONY : 01_boost/example05/Ex05_08.obj
 
 # target to build an object file
-01_boost/example04/Ex04_06.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_06.dir\build.make CMakeFiles/Ex04_06.dir/01_boost/example04/Ex04_06.cpp.obj
-.PHONY : 01_boost/example04/Ex04_06.cpp.obj
+01_boost/example05/Ex05_08.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_08.dir\build.make CMakeFiles/Ex05_08.dir/01_boost/example05/Ex05_08.cpp.obj
+.PHONY : 01_boost/example05/Ex05_08.cpp.obj
 
-01_boost/example04/Ex04_06.i: 01_boost/example04/Ex04_06.cpp.i
+01_boost/example05/Ex05_08.i: 01_boost/example05/Ex05_08.cpp.i
 
-.PHONY : 01_boost/example04/Ex04_06.i
+.PHONY : 01_boost/example05/Ex05_08.i
 
 # target to preprocess a source file
-01_boost/example04/Ex04_06.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_06.dir\build.make CMakeFiles/Ex04_06.dir/01_boost/example04/Ex04_06.cpp.i
-.PHONY : 01_boost/example04/Ex04_06.cpp.i
+01_boost/example05/Ex05_08.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_08.dir\build.make CMakeFiles/Ex05_08.dir/01_boost/example05/Ex05_08.cpp.i
+.PHONY : 01_boost/example05/Ex05_08.cpp.i
 
-01_boost/example04/Ex04_06.s: 01_boost/example04/Ex04_06.cpp.s
+01_boost/example05/Ex05_08.s: 01_boost/example05/Ex05_08.cpp.s
 
-.PHONY : 01_boost/example04/Ex04_06.s
+.PHONY : 01_boost/example05/Ex05_08.s
 
 # target to generate assembly for a file
-01_boost/example04/Ex04_06.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_06.dir\build.make CMakeFiles/Ex04_06.dir/01_boost/example04/Ex04_06.cpp.s
-.PHONY : 01_boost/example04/Ex04_06.cpp.s
+01_boost/example05/Ex05_08.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_08.dir\build.make CMakeFiles/Ex05_08.dir/01_boost/example05/Ex05_08.cpp.s
+.PHONY : 01_boost/example05/Ex05_08.cpp.s
 
-01_boost/example04/Ex04_07.obj: 01_boost/example04/Ex04_07.cpp.obj
+01_boost/example05/Ex05_09.obj: 01_boost/example05/Ex05_09.cpp.obj
 
-.PHONY : 01_boost/example04/Ex04_07.obj
+.PHONY : 01_boost/example05/Ex05_09.obj
 
 # target to build an object file
-01_boost/example04/Ex04_07.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_07.dir\build.make CMakeFiles/Ex04_07.dir/01_boost/example04/Ex04_07.cpp.obj
-.PHONY : 01_boost/example04/Ex04_07.cpp.obj
+01_boost/example05/Ex05_09.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/01_boost/example05/Ex05_09.cpp.obj
+.PHONY : 01_boost/example05/Ex05_09.cpp.obj
 
-01_boost/example04/Ex04_07.i: 01_boost/example04/Ex04_07.cpp.i
+01_boost/example05/Ex05_09.i: 01_boost/example05/Ex05_09.cpp.i
 
-.PHONY : 01_boost/example04/Ex04_07.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_07.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_07.dir\build.make CMakeFiles/Ex04_07.dir/01_boost/example04/Ex04_07.cpp.i
-.PHONY : 01_boost/example04/Ex04_07.cpp.i
-
-01_boost/example04/Ex04_07.s: 01_boost/example04/Ex04_07.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_07.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_07.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_07.dir\build.make CMakeFiles/Ex04_07.dir/01_boost/example04/Ex04_07.cpp.s
-.PHONY : 01_boost/example04/Ex04_07.cpp.s
-
-01_boost/example04/Ex04_08.obj: 01_boost/example04/Ex04_08.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_08.obj
-
-# target to build an object file
-01_boost/example04/Ex04_08.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_08.dir\build.make CMakeFiles/Ex04_08.dir/01_boost/example04/Ex04_08.cpp.obj
-.PHONY : 01_boost/example04/Ex04_08.cpp.obj
-
-01_boost/example04/Ex04_08.i: 01_boost/example04/Ex04_08.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_08.i
+.PHONY : 01_boost/example05/Ex05_09.i
 
 # target to preprocess a source file
-01_boost/example04/Ex04_08.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_08.dir\build.make CMakeFiles/Ex04_08.dir/01_boost/example04/Ex04_08.cpp.i
-.PHONY : 01_boost/example04/Ex04_08.cpp.i
+01_boost/example05/Ex05_09.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/01_boost/example05/Ex05_09.cpp.i
+.PHONY : 01_boost/example05/Ex05_09.cpp.i
 
-01_boost/example04/Ex04_08.s: 01_boost/example04/Ex04_08.cpp.s
+01_boost/example05/Ex05_09.s: 01_boost/example05/Ex05_09.cpp.s
 
-.PHONY : 01_boost/example04/Ex04_08.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_08.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_08.dir\build.make CMakeFiles/Ex04_08.dir/01_boost/example04/Ex04_08.cpp.s
-.PHONY : 01_boost/example04/Ex04_08.cpp.s
-
-01_boost/example04/Ex04_09.obj: 01_boost/example04/Ex04_09.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_09.obj
-
-# target to build an object file
-01_boost/example04/Ex04_09.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_09.dir\build.make CMakeFiles/Ex04_09.dir/01_boost/example04/Ex04_09.cpp.obj
-.PHONY : 01_boost/example04/Ex04_09.cpp.obj
-
-01_boost/example04/Ex04_09.i: 01_boost/example04/Ex04_09.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_09.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_09.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_09.dir\build.make CMakeFiles/Ex04_09.dir/01_boost/example04/Ex04_09.cpp.i
-.PHONY : 01_boost/example04/Ex04_09.cpp.i
-
-01_boost/example04/Ex04_09.s: 01_boost/example04/Ex04_09.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_09.s
+.PHONY : 01_boost/example05/Ex05_09.s
 
 # target to generate assembly for a file
-01_boost/example04/Ex04_09.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_09.dir\build.make CMakeFiles/Ex04_09.dir/01_boost/example04/Ex04_09.cpp.s
-.PHONY : 01_boost/example04/Ex04_09.cpp.s
-
-01_boost/example04/Ex04_10.obj: 01_boost/example04/Ex04_10.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_10.obj
-
-# target to build an object file
-01_boost/example04/Ex04_10.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_10.dir\build.make CMakeFiles/Ex04_10.dir/01_boost/example04/Ex04_10.cpp.obj
-.PHONY : 01_boost/example04/Ex04_10.cpp.obj
-
-01_boost/example04/Ex04_10.i: 01_boost/example04/Ex04_10.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_10.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_10.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_10.dir\build.make CMakeFiles/Ex04_10.dir/01_boost/example04/Ex04_10.cpp.i
-.PHONY : 01_boost/example04/Ex04_10.cpp.i
-
-01_boost/example04/Ex04_10.s: 01_boost/example04/Ex04_10.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_10.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_10.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_10.dir\build.make CMakeFiles/Ex04_10.dir/01_boost/example04/Ex04_10.cpp.s
-.PHONY : 01_boost/example04/Ex04_10.cpp.s
-
-01_boost/example04/Ex04_11.obj: 01_boost/example04/Ex04_11.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_11.obj
-
-# target to build an object file
-01_boost/example04/Ex04_11.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_11.dir\build.make CMakeFiles/Ex04_11.dir/01_boost/example04/Ex04_11.cpp.obj
-.PHONY : 01_boost/example04/Ex04_11.cpp.obj
-
-01_boost/example04/Ex04_11.i: 01_boost/example04/Ex04_11.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_11.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_11.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_11.dir\build.make CMakeFiles/Ex04_11.dir/01_boost/example04/Ex04_11.cpp.i
-.PHONY : 01_boost/example04/Ex04_11.cpp.i
-
-01_boost/example04/Ex04_11.s: 01_boost/example04/Ex04_11.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_11.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_11.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_11.dir\build.make CMakeFiles/Ex04_11.dir/01_boost/example04/Ex04_11.cpp.s
-.PHONY : 01_boost/example04/Ex04_11.cpp.s
-
-01_boost/example04/Ex04_12.obj: 01_boost/example04/Ex04_12.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_12.obj
-
-# target to build an object file
-01_boost/example04/Ex04_12.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_12.dir\build.make CMakeFiles/Ex04_12.dir/01_boost/example04/Ex04_12.cpp.obj
-.PHONY : 01_boost/example04/Ex04_12.cpp.obj
-
-01_boost/example04/Ex04_12.i: 01_boost/example04/Ex04_12.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_12.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_12.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_12.dir\build.make CMakeFiles/Ex04_12.dir/01_boost/example04/Ex04_12.cpp.i
-.PHONY : 01_boost/example04/Ex04_12.cpp.i
-
-01_boost/example04/Ex04_12.s: 01_boost/example04/Ex04_12.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_12.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_12.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_12.dir\build.make CMakeFiles/Ex04_12.dir/01_boost/example04/Ex04_12.cpp.s
-.PHONY : 01_boost/example04/Ex04_12.cpp.s
-
-01_boost/example04/Ex04_13.obj: 01_boost/example04/Ex04_13.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_13.obj
-
-# target to build an object file
-01_boost/example04/Ex04_13.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_13.dir\build.make CMakeFiles/Ex04_13.dir/01_boost/example04/Ex04_13.cpp.obj
-.PHONY : 01_boost/example04/Ex04_13.cpp.obj
-
-01_boost/example04/Ex04_13.i: 01_boost/example04/Ex04_13.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_13.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_13.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_13.dir\build.make CMakeFiles/Ex04_13.dir/01_boost/example04/Ex04_13.cpp.i
-.PHONY : 01_boost/example04/Ex04_13.cpp.i
-
-01_boost/example04/Ex04_13.s: 01_boost/example04/Ex04_13.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_13.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_13.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_13.dir\build.make CMakeFiles/Ex04_13.dir/01_boost/example04/Ex04_13.cpp.s
-.PHONY : 01_boost/example04/Ex04_13.cpp.s
-
-01_boost/example04/Ex04_14.obj: 01_boost/example04/Ex04_14.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_14.obj
-
-# target to build an object file
-01_boost/example04/Ex04_14.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_14.dir\build.make CMakeFiles/Ex04_14.dir/01_boost/example04/Ex04_14.cpp.obj
-.PHONY : 01_boost/example04/Ex04_14.cpp.obj
-
-01_boost/example04/Ex04_14.i: 01_boost/example04/Ex04_14.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_14.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_14.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_14.dir\build.make CMakeFiles/Ex04_14.dir/01_boost/example04/Ex04_14.cpp.i
-.PHONY : 01_boost/example04/Ex04_14.cpp.i
-
-01_boost/example04/Ex04_14.s: 01_boost/example04/Ex04_14.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_14.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_14.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_14.dir\build.make CMakeFiles/Ex04_14.dir/01_boost/example04/Ex04_14.cpp.s
-.PHONY : 01_boost/example04/Ex04_14.cpp.s
-
-01_boost/example04/Ex04_15.obj: 01_boost/example04/Ex04_15.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_15.obj
-
-# target to build an object file
-01_boost/example04/Ex04_15.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_15.dir\build.make CMakeFiles/Ex04_15.dir/01_boost/example04/Ex04_15.cpp.obj
-.PHONY : 01_boost/example04/Ex04_15.cpp.obj
-
-01_boost/example04/Ex04_15.i: 01_boost/example04/Ex04_15.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_15.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_15.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_15.dir\build.make CMakeFiles/Ex04_15.dir/01_boost/example04/Ex04_15.cpp.i
-.PHONY : 01_boost/example04/Ex04_15.cpp.i
-
-01_boost/example04/Ex04_15.s: 01_boost/example04/Ex04_15.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_15.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_15.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_15.dir\build.make CMakeFiles/Ex04_15.dir/01_boost/example04/Ex04_15.cpp.s
-.PHONY : 01_boost/example04/Ex04_15.cpp.s
-
-01_boost/example04/Ex04_16.obj: 01_boost/example04/Ex04_16.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_16.obj
-
-# target to build an object file
-01_boost/example04/Ex04_16.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_16.dir\build.make CMakeFiles/Ex04_16.dir/01_boost/example04/Ex04_16.cpp.obj
-.PHONY : 01_boost/example04/Ex04_16.cpp.obj
-
-01_boost/example04/Ex04_16.i: 01_boost/example04/Ex04_16.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_16.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_16.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_16.dir\build.make CMakeFiles/Ex04_16.dir/01_boost/example04/Ex04_16.cpp.i
-.PHONY : 01_boost/example04/Ex04_16.cpp.i
-
-01_boost/example04/Ex04_16.s: 01_boost/example04/Ex04_16.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_16.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_16.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_16.dir\build.make CMakeFiles/Ex04_16.dir/01_boost/example04/Ex04_16.cpp.s
-.PHONY : 01_boost/example04/Ex04_16.cpp.s
-
-01_boost/example04/Ex04_17.obj: 01_boost/example04/Ex04_17.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_17.obj
-
-# target to build an object file
-01_boost/example04/Ex04_17.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_17.dir\build.make CMakeFiles/Ex04_17.dir/01_boost/example04/Ex04_17.cpp.obj
-.PHONY : 01_boost/example04/Ex04_17.cpp.obj
-
-01_boost/example04/Ex04_17.i: 01_boost/example04/Ex04_17.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_17.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_17.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_17.dir\build.make CMakeFiles/Ex04_17.dir/01_boost/example04/Ex04_17.cpp.i
-.PHONY : 01_boost/example04/Ex04_17.cpp.i
-
-01_boost/example04/Ex04_17.s: 01_boost/example04/Ex04_17.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_17.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_17.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_17.dir\build.make CMakeFiles/Ex04_17.dir/01_boost/example04/Ex04_17.cpp.s
-.PHONY : 01_boost/example04/Ex04_17.cpp.s
-
-01_boost/example04/Ex04_18.obj: 01_boost/example04/Ex04_18.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_18.obj
-
-# target to build an object file
-01_boost/example04/Ex04_18.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_18.dir\build.make CMakeFiles/Ex04_18.dir/01_boost/example04/Ex04_18.cpp.obj
-.PHONY : 01_boost/example04/Ex04_18.cpp.obj
-
-01_boost/example04/Ex04_18.i: 01_boost/example04/Ex04_18.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_18.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_18.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_18.dir\build.make CMakeFiles/Ex04_18.dir/01_boost/example04/Ex04_18.cpp.i
-.PHONY : 01_boost/example04/Ex04_18.cpp.i
-
-01_boost/example04/Ex04_18.s: 01_boost/example04/Ex04_18.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_18.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_18.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_18.dir\build.make CMakeFiles/Ex04_18.dir/01_boost/example04/Ex04_18.cpp.s
-.PHONY : 01_boost/example04/Ex04_18.cpp.s
-
-01_boost/example04/Ex04_19.obj: 01_boost/example04/Ex04_19.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_19.obj
-
-# target to build an object file
-01_boost/example04/Ex04_19.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_19.dir\build.make CMakeFiles/Ex04_19.dir/01_boost/example04/Ex04_19.cpp.obj
-.PHONY : 01_boost/example04/Ex04_19.cpp.obj
-
-01_boost/example04/Ex04_19.i: 01_boost/example04/Ex04_19.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_19.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_19.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_19.dir\build.make CMakeFiles/Ex04_19.dir/01_boost/example04/Ex04_19.cpp.i
-.PHONY : 01_boost/example04/Ex04_19.cpp.i
-
-01_boost/example04/Ex04_19.s: 01_boost/example04/Ex04_19.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_19.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_19.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_19.dir\build.make CMakeFiles/Ex04_19.dir/01_boost/example04/Ex04_19.cpp.s
-.PHONY : 01_boost/example04/Ex04_19.cpp.s
-
-01_boost/example04/Ex04_20.obj: 01_boost/example04/Ex04_20.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_20.obj
-
-# target to build an object file
-01_boost/example04/Ex04_20.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_20.dir\build.make CMakeFiles/Ex04_20.dir/01_boost/example04/Ex04_20.cpp.obj
-.PHONY : 01_boost/example04/Ex04_20.cpp.obj
-
-01_boost/example04/Ex04_20.i: 01_boost/example04/Ex04_20.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_20.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_20.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_20.dir\build.make CMakeFiles/Ex04_20.dir/01_boost/example04/Ex04_20.cpp.i
-.PHONY : 01_boost/example04/Ex04_20.cpp.i
-
-01_boost/example04/Ex04_20.s: 01_boost/example04/Ex04_20.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_20.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_20.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_20.dir\build.make CMakeFiles/Ex04_20.dir/01_boost/example04/Ex04_20.cpp.s
-.PHONY : 01_boost/example04/Ex04_20.cpp.s
-
-01_boost/example04/Ex04_21.obj: 01_boost/example04/Ex04_21.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_21.obj
-
-# target to build an object file
-01_boost/example04/Ex04_21.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_21.dir\build.make CMakeFiles/Ex04_21.dir/01_boost/example04/Ex04_21.cpp.obj
-.PHONY : 01_boost/example04/Ex04_21.cpp.obj
-
-01_boost/example04/Ex04_21.i: 01_boost/example04/Ex04_21.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_21.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_21.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_21.dir\build.make CMakeFiles/Ex04_21.dir/01_boost/example04/Ex04_21.cpp.i
-.PHONY : 01_boost/example04/Ex04_21.cpp.i
-
-01_boost/example04/Ex04_21.s: 01_boost/example04/Ex04_21.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_21.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_21.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_21.dir\build.make CMakeFiles/Ex04_21.dir/01_boost/example04/Ex04_21.cpp.s
-.PHONY : 01_boost/example04/Ex04_21.cpp.s
-
-01_boost/example04/Ex04_22.obj: 01_boost/example04/Ex04_22.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_22.obj
-
-# target to build an object file
-01_boost/example04/Ex04_22.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_22.dir\build.make CMakeFiles/Ex04_22.dir/01_boost/example04/Ex04_22.cpp.obj
-.PHONY : 01_boost/example04/Ex04_22.cpp.obj
-
-01_boost/example04/Ex04_22.i: 01_boost/example04/Ex04_22.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_22.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_22.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_22.dir\build.make CMakeFiles/Ex04_22.dir/01_boost/example04/Ex04_22.cpp.i
-.PHONY : 01_boost/example04/Ex04_22.cpp.i
-
-01_boost/example04/Ex04_22.s: 01_boost/example04/Ex04_22.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_22.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_22.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_22.dir\build.make CMakeFiles/Ex04_22.dir/01_boost/example04/Ex04_22.cpp.s
-.PHONY : 01_boost/example04/Ex04_22.cpp.s
-
-01_boost/example04/Ex04_23.obj: 01_boost/example04/Ex04_23.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_23.obj
-
-# target to build an object file
-01_boost/example04/Ex04_23.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_23.dir\build.make CMakeFiles/Ex04_23.dir/01_boost/example04/Ex04_23.cpp.obj
-.PHONY : 01_boost/example04/Ex04_23.cpp.obj
-
-01_boost/example04/Ex04_23.i: 01_boost/example04/Ex04_23.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_23.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_23.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_23.dir\build.make CMakeFiles/Ex04_23.dir/01_boost/example04/Ex04_23.cpp.i
-.PHONY : 01_boost/example04/Ex04_23.cpp.i
-
-01_boost/example04/Ex04_23.s: 01_boost/example04/Ex04_23.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_23.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_23.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_23.dir\build.make CMakeFiles/Ex04_23.dir/01_boost/example04/Ex04_23.cpp.s
-.PHONY : 01_boost/example04/Ex04_23.cpp.s
-
-01_boost/example04/Ex04_24.obj: 01_boost/example04/Ex04_24.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_24.obj
-
-# target to build an object file
-01_boost/example04/Ex04_24.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_24.dir\build.make CMakeFiles/Ex04_24.dir/01_boost/example04/Ex04_24.cpp.obj
-.PHONY : 01_boost/example04/Ex04_24.cpp.obj
-
-01_boost/example04/Ex04_24.i: 01_boost/example04/Ex04_24.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_24.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_24.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_24.dir\build.make CMakeFiles/Ex04_24.dir/01_boost/example04/Ex04_24.cpp.i
-.PHONY : 01_boost/example04/Ex04_24.cpp.i
-
-01_boost/example04/Ex04_24.s: 01_boost/example04/Ex04_24.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_24.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_24.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_24.dir\build.make CMakeFiles/Ex04_24.dir/01_boost/example04/Ex04_24.cpp.s
-.PHONY : 01_boost/example04/Ex04_24.cpp.s
-
-01_boost/example04/Ex04_25.obj: 01_boost/example04/Ex04_25.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_25.obj
-
-# target to build an object file
-01_boost/example04/Ex04_25.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_25.dir\build.make CMakeFiles/Ex04_25.dir/01_boost/example04/Ex04_25.cpp.obj
-.PHONY : 01_boost/example04/Ex04_25.cpp.obj
-
-01_boost/example04/Ex04_25.i: 01_boost/example04/Ex04_25.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_25.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_25.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_25.dir\build.make CMakeFiles/Ex04_25.dir/01_boost/example04/Ex04_25.cpp.i
-.PHONY : 01_boost/example04/Ex04_25.cpp.i
-
-01_boost/example04/Ex04_25.s: 01_boost/example04/Ex04_25.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_25.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_25.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_25.dir\build.make CMakeFiles/Ex04_25.dir/01_boost/example04/Ex04_25.cpp.s
-.PHONY : 01_boost/example04/Ex04_25.cpp.s
-
-01_boost/example04/Ex04_26.obj: 01_boost/example04/Ex04_26.cpp.obj
-
-.PHONY : 01_boost/example04/Ex04_26.obj
-
-# target to build an object file
-01_boost/example04/Ex04_26.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex04_26.dir\build.make CMakeFiles/Ex04_26.dir/01_boost/example04/Ex04_26.cpp.obj
-.PHONY : 01_boost/example04/Ex04_26.cpp.obj
-
-01_boost/example04/Ex04_26.i: 01_boost/example04/Ex04_26.cpp.i
-
-.PHONY : 01_boost/example04/Ex04_26.i
-
-# target to preprocess a source file
-01_boost/example04/Ex04_26.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex04_26.dir\build.make CMakeFiles/Ex04_26.dir/01_boost/example04/Ex04_26.cpp.i
-.PHONY : 01_boost/example04/Ex04_26.cpp.i
-
-01_boost/example04/Ex04_26.s: 01_boost/example04/Ex04_26.cpp.s
-
-.PHONY : 01_boost/example04/Ex04_26.s
-
-# target to generate assembly for a file
-01_boost/example04/Ex04_26.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex04_26.dir\build.make CMakeFiles/Ex04_26.dir/01_boost/example04/Ex04_26.cpp.s
-.PHONY : 01_boost/example04/Ex04_26.cpp.s
+01_boost/example05/Ex05_09.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/01_boost/example05/Ex05_09.cpp.s
+.PHONY : 01_boost/example05/Ex05_09.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -1195,113 +435,37 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Ex04_03
-	@echo ... edit_cache
 	@echo ... main
-	@echo ... Ex04_01
-	@echo ... Ex04_02
-	@echo ... Ex04_04
-	@echo ... Ex04_05
-	@echo ... Ex04_06
-	@echo ... Ex04_07
-	@echo ... Ex04_08
-	@echo ... Ex04_09
-	@echo ... Ex04_10
-	@echo ... Ex04_11
-	@echo ... Ex04_12
-	@echo ... Ex04_13
-	@echo ... Ex04_14
-	@echo ... Ex04_15
-	@echo ... Ex04_16
-	@echo ... Ex04_17
-	@echo ... Ex04_18
-	@echo ... Ex04_19
-	@echo ... Ex04_20
-	@echo ... Ex04_21
-	@echo ... Ex04_22
-	@echo ... Ex04_23
-	@echo ... Ex04_24
-	@echo ... Ex04_25
-	@echo ... Ex04_26
+	@echo ... edit_cache
+	@echo ... Ex05_08
+	@echo ... Ex05_09
+	@echo ... Ex05_01
+	@echo ... Ex05_04
+	@echo ... Ex05_05
+	@echo ... Ex05_06
+	@echo ... Ex05_07
 	@echo ... rebuild_cache
-	@echo ... 01_boost/example04/Ex04_01.obj
-	@echo ... 01_boost/example04/Ex04_01.i
-	@echo ... 01_boost/example04/Ex04_01.s
-	@echo ... 01_boost/example04/Ex04_02.obj
-	@echo ... 01_boost/example04/Ex04_02.i
-	@echo ... 01_boost/example04/Ex04_02.s
-	@echo ... 01_boost/example04/Ex04_03.obj
-	@echo ... 01_boost/example04/Ex04_03.i
-	@echo ... 01_boost/example04/Ex04_03.s
-	@echo ... 01_boost/example04/Ex04_04.obj
-	@echo ... 01_boost/example04/Ex04_04.i
-	@echo ... 01_boost/example04/Ex04_04.s
-	@echo ... 01_boost/example04/Ex04_05.obj
-	@echo ... 01_boost/example04/Ex04_05.i
-	@echo ... 01_boost/example04/Ex04_05.s
-	@echo ... 01_boost/example04/Ex04_06.obj
-	@echo ... 01_boost/example04/Ex04_06.i
-	@echo ... 01_boost/example04/Ex04_06.s
-	@echo ... 01_boost/example04/Ex04_07.obj
-	@echo ... 01_boost/example04/Ex04_07.i
-	@echo ... 01_boost/example04/Ex04_07.s
-	@echo ... 01_boost/example04/Ex04_08.obj
-	@echo ... 01_boost/example04/Ex04_08.i
-	@echo ... 01_boost/example04/Ex04_08.s
-	@echo ... 01_boost/example04/Ex04_09.obj
-	@echo ... 01_boost/example04/Ex04_09.i
-	@echo ... 01_boost/example04/Ex04_09.s
-	@echo ... 01_boost/example04/Ex04_10.obj
-	@echo ... 01_boost/example04/Ex04_10.i
-	@echo ... 01_boost/example04/Ex04_10.s
-	@echo ... 01_boost/example04/Ex04_11.obj
-	@echo ... 01_boost/example04/Ex04_11.i
-	@echo ... 01_boost/example04/Ex04_11.s
-	@echo ... 01_boost/example04/Ex04_12.obj
-	@echo ... 01_boost/example04/Ex04_12.i
-	@echo ... 01_boost/example04/Ex04_12.s
-	@echo ... 01_boost/example04/Ex04_13.obj
-	@echo ... 01_boost/example04/Ex04_13.i
-	@echo ... 01_boost/example04/Ex04_13.s
-	@echo ... 01_boost/example04/Ex04_14.obj
-	@echo ... 01_boost/example04/Ex04_14.i
-	@echo ... 01_boost/example04/Ex04_14.s
-	@echo ... 01_boost/example04/Ex04_15.obj
-	@echo ... 01_boost/example04/Ex04_15.i
-	@echo ... 01_boost/example04/Ex04_15.s
-	@echo ... 01_boost/example04/Ex04_16.obj
-	@echo ... 01_boost/example04/Ex04_16.i
-	@echo ... 01_boost/example04/Ex04_16.s
-	@echo ... 01_boost/example04/Ex04_17.obj
-	@echo ... 01_boost/example04/Ex04_17.i
-	@echo ... 01_boost/example04/Ex04_17.s
-	@echo ... 01_boost/example04/Ex04_18.obj
-	@echo ... 01_boost/example04/Ex04_18.i
-	@echo ... 01_boost/example04/Ex04_18.s
-	@echo ... 01_boost/example04/Ex04_19.obj
-	@echo ... 01_boost/example04/Ex04_19.i
-	@echo ... 01_boost/example04/Ex04_19.s
-	@echo ... 01_boost/example04/Ex04_20.obj
-	@echo ... 01_boost/example04/Ex04_20.i
-	@echo ... 01_boost/example04/Ex04_20.s
-	@echo ... 01_boost/example04/Ex04_21.obj
-	@echo ... 01_boost/example04/Ex04_21.i
-	@echo ... 01_boost/example04/Ex04_21.s
-	@echo ... 01_boost/example04/Ex04_22.obj
-	@echo ... 01_boost/example04/Ex04_22.i
-	@echo ... 01_boost/example04/Ex04_22.s
-	@echo ... 01_boost/example04/Ex04_23.obj
-	@echo ... 01_boost/example04/Ex04_23.i
-	@echo ... 01_boost/example04/Ex04_23.s
-	@echo ... 01_boost/example04/Ex04_24.obj
-	@echo ... 01_boost/example04/Ex04_24.i
-	@echo ... 01_boost/example04/Ex04_24.s
-	@echo ... 01_boost/example04/Ex04_25.obj
-	@echo ... 01_boost/example04/Ex04_25.i
-	@echo ... 01_boost/example04/Ex04_25.s
-	@echo ... 01_boost/example04/Ex04_26.obj
-	@echo ... 01_boost/example04/Ex04_26.i
-	@echo ... 01_boost/example04/Ex04_26.s
+	@echo ... 01_boost/example05/Ex05_01.obj
+	@echo ... 01_boost/example05/Ex05_01.i
+	@echo ... 01_boost/example05/Ex05_01.s
+	@echo ... 01_boost/example05/Ex05_04.obj
+	@echo ... 01_boost/example05/Ex05_04.i
+	@echo ... 01_boost/example05/Ex05_04.s
+	@echo ... 01_boost/example05/Ex05_05.obj
+	@echo ... 01_boost/example05/Ex05_05.i
+	@echo ... 01_boost/example05/Ex05_05.s
+	@echo ... 01_boost/example05/Ex05_06.obj
+	@echo ... 01_boost/example05/Ex05_06.i
+	@echo ... 01_boost/example05/Ex05_06.s
+	@echo ... 01_boost/example05/Ex05_07.obj
+	@echo ... 01_boost/example05/Ex05_07.i
+	@echo ... 01_boost/example05/Ex05_07.s
+	@echo ... 01_boost/example05/Ex05_08.obj
+	@echo ... 01_boost/example05/Ex05_08.i
+	@echo ... 01_boost/example05/Ex05_08.s
+	@echo ... 01_boost/example05/Ex05_09.obj
+	@echo ... 01_boost/example05/Ex05_09.i
+	@echo ... 01_boost/example05/Ex05_09.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

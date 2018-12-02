@@ -2,33 +2,14 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="My_Cplusplus17" targetName="Ex04_17" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_18" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_19" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_13" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_14" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_15" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_16" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_08" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_07" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_09" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_04" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_06" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_05" />
       <config projectName="My_Cplusplus17" targetName="main" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_20" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_21" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_22" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_01" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_23" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_06" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_07" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_08" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_09" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_02" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_24" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_03" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_25" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_04" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_26" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_05" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_10" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_11" />
-      <config projectName="My_Cplusplus17" targetName="Ex04_12" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_01" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -38,41 +19,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_13.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_14.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_15.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_16.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_17.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_18.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_19.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_20.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_21.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_22.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_23.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_24.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_25.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Ex04_26.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/Person.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example04/String.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/PersonEntry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example05/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example08/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example09/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example10/ReadMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
@@ -101,34 +65,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="541" />
-          <entry key="h" value="117" />
+          <entry key="cpp" value="549" />
+          <entry key="h" value="119" />
           <entry key="hpp" value="5" />
-          <entry key="txt" value="128" />
+          <entry key="txt" value="143" />
           <entry key="txt_00basement" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="56" />
-          <entry key="ObjectiveC" value="663" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="CMakeLists.txt" value="57" />
+          <entry key="ObjectiveC" value="673" />
+          <entry key="PLAIN_TEXT" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="8303" />
-          <entry key="h" value="321" />
+          <entry key="cpp" value="8373" />
+          <entry key="h" value="329" />
           <entry key="hpp" value="1" />
-          <entry key="txt" value="2602" />
+          <entry key="txt" value="2717" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1734" />
+          <entry key="CMakeLists.txt" value="1765" />
           <entry key="Doxygen file" value="209" />
-          <entry key="ObjectiveC" value="8416" />
-          <entry key="PLAIN_TEXT" value="868" />
+          <entry key="ObjectiveC" value="8494" />
+          <entry key="PLAIN_TEXT" value="952" />
         </counts>
       </usages-collector>
     </session>
@@ -138,43 +102,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="119" column="49" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_24.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_25.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="107">
+              <caret line="123" column="55" selection-start-line="122" selection-start-column="1" selection-end-line="123" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_26.cpp">
+        <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,20 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_12.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_13.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_14.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_15.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_16.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_17.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_19.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_20.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_21.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_22.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_23.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/qstring_token_generator.h" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_25.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example03/Ex03_24.hpp" />
         <option value="$PROJECT_DIR$/01_boost/example03/Ex03_26.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example03/Ex03_27.cpp" />
@@ -211,7 +137,6 @@
         <option value="$PROJECT_DIR$/01_boost/example03/Ex03_31.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example03/Ex03_32.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example04/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/01_boost/example04/String.h" />
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_02.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_04.cpp" />
@@ -239,6 +164,21 @@
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_24.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_25.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_26.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example05/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/01_boost/example06/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/01_boost/example07/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/01_boost/example08/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/01_boost/example09/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/01_boost/example10/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/01_boost/example05/Ex05_01.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example05/PersonEntry.h" />
+        <option value="$PROJECT_DIR$/01_boost/example05/Ex05_04.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example05/Ex05_05.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example05/Ex05_06.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example05/Ex05_07.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example05/Ex05_08.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp" />
       </list>
     </option>
   </component>
@@ -279,7 +219,7 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="01_boost" type="462c0819:PsiDirectoryNode" />
-              <item name="example04" type="462c0819:PsiDirectoryNode" />
+              <item name="example05" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,11 +236,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example04" />
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example03" />
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example02" />
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example01" />
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost" />
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example05" />
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example10" />
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example09" />
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example08" />
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example17" />
@@ -319,138 +259,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex04_16">
+  <component name="RunManager" selected="Application.Ex05_06">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_01">
+    <configuration name="Ex05_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_02">
+    <configuration name="Ex05_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_04">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_03">
+    <configuration name="Ex05_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_05">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_04">
+    <configuration name="Ex05_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_06">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_05">
+    <configuration name="Ex05_07" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_07">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_06">
+    <configuration name="Ex05_08" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_08">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_07" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_07">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_08" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_08">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_09" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_09">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_10">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_11">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_12">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_13">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_14">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_15">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_16" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_16" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_16">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_17" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_17" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_17">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_18" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_18" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_18">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_19" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_19" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_19">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_20" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_20">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_21" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_21" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_21">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_22" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_22" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_22">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_23" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_23" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_23">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_24" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_24" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_24">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_25" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_25" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_25">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex04_26" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex04_26" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex04_26">
+    <configuration name="Ex05_09" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_09">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -462,32 +307,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.Ex04_01" />
-      <item itemvalue="Application.Ex04_02" />
-      <item itemvalue="Application.Ex04_03" />
-      <item itemvalue="Application.Ex04_04" />
-      <item itemvalue="Application.Ex04_05" />
-      <item itemvalue="Application.Ex04_06" />
-      <item itemvalue="Application.Ex04_07" />
-      <item itemvalue="Application.Ex04_08" />
-      <item itemvalue="Application.Ex04_09" />
-      <item itemvalue="Application.Ex04_10" />
-      <item itemvalue="Application.Ex04_11" />
-      <item itemvalue="Application.Ex04_12" />
-      <item itemvalue="Application.Ex04_13" />
-      <item itemvalue="Application.Ex04_14" />
-      <item itemvalue="Application.Ex04_15" />
-      <item itemvalue="Application.Ex04_16" />
-      <item itemvalue="Application.Ex04_17" />
-      <item itemvalue="Application.Ex04_18" />
-      <item itemvalue="Application.Ex04_19" />
-      <item itemvalue="Application.Ex04_20" />
-      <item itemvalue="Application.Ex04_21" />
-      <item itemvalue="Application.Ex04_22" />
-      <item itemvalue="Application.Ex04_23" />
-      <item itemvalue="Application.Ex04_24" />
-      <item itemvalue="Application.Ex04_25" />
-      <item itemvalue="Application.Ex04_26" />
+      <item itemvalue="Application.Ex05_01" />
+      <item itemvalue="Application.Ex05_04" />
+      <item itemvalue="Application.Ex05_05" />
+      <item itemvalue="Application.Ex05_06" />
+      <item itemvalue="Application.Ex05_07" />
+      <item itemvalue="Application.Ex05_08" />
+      <item itemvalue="Application.Ex05_09" />
       <item itemvalue="Application.main" />
     </list>
   </component>
@@ -515,12 +341,12 @@
       <workItem from="1543151482205" duration="1241000" />
       <workItem from="1543228884685" duration="895000" />
       <workItem from="1543650834997" duration="21077000" />
-      <workItem from="1543718734566" duration="13941000" />
+      <workItem from="1543718734566" duration="15091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79206000" />
+    <option name="totallyTimeSpent" value="80356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -531,7 +357,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32730561" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39244664" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,136 +403,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_12.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#55#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_13.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_14.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_15.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_16.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_17.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_19.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_20.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_21.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_22.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_23.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/qstring_token_generator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_25.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-          <folding>
-            <element signature="e#1#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_24.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_26.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -781,13 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1009,17 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="119" column="49" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_24.cpp">
+    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_26.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -1036,12 +718,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_26.cpp">
+    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_24.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example04/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/ReadMe.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example07/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example08/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example10/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example09/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/PersonEntry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_04.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="37" column="59" lean-forward="true" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_05.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_06.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_07.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_08.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="123" column="55" selection-start-line="122" selection-start-column="1" selection-end-line="123" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
