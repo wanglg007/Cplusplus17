@@ -52,23 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Ex06_05.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_14.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_03.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_13.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_04.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_06.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_20.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_15.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_22.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_23.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_24.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_25.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_26.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_27.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_28.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_29.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_30.dir/DependInfo.cmake"
-  "CMakeFiles/Ex06_31.dir/DependInfo.cmake"
   )
