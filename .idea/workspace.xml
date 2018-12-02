@@ -2,14 +2,25 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="My_Cplusplus17" targetName="Ex05_08" />
-      <config projectName="My_Cplusplus17" targetName="Ex05_07" />
-      <config projectName="My_Cplusplus17" targetName="Ex05_09" />
-      <config projectName="My_Cplusplus17" targetName="Ex05_04" />
-      <config projectName="My_Cplusplus17" targetName="Ex05_06" />
-      <config projectName="My_Cplusplus17" targetName="Ex05_05" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_05" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_27" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_04" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_15" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_26" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_29" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_06" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_28" />
       <config projectName="My_Cplusplus17" targetName="main" />
-      <config projectName="My_Cplusplus17" targetName="Ex05_01" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_23" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_22" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_03" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_14" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_25" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_13" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_24" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_30" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_20" />
+      <config projectName="My_Cplusplus17" targetName="Ex06_31" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -19,20 +30,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/PersonEntry.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example05/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example06/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example07/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example08/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example09/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_boost/example10/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_13.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_15.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_16.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_18.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_19.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_20.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_25.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_26.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_27.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_28.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_29.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_30.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example06/Ex06_31.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_boost/example07/Ex07_10.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -65,33 +103,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="549" />
+          <entry key="cpp" value="574" />
+          <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="5" />
-          <entry key="txt" value="143" />
+          <entry key="txt" value="145" />
           <entry key="txt_00basement" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="57" />
-          <entry key="ObjectiveC" value="673" />
-          <entry key="PLAIN_TEXT" value="88" />
+          <entry key="CMakeLists.txt" value="58" />
+          <entry key="ObjectiveC" value="709" />
+          <entry key="PLAIN_TEXT" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="8373" />
+          <entry key="cpp" value="8419" />
+          <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
-          <entry key="txt" value="2717" />
+          <entry key="txt" value="2820" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1765" />
+          <entry key="CMakeLists.txt" value="1868" />
           <entry key="Doxygen file" value="209" />
-          <entry key="ObjectiveC" value="8494" />
+          <entry key="ObjectiveC" value="8545" />
           <entry key="PLAIN_TEXT" value="952" />
         </counts>
       </usages-collector>
@@ -99,22 +139,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="123" column="55" selection-start-line="122" selection-start-column="1" selection-end-line="123" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp">
+        <entry file="file://$PROJECT_DIR$/01_boost/example07/Ex07_01.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="152">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,38 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_24.hpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_26.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_27.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_28.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_29.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_30.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_31.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example03/Ex03_32.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/01_boost/example04/String.h" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_02.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_04.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_05.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_01.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_03.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_06.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_07.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_08.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_09.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_10.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_11.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_12.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_13.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_14.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_15.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_16.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_17.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_18.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_19.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_20.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_21.cpp" />
-        <option value="$PROJECT_DIR$/01_boost/example04/Ex04_22.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_23.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_24.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example04/Ex04_25.cpp" />
@@ -170,7 +169,6 @@
         <option value="$PROJECT_DIR$/01_boost/example08/ReadMe.txt" />
         <option value="$PROJECT_DIR$/01_boost/example09/ReadMe.txt" />
         <option value="$PROJECT_DIR$/01_boost/example10/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/01_boost/example05/Ex05_01.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example05/PersonEntry.h" />
         <option value="$PROJECT_DIR$/01_boost/example05/Ex05_04.cpp" />
@@ -179,6 +177,39 @@
         <option value="$PROJECT_DIR$/01_boost/example05/Ex05_07.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example05/Ex05_08.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_01.cxx" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_02.cxx" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_03.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_04.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_05.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_06.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_07.cxx" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_08.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_09.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_10.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_11.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_12.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_13.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_14.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_15.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_16.cxx" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_17.cxx" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_18.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_19.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_20.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_21.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_22.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_23.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_24.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_25.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_26.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_27.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_28.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_29.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_30.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_31.cpp" />
+        <option value="$PROJECT_DIR$/01_boost/example07/Ex07_01.cpp" />
       </list>
     </option>
   </component>
@@ -219,7 +250,7 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="01_boost" type="462c0819:PsiDirectoryNode" />
-              <item name="example05" type="462c0819:PsiDirectoryNode" />
+              <item name="example07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,11 +267,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example07" />
+      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example06" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example05" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example10" />
       <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example09" />
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example08" />
-      <recent name="D:\Development_Github\My_Cplusplus17\01_boost\example07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example17" />
@@ -259,43 +290,98 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex05_06">
+  <component name="RunManager" selected="Application.Ex06_14">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_01">
+    <configuration name="Ex06_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_04">
+    <configuration name="Ex06_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_04">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_05">
+    <configuration name="Ex06_05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_05">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_06">
+    <configuration name="Ex06_06" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_06">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_07" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_07">
+    <configuration name="Ex06_13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_13">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_08" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_08">
+    <configuration name="Ex06_14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_14">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_09" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_09">
+    <configuration name="Ex06_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_15">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_20" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_20">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_22" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_22" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_22">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_23" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_23" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_23">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_24" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_24" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_24">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_25" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_25" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_25">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_26" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_26" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_26">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_27" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_27" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_27">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_28" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_28" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_28">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_29" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_29" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_29">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_30" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_30" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_30">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06_31" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex06_31" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex06_31">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -307,13 +393,24 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.Ex05_01" />
-      <item itemvalue="Application.Ex05_04" />
-      <item itemvalue="Application.Ex05_05" />
-      <item itemvalue="Application.Ex05_06" />
-      <item itemvalue="Application.Ex05_07" />
-      <item itemvalue="Application.Ex05_08" />
-      <item itemvalue="Application.Ex05_09" />
+      <item itemvalue="Application.Ex06_03" />
+      <item itemvalue="Application.Ex06_04" />
+      <item itemvalue="Application.Ex06_05" />
+      <item itemvalue="Application.Ex06_06" />
+      <item itemvalue="Application.Ex06_13" />
+      <item itemvalue="Application.Ex06_14" />
+      <item itemvalue="Application.Ex06_15" />
+      <item itemvalue="Application.Ex06_20" />
+      <item itemvalue="Application.Ex06_22" />
+      <item itemvalue="Application.Ex06_23" />
+      <item itemvalue="Application.Ex06_24" />
+      <item itemvalue="Application.Ex06_25" />
+      <item itemvalue="Application.Ex06_26" />
+      <item itemvalue="Application.Ex06_27" />
+      <item itemvalue="Application.Ex06_28" />
+      <item itemvalue="Application.Ex06_29" />
+      <item itemvalue="Application.Ex06_30" />
+      <item itemvalue="Application.Ex06_31" />
       <item itemvalue="Application.main" />
     </list>
   </component>
@@ -341,12 +438,12 @@
       <workItem from="1543151482205" duration="1241000" />
       <workItem from="1543228884685" duration="895000" />
       <workItem from="1543650834997" duration="21077000" />
-      <workItem from="1543718734566" duration="15091000" />
+      <workItem from="1543718734566" duration="17349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80356000" />
+    <option name="totallyTimeSpent" value="82614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -357,7 +454,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32730561" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39244664" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,311 +500,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_26.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_27.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_28.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_29.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_30.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_31.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/Ex03_32.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example03/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/String.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#667#879#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_02.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-          <folding>
-            <element signature="e#77#107#0" expanded="true" />
-            <element signature="e#913#1161#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_03.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_04.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_05.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_06.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_07.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_08.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_09.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_10.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_11.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_12.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_13.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="30" column="117" lean-forward="true" selection-start-line="30" selection-start-column="117" selection-end-line="30" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_14.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_15.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_16.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_17.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_18.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_19.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_20.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_21.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <element signature="e#89#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_23.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_22.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_26.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_boost/example04/Ex04_25.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -739,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_boost/example07/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -844,19 +629,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="123" column="55" selection-start-line="122" selection-start-column="1" selection-end-line="123" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_boost/example05/Ex05_09.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-741">
           <caret column="35" selection-start-column="35" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_01.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_02.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_03.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_04.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_05.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_06.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_07.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_08.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_09.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_10.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_11.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_12.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_13.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#30#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_14.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="27" selection-end-column="59" />
+          <folding>
+            <element signature="e#1#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_15.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#164#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_16.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_17.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_18.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_19.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_20.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_21.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_22.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1409">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_23.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_24.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_25.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_26.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_27.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_28.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_29.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_30.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_31.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example07/Ex07_10.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example07/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_boost/example07/Ex07_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
