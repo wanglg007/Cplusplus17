@@ -17,50 +17,6 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Ex00_07">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_07.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_07"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_07/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_07.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_07/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
 				<Option type="4"/>
@@ -115,8 +71,8 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Ex00_01">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_01.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Ex01_01">
+				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex01_01.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -131,14 +87,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_01"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex01_01"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Ex00_01/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_01.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Ex01_01/fast">
+				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex01_01.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -153,315 +109,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_01/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_02">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_02.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_02"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_02/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_02.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_02/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_03">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_03"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_03/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_03/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_04">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_04.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_04"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_04/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_04.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_04/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_05">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_05.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_05"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_05/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_05.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_05/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_06">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_06.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_06"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_06/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_06.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_06/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_08">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_08.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_08"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_08/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_08.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_08/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_09">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_09.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_09"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ex00_09/fast">
-				<Option output="D:/Development_Github/My_Cplusplus17/cmake-build-debug/Ex00_09.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Development_Github/My_Cplusplus17/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Development_Install/Library/boost_1_68_0"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex00_09/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ex01_01/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Development_Github/My_Cplusplus17/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -478,32 +126,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_01.cpp">
-			<Option target="Ex00_01"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_02.cpp">
-			<Option target="Ex00_02"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_03.cpp">
-			<Option target="Ex00_03"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_04.cpp">
-			<Option target="Ex00_04"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_05.cpp">
-			<Option target="Ex00_05"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_06.cpp">
-			<Option target="Ex00_06"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_07.cpp">
-			<Option target="Ex00_07"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_08.cpp">
-			<Option target="Ex00_08"/>
-		</Unit>
-		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_09.cpp">
-			<Option target="Ex00_09"/>
+		<Unit filename="D:/Development_Github/My_Cplusplus17/02_concurrency/example01/Ex01_01.cpp">
+			<Option target="Ex01_01"/>
 		</Unit>
 		<Unit filename="D:/Development_Github/My_Cplusplus17/main.cpp">
 			<Option target="main"/>
