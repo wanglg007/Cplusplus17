@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/Development_Github/My_Cplusplus17/01_boost/example00/Ex00_02.cpp
-iostream
+D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_02.cpp
+thread
 -
 

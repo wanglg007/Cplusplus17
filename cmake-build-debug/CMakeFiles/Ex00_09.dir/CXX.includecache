@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_09.cpp
+thread
+-
+numeric
+-
+algorithm
+-
+functional
+-
+vector
+-
+iostream
+-
+
