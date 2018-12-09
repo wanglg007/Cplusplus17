@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Ex01_04
+# Target rules for targets named Ex02_01
 
 # Build rule for target.
-Ex01_04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_04
-.PHONY : Ex01_04
+Ex02_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex02_01
+.PHONY : Ex02_01
 
 # fast build rule for target.
-Ex01_04/fast:
-	$(MAKE) -f CMakeFiles\Ex01_04.dir\build.make CMakeFiles/Ex01_04.dir/build
-.PHONY : Ex01_04/fast
+Ex02_01/fast:
+	$(MAKE) -f CMakeFiles\Ex02_01.dir\build.make CMakeFiles/Ex02_01.dir/build
+.PHONY : Ex02_01/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -135,472 +135,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-#=============================================================================
-# Target rules for targets named Ex01_01
+02_concurrency/example02/Ex02_01.obj: 02_concurrency/example02/Ex02_01.cpp.obj
 
-# Build rule for target.
-Ex01_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_01
-.PHONY : Ex01_01
-
-# fast build rule for target.
-Ex01_01/fast:
-	$(MAKE) -f CMakeFiles\Ex01_01.dir\build.make CMakeFiles/Ex01_01.dir/build
-.PHONY : Ex01_01/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_02
-
-# Build rule for target.
-Ex01_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_02
-.PHONY : Ex01_02
-
-# fast build rule for target.
-Ex01_02/fast:
-	$(MAKE) -f CMakeFiles\Ex01_02.dir\build.make CMakeFiles/Ex01_02.dir/build
-.PHONY : Ex01_02/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_03
-
-# Build rule for target.
-Ex01_03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_03
-.PHONY : Ex01_03
-
-# fast build rule for target.
-Ex01_03/fast:
-	$(MAKE) -f CMakeFiles\Ex01_03.dir\build.make CMakeFiles/Ex01_03.dir/build
-.PHONY : Ex01_03/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_05
-
-# Build rule for target.
-Ex01_05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_05
-.PHONY : Ex01_05
-
-# fast build rule for target.
-Ex01_05/fast:
-	$(MAKE) -f CMakeFiles\Ex01_05.dir\build.make CMakeFiles/Ex01_05.dir/build
-.PHONY : Ex01_05/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_06
-
-# Build rule for target.
-Ex01_06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_06
-.PHONY : Ex01_06
-
-# fast build rule for target.
-Ex01_06/fast:
-	$(MAKE) -f CMakeFiles\Ex01_06.dir\build.make CMakeFiles/Ex01_06.dir/build
-.PHONY : Ex01_06/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_07
-
-# Build rule for target.
-Ex01_07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_07
-.PHONY : Ex01_07
-
-# fast build rule for target.
-Ex01_07/fast:
-	$(MAKE) -f CMakeFiles\Ex01_07.dir\build.make CMakeFiles/Ex01_07.dir/build
-.PHONY : Ex01_07/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_08
-
-# Build rule for target.
-Ex01_08: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_08
-.PHONY : Ex01_08
-
-# fast build rule for target.
-Ex01_08/fast:
-	$(MAKE) -f CMakeFiles\Ex01_08.dir\build.make CMakeFiles/Ex01_08.dir/build
-.PHONY : Ex01_08/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_09
-
-# Build rule for target.
-Ex01_09: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_09
-.PHONY : Ex01_09
-
-# fast build rule for target.
-Ex01_09/fast:
-	$(MAKE) -f CMakeFiles\Ex01_09.dir\build.make CMakeFiles/Ex01_09.dir/build
-.PHONY : Ex01_09/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_10
-
-# Build rule for target.
-Ex01_10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_10
-.PHONY : Ex01_10
-
-# fast build rule for target.
-Ex01_10/fast:
-	$(MAKE) -f CMakeFiles\Ex01_10.dir\build.make CMakeFiles/Ex01_10.dir/build
-.PHONY : Ex01_10/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_11
-
-# Build rule for target.
-Ex01_11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_11
-.PHONY : Ex01_11
-
-# fast build rule for target.
-Ex01_11/fast:
-	$(MAKE) -f CMakeFiles\Ex01_11.dir\build.make CMakeFiles/Ex01_11.dir/build
-.PHONY : Ex01_11/fast
-
-#=============================================================================
-# Target rules for targets named Ex01_12
-
-# Build rule for target.
-Ex01_12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Ex01_12
-.PHONY : Ex01_12
-
-# fast build rule for target.
-Ex01_12/fast:
-	$(MAKE) -f CMakeFiles\Ex01_12.dir\build.make CMakeFiles/Ex01_12.dir/build
-.PHONY : Ex01_12/fast
-
-02_concurrency/example01/Ex01_01.obj: 02_concurrency/example01/Ex01_01.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_01.obj
+.PHONY : 02_concurrency/example02/Ex02_01.obj
 
 # target to build an object file
-02_concurrency/example01/Ex01_01.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_01.dir\build.make CMakeFiles/Ex01_01.dir/02_concurrency/example01/Ex01_01.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_01.cpp.obj
+02_concurrency/example02/Ex02_01.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex02_01.dir\build.make CMakeFiles/Ex02_01.dir/02_concurrency/example02/Ex02_01.cpp.obj
+.PHONY : 02_concurrency/example02/Ex02_01.cpp.obj
 
-02_concurrency/example01/Ex01_01.i: 02_concurrency/example01/Ex01_01.cpp.i
+02_concurrency/example02/Ex02_01.i: 02_concurrency/example02/Ex02_01.cpp.i
 
-.PHONY : 02_concurrency/example01/Ex01_01.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_01.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_01.dir\build.make CMakeFiles/Ex01_01.dir/02_concurrency/example01/Ex01_01.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_01.cpp.i
-
-02_concurrency/example01/Ex01_01.s: 02_concurrency/example01/Ex01_01.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_01.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_01.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_01.dir\build.make CMakeFiles/Ex01_01.dir/02_concurrency/example01/Ex01_01.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_01.cpp.s
-
-02_concurrency/example01/Ex01_02.obj: 02_concurrency/example01/Ex01_02.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_02.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_02.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_02.dir\build.make CMakeFiles/Ex01_02.dir/02_concurrency/example01/Ex01_02.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_02.cpp.obj
-
-02_concurrency/example01/Ex01_02.i: 02_concurrency/example01/Ex01_02.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_02.i
+.PHONY : 02_concurrency/example02/Ex02_01.i
 
 # target to preprocess a source file
-02_concurrency/example01/Ex01_02.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_02.dir\build.make CMakeFiles/Ex01_02.dir/02_concurrency/example01/Ex01_02.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_02.cpp.i
+02_concurrency/example02/Ex02_01.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex02_01.dir\build.make CMakeFiles/Ex02_01.dir/02_concurrency/example02/Ex02_01.cpp.i
+.PHONY : 02_concurrency/example02/Ex02_01.cpp.i
 
-02_concurrency/example01/Ex01_02.s: 02_concurrency/example01/Ex01_02.cpp.s
+02_concurrency/example02/Ex02_01.s: 02_concurrency/example02/Ex02_01.cpp.s
 
-.PHONY : 02_concurrency/example01/Ex01_02.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_02.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_02.dir\build.make CMakeFiles/Ex01_02.dir/02_concurrency/example01/Ex01_02.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_02.cpp.s
-
-02_concurrency/example01/Ex01_03.obj: 02_concurrency/example01/Ex01_03.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_03.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_03.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_03.dir\build.make CMakeFiles/Ex01_03.dir/02_concurrency/example01/Ex01_03.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_03.cpp.obj
-
-02_concurrency/example01/Ex01_03.i: 02_concurrency/example01/Ex01_03.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_03.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_03.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_03.dir\build.make CMakeFiles/Ex01_03.dir/02_concurrency/example01/Ex01_03.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_03.cpp.i
-
-02_concurrency/example01/Ex01_03.s: 02_concurrency/example01/Ex01_03.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_03.s
+.PHONY : 02_concurrency/example02/Ex02_01.s
 
 # target to generate assembly for a file
-02_concurrency/example01/Ex01_03.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_03.dir\build.make CMakeFiles/Ex01_03.dir/02_concurrency/example01/Ex01_03.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_03.cpp.s
-
-02_concurrency/example01/Ex01_04.obj: 02_concurrency/example01/Ex01_04.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_04.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_04.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_04.dir\build.make CMakeFiles/Ex01_04.dir/02_concurrency/example01/Ex01_04.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_04.cpp.obj
-
-02_concurrency/example01/Ex01_04.i: 02_concurrency/example01/Ex01_04.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_04.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_04.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_04.dir\build.make CMakeFiles/Ex01_04.dir/02_concurrency/example01/Ex01_04.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_04.cpp.i
-
-02_concurrency/example01/Ex01_04.s: 02_concurrency/example01/Ex01_04.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_04.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_04.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_04.dir\build.make CMakeFiles/Ex01_04.dir/02_concurrency/example01/Ex01_04.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_04.cpp.s
-
-02_concurrency/example01/Ex01_05.obj: 02_concurrency/example01/Ex01_05.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_05.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_05.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_05.dir\build.make CMakeFiles/Ex01_05.dir/02_concurrency/example01/Ex01_05.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_05.cpp.obj
-
-02_concurrency/example01/Ex01_05.i: 02_concurrency/example01/Ex01_05.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_05.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_05.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_05.dir\build.make CMakeFiles/Ex01_05.dir/02_concurrency/example01/Ex01_05.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_05.cpp.i
-
-02_concurrency/example01/Ex01_05.s: 02_concurrency/example01/Ex01_05.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_05.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_05.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_05.dir\build.make CMakeFiles/Ex01_05.dir/02_concurrency/example01/Ex01_05.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_05.cpp.s
-
-02_concurrency/example01/Ex01_06.obj: 02_concurrency/example01/Ex01_06.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_06.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_06.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_06.dir\build.make CMakeFiles/Ex01_06.dir/02_concurrency/example01/Ex01_06.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_06.cpp.obj
-
-02_concurrency/example01/Ex01_06.i: 02_concurrency/example01/Ex01_06.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_06.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_06.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_06.dir\build.make CMakeFiles/Ex01_06.dir/02_concurrency/example01/Ex01_06.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_06.cpp.i
-
-02_concurrency/example01/Ex01_06.s: 02_concurrency/example01/Ex01_06.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_06.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_06.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_06.dir\build.make CMakeFiles/Ex01_06.dir/02_concurrency/example01/Ex01_06.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_06.cpp.s
-
-02_concurrency/example01/Ex01_07.obj: 02_concurrency/example01/Ex01_07.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_07.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_07.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_07.dir\build.make CMakeFiles/Ex01_07.dir/02_concurrency/example01/Ex01_07.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_07.cpp.obj
-
-02_concurrency/example01/Ex01_07.i: 02_concurrency/example01/Ex01_07.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_07.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_07.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_07.dir\build.make CMakeFiles/Ex01_07.dir/02_concurrency/example01/Ex01_07.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_07.cpp.i
-
-02_concurrency/example01/Ex01_07.s: 02_concurrency/example01/Ex01_07.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_07.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_07.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_07.dir\build.make CMakeFiles/Ex01_07.dir/02_concurrency/example01/Ex01_07.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_07.cpp.s
-
-02_concurrency/example01/Ex01_08.obj: 02_concurrency/example01/Ex01_08.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_08.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_08.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_08.dir\build.make CMakeFiles/Ex01_08.dir/02_concurrency/example01/Ex01_08.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_08.cpp.obj
-
-02_concurrency/example01/Ex01_08.i: 02_concurrency/example01/Ex01_08.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_08.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_08.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_08.dir\build.make CMakeFiles/Ex01_08.dir/02_concurrency/example01/Ex01_08.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_08.cpp.i
-
-02_concurrency/example01/Ex01_08.s: 02_concurrency/example01/Ex01_08.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_08.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_08.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_08.dir\build.make CMakeFiles/Ex01_08.dir/02_concurrency/example01/Ex01_08.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_08.cpp.s
-
-02_concurrency/example01/Ex01_09.obj: 02_concurrency/example01/Ex01_09.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_09.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_09.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_09.dir\build.make CMakeFiles/Ex01_09.dir/02_concurrency/example01/Ex01_09.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_09.cpp.obj
-
-02_concurrency/example01/Ex01_09.i: 02_concurrency/example01/Ex01_09.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_09.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_09.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_09.dir\build.make CMakeFiles/Ex01_09.dir/02_concurrency/example01/Ex01_09.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_09.cpp.i
-
-02_concurrency/example01/Ex01_09.s: 02_concurrency/example01/Ex01_09.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_09.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_09.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_09.dir\build.make CMakeFiles/Ex01_09.dir/02_concurrency/example01/Ex01_09.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_09.cpp.s
-
-02_concurrency/example01/Ex01_10.obj: 02_concurrency/example01/Ex01_10.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_10.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_10.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_10.dir\build.make CMakeFiles/Ex01_10.dir/02_concurrency/example01/Ex01_10.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_10.cpp.obj
-
-02_concurrency/example01/Ex01_10.i: 02_concurrency/example01/Ex01_10.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_10.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_10.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_10.dir\build.make CMakeFiles/Ex01_10.dir/02_concurrency/example01/Ex01_10.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_10.cpp.i
-
-02_concurrency/example01/Ex01_10.s: 02_concurrency/example01/Ex01_10.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_10.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_10.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_10.dir\build.make CMakeFiles/Ex01_10.dir/02_concurrency/example01/Ex01_10.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_10.cpp.s
-
-02_concurrency/example01/Ex01_11.obj: 02_concurrency/example01/Ex01_11.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_11.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_11.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_11.dir\build.make CMakeFiles/Ex01_11.dir/02_concurrency/example01/Ex01_11.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_11.cpp.obj
-
-02_concurrency/example01/Ex01_11.i: 02_concurrency/example01/Ex01_11.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_11.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_11.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_11.dir\build.make CMakeFiles/Ex01_11.dir/02_concurrency/example01/Ex01_11.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_11.cpp.i
-
-02_concurrency/example01/Ex01_11.s: 02_concurrency/example01/Ex01_11.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_11.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_11.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_11.dir\build.make CMakeFiles/Ex01_11.dir/02_concurrency/example01/Ex01_11.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_11.cpp.s
-
-02_concurrency/example01/Ex01_12.obj: 02_concurrency/example01/Ex01_12.cpp.obj
-
-.PHONY : 02_concurrency/example01/Ex01_12.obj
-
-# target to build an object file
-02_concurrency/example01/Ex01_12.cpp.obj:
-	$(MAKE) -f CMakeFiles\Ex01_12.dir\build.make CMakeFiles/Ex01_12.dir/02_concurrency/example01/Ex01_12.cpp.obj
-.PHONY : 02_concurrency/example01/Ex01_12.cpp.obj
-
-02_concurrency/example01/Ex01_12.i: 02_concurrency/example01/Ex01_12.cpp.i
-
-.PHONY : 02_concurrency/example01/Ex01_12.i
-
-# target to preprocess a source file
-02_concurrency/example01/Ex01_12.cpp.i:
-	$(MAKE) -f CMakeFiles\Ex01_12.dir\build.make CMakeFiles/Ex01_12.dir/02_concurrency/example01/Ex01_12.cpp.i
-.PHONY : 02_concurrency/example01/Ex01_12.cpp.i
-
-02_concurrency/example01/Ex01_12.s: 02_concurrency/example01/Ex01_12.cpp.s
-
-.PHONY : 02_concurrency/example01/Ex01_12.s
-
-# target to generate assembly for a file
-02_concurrency/example01/Ex01_12.cpp.s:
-	$(MAKE) -f CMakeFiles\Ex01_12.dir\build.make CMakeFiles/Ex01_12.dir/02_concurrency/example01/Ex01_12.cpp.s
-.PHONY : 02_concurrency/example01/Ex01_12.cpp.s
+02_concurrency/example02/Ex02_01.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex02_01.dir\build.make CMakeFiles/Ex02_01.dir/02_concurrency/example02/Ex02_01.cpp.s
+.PHONY : 02_concurrency/example02/Ex02_01.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -635,57 +195,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Ex01_04
 	@echo ... edit_cache
+	@echo ... Ex02_01
 	@echo ... main
-	@echo ... Ex01_01
-	@echo ... Ex01_02
-	@echo ... Ex01_03
-	@echo ... Ex01_05
-	@echo ... Ex01_06
-	@echo ... Ex01_07
-	@echo ... Ex01_08
-	@echo ... Ex01_09
-	@echo ... Ex01_10
-	@echo ... Ex01_11
-	@echo ... Ex01_12
 	@echo ... rebuild_cache
-	@echo ... 02_concurrency/example01/Ex01_01.obj
-	@echo ... 02_concurrency/example01/Ex01_01.i
-	@echo ... 02_concurrency/example01/Ex01_01.s
-	@echo ... 02_concurrency/example01/Ex01_02.obj
-	@echo ... 02_concurrency/example01/Ex01_02.i
-	@echo ... 02_concurrency/example01/Ex01_02.s
-	@echo ... 02_concurrency/example01/Ex01_03.obj
-	@echo ... 02_concurrency/example01/Ex01_03.i
-	@echo ... 02_concurrency/example01/Ex01_03.s
-	@echo ... 02_concurrency/example01/Ex01_04.obj
-	@echo ... 02_concurrency/example01/Ex01_04.i
-	@echo ... 02_concurrency/example01/Ex01_04.s
-	@echo ... 02_concurrency/example01/Ex01_05.obj
-	@echo ... 02_concurrency/example01/Ex01_05.i
-	@echo ... 02_concurrency/example01/Ex01_05.s
-	@echo ... 02_concurrency/example01/Ex01_06.obj
-	@echo ... 02_concurrency/example01/Ex01_06.i
-	@echo ... 02_concurrency/example01/Ex01_06.s
-	@echo ... 02_concurrency/example01/Ex01_07.obj
-	@echo ... 02_concurrency/example01/Ex01_07.i
-	@echo ... 02_concurrency/example01/Ex01_07.s
-	@echo ... 02_concurrency/example01/Ex01_08.obj
-	@echo ... 02_concurrency/example01/Ex01_08.i
-	@echo ... 02_concurrency/example01/Ex01_08.s
-	@echo ... 02_concurrency/example01/Ex01_09.obj
-	@echo ... 02_concurrency/example01/Ex01_09.i
-	@echo ... 02_concurrency/example01/Ex01_09.s
-	@echo ... 02_concurrency/example01/Ex01_10.obj
-	@echo ... 02_concurrency/example01/Ex01_10.i
-	@echo ... 02_concurrency/example01/Ex01_10.s
-	@echo ... 02_concurrency/example01/Ex01_11.obj
-	@echo ... 02_concurrency/example01/Ex01_11.i
-	@echo ... 02_concurrency/example01/Ex01_11.s
-	@echo ... 02_concurrency/example01/Ex01_12.obj
-	@echo ... 02_concurrency/example01/Ex01_12.i
-	@echo ... 02_concurrency/example01/Ex01_12.s
+	@echo ... 02_concurrency/example02/Ex02_01.obj
+	@echo ... 02_concurrency/example02/Ex02_01.i
+	@echo ... 02_concurrency/example02/Ex02_01.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
