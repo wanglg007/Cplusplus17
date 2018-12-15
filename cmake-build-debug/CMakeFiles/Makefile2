@@ -107,7 +107,7 @@ clean: CMakeFiles/Ex02_01.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -134,6 +134,80 @@ CMakeFiles/main.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ex02_02.dir
+
+# All Build rule for target.
+CMakeFiles/Ex02_02.dir/all:
+	$(MAKE) -f CMakeFiles\Ex02_02.dir\build.make CMakeFiles/Ex02_02.dir/depend
+	$(MAKE) -f CMakeFiles\Ex02_02.dir\build.make CMakeFiles/Ex02_02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Ex02_02"
+.PHONY : CMakeFiles/Ex02_02.dir/all
+
+# Include target in all.
+all: CMakeFiles/Ex02_02.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ex02_02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Ex02_02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Ex02_02.dir/rule
+
+# Convenience name for target.
+Ex02_02: CMakeFiles/Ex02_02.dir/rule
+
+.PHONY : Ex02_02
+
+# clean rule for target.
+CMakeFiles/Ex02_02.dir/clean:
+	$(MAKE) -f CMakeFiles\Ex02_02.dir\build.make CMakeFiles/Ex02_02.dir/clean
+.PHONY : CMakeFiles/Ex02_02.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Ex02_02.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ex02_03.dir
+
+# All Build rule for target.
+CMakeFiles/Ex02_03.dir/all:
+	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/depend
+	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Ex02_03"
+.PHONY : CMakeFiles/Ex02_03.dir/all
+
+# Include target in all.
+all: CMakeFiles/Ex02_03.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ex02_03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Ex02_03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Ex02_03.dir/rule
+
+# Convenience name for target.
+Ex02_03: CMakeFiles/Ex02_03.dir/rule
+
+.PHONY : Ex02_03
+
+# clean rule for target.
+CMakeFiles/Ex02_03.dir/clean:
+	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/clean
+.PHONY : CMakeFiles/Ex02_03.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Ex02_03.dir/clean
 
 .PHONY : clean
 

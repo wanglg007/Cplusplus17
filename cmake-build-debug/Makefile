@@ -135,6 +135,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named Ex02_02
+
+# Build rule for target.
+Ex02_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex02_02
+.PHONY : Ex02_02
+
+# fast build rule for target.
+Ex02_02/fast:
+	$(MAKE) -f CMakeFiles\Ex02_02.dir\build.make CMakeFiles/Ex02_02.dir/build
+.PHONY : Ex02_02/fast
+
+#=============================================================================
+# Target rules for targets named Ex02_03
+
+# Build rule for target.
+Ex02_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex02_03
+.PHONY : Ex02_03
+
+# fast build rule for target.
+Ex02_03/fast:
+	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/build
+.PHONY : Ex02_03/fast
+
 02_concurrency/example02/Ex02_01.obj: 02_concurrency/example02/Ex02_01.cpp.obj
 
 .PHONY : 02_concurrency/example02/Ex02_01.obj
@@ -161,6 +187,60 @@ main/fast:
 02_concurrency/example02/Ex02_01.cpp.s:
 	$(MAKE) -f CMakeFiles\Ex02_01.dir\build.make CMakeFiles/Ex02_01.dir/02_concurrency/example02/Ex02_01.cpp.s
 .PHONY : 02_concurrency/example02/Ex02_01.cpp.s
+
+02_concurrency/example02/Ex02_02.obj: 02_concurrency/example02/Ex02_02.cpp.obj
+
+.PHONY : 02_concurrency/example02/Ex02_02.obj
+
+# target to build an object file
+02_concurrency/example02/Ex02_02.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex02_02.dir\build.make CMakeFiles/Ex02_02.dir/02_concurrency/example02/Ex02_02.cpp.obj
+.PHONY : 02_concurrency/example02/Ex02_02.cpp.obj
+
+02_concurrency/example02/Ex02_02.i: 02_concurrency/example02/Ex02_02.cpp.i
+
+.PHONY : 02_concurrency/example02/Ex02_02.i
+
+# target to preprocess a source file
+02_concurrency/example02/Ex02_02.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex02_02.dir\build.make CMakeFiles/Ex02_02.dir/02_concurrency/example02/Ex02_02.cpp.i
+.PHONY : 02_concurrency/example02/Ex02_02.cpp.i
+
+02_concurrency/example02/Ex02_02.s: 02_concurrency/example02/Ex02_02.cpp.s
+
+.PHONY : 02_concurrency/example02/Ex02_02.s
+
+# target to generate assembly for a file
+02_concurrency/example02/Ex02_02.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex02_02.dir\build.make CMakeFiles/Ex02_02.dir/02_concurrency/example02/Ex02_02.cpp.s
+.PHONY : 02_concurrency/example02/Ex02_02.cpp.s
+
+02_concurrency/example02/Ex02_03.obj: 02_concurrency/example02/Ex02_03.cpp.obj
+
+.PHONY : 02_concurrency/example02/Ex02_03.obj
+
+# target to build an object file
+02_concurrency/example02/Ex02_03.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/02_concurrency/example02/Ex02_03.cpp.obj
+.PHONY : 02_concurrency/example02/Ex02_03.cpp.obj
+
+02_concurrency/example02/Ex02_03.i: 02_concurrency/example02/Ex02_03.cpp.i
+
+.PHONY : 02_concurrency/example02/Ex02_03.i
+
+# target to preprocess a source file
+02_concurrency/example02/Ex02_03.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/02_concurrency/example02/Ex02_03.cpp.i
+.PHONY : 02_concurrency/example02/Ex02_03.cpp.i
+
+02_concurrency/example02/Ex02_03.s: 02_concurrency/example02/Ex02_03.cpp.s
+
+.PHONY : 02_concurrency/example02/Ex02_03.s
+
+# target to generate assembly for a file
+02_concurrency/example02/Ex02_03.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/02_concurrency/example02/Ex02_03.cpp.s
+.PHONY : 02_concurrency/example02/Ex02_03.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -198,10 +278,18 @@ help:
 	@echo ... edit_cache
 	@echo ... Ex02_01
 	@echo ... main
+	@echo ... Ex02_02
+	@echo ... Ex02_03
 	@echo ... rebuild_cache
 	@echo ... 02_concurrency/example02/Ex02_01.obj
 	@echo ... 02_concurrency/example02/Ex02_01.i
 	@echo ... 02_concurrency/example02/Ex02_01.s
+	@echo ... 02_concurrency/example02/Ex02_02.obj
+	@echo ... 02_concurrency/example02/Ex02_02.i
+	@echo ... 02_concurrency/example02/Ex02_02.s
+	@echo ... 02_concurrency/example02/Ex02_03.obj
+	@echo ... 02_concurrency/example02/Ex02_03.i
+	@echo ... 02_concurrency/example02/Ex02_03.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

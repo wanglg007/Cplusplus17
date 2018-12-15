@@ -46,3 +46,5 @@ add_executable(main main.cpp)
 #add_executable(Ex01_12 02_concurrency/example01/Ex01_12.cpp)
 ##########example02##########
 add_executable(Ex02_01 02_concurrency/example02/Ex02_01.cpp)
+add_executable(Ex02_02 02_concurrency/example02/Ex02_02.cpp)
+add_executable(Ex02_03 02_concurrency/example02/Ex02_03.cpp)
