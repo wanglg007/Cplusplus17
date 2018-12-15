@@ -161,6 +161,19 @@ Ex02_03/fast:
 	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/build
 .PHONY : Ex02_03/fast
 
+#=============================================================================
+# Target rules for targets named Ex02_04
+
+# Build rule for target.
+Ex02_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex02_04
+.PHONY : Ex02_04
+
+# fast build rule for target.
+Ex02_04/fast:
+	$(MAKE) -f CMakeFiles\Ex02_04.dir\build.make CMakeFiles/Ex02_04.dir/build
+.PHONY : Ex02_04/fast
+
 02_concurrency/example02/Ex02_01.obj: 02_concurrency/example02/Ex02_01.cpp.obj
 
 .PHONY : 02_concurrency/example02/Ex02_01.obj
@@ -242,6 +255,33 @@ Ex02_03/fast:
 	$(MAKE) -f CMakeFiles\Ex02_03.dir\build.make CMakeFiles/Ex02_03.dir/02_concurrency/example02/Ex02_03.cpp.s
 .PHONY : 02_concurrency/example02/Ex02_03.cpp.s
 
+02_concurrency/example02/Ex02_04.obj: 02_concurrency/example02/Ex02_04.cpp.obj
+
+.PHONY : 02_concurrency/example02/Ex02_04.obj
+
+# target to build an object file
+02_concurrency/example02/Ex02_04.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex02_04.dir\build.make CMakeFiles/Ex02_04.dir/02_concurrency/example02/Ex02_04.cpp.obj
+.PHONY : 02_concurrency/example02/Ex02_04.cpp.obj
+
+02_concurrency/example02/Ex02_04.i: 02_concurrency/example02/Ex02_04.cpp.i
+
+.PHONY : 02_concurrency/example02/Ex02_04.i
+
+# target to preprocess a source file
+02_concurrency/example02/Ex02_04.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex02_04.dir\build.make CMakeFiles/Ex02_04.dir/02_concurrency/example02/Ex02_04.cpp.i
+.PHONY : 02_concurrency/example02/Ex02_04.cpp.i
+
+02_concurrency/example02/Ex02_04.s: 02_concurrency/example02/Ex02_04.cpp.s
+
+.PHONY : 02_concurrency/example02/Ex02_04.s
+
+# target to generate assembly for a file
+02_concurrency/example02/Ex02_04.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex02_04.dir\build.make CMakeFiles/Ex02_04.dir/02_concurrency/example02/Ex02_04.cpp.s
+.PHONY : 02_concurrency/example02/Ex02_04.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -280,6 +320,7 @@ help:
 	@echo ... main
 	@echo ... Ex02_02
 	@echo ... Ex02_03
+	@echo ... Ex02_04
 	@echo ... rebuild_cache
 	@echo ... 02_concurrency/example02/Ex02_01.obj
 	@echo ... 02_concurrency/example02/Ex02_01.i
@@ -290,6 +331,9 @@ help:
 	@echo ... 02_concurrency/example02/Ex02_03.obj
 	@echo ... 02_concurrency/example02/Ex02_03.i
 	@echo ... 02_concurrency/example02/Ex02_03.s
+	@echo ... 02_concurrency/example02/Ex02_04.obj
+	@echo ... 02_concurrency/example02/Ex02_04.i
+	@echo ... 02_concurrency/example02/Ex02_04.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

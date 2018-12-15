@@ -2,8 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="My_Cplusplus17" targetName="Ex02_03" />
       <config projectName="My_Cplusplus17" targetName="Ex02_02" />
       <config projectName="My_Cplusplus17" targetName="Ex02_01" />
+      <config projectName="My_Cplusplus17" targetName="Ex02_04" />
       <config projectName="My_Cplusplus17" targetName="main" />
     </generated>
   </component>
@@ -14,27 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example02/Ex02_02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example02/Ex02_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_concurrency/example02/Ex02_04.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/01_boost/example02/Ex02_02.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_02.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Ex02_02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Ex02_02.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_Cplusplus17.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_Cplusplus17.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex02_03.dir/depend.make" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="646" />
+          <entry key="cpp" value="648" />
           <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="6" />
@@ -70,24 +55,24 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="70" />
-          <entry key="ObjectiveC" value="782" />
+          <entry key="ObjectiveC" value="784" />
           <entry key="PLAIN_TEXT" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="20124" />
+          <entry key="cpp" value="20751" />
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
-          <entry key="txt" value="3148" />
+          <entry key="txt" value="3151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="2192" />
-          <entry key="Doxygen file" value="645" />
-          <entry key="ObjectiveC" value="19814" />
+          <entry key="CMakeLists.txt" value="2195" />
+          <entry key="Doxygen file" value="646" />
+          <entry key="ObjectiveC" value="20440" />
           <entry key="PLAIN_TEXT" value="956" />
         </counts>
       </usages-collector>
@@ -95,23 +80,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example02/Ex02_03.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
-              <folding>
-                <element signature="e#30#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_concurrency/example02/Ex02_04.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -124,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01_boost/example06/Ex06_12.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example06/Ex06_13.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example06/Ex06_14.cpp" />
         <option value="$PROJECT_DIR$/01_boost/example06/Ex06_15.cpp" />
@@ -174,6 +155,7 @@
         <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_01.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example02/Ex02_02.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example02/Ex02_03.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example02/Ex02_04.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
@@ -184,8 +166,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="431" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="501" />
     <option name="width" value="1346" />
     <option name="height" value="788" />
   </component>
@@ -254,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex02_02">
+  <component name="RunManager" selected="Application.Ex02_03">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -270,6 +252,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex02_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex02_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex02_03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex02_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex02_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex02_04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -279,6 +271,8 @@
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.Ex02_01" />
       <item itemvalue="Application.Ex02_02" />
+      <item itemvalue="Application.Ex02_03" />
+      <item itemvalue="Application.Ex02_04" />
       <item itemvalue="Application.main" />
     </list>
   </component>
@@ -310,12 +304,12 @@
       <workItem from="1544255200093" duration="19010000" />
       <workItem from="1544337010170" duration="16164000" />
       <workItem from="1544359395960" duration="344000" />
-      <workItem from="1544861288751" duration="2191000" />
+      <workItem from="1544861288751" duration="2971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121745000" />
+    <option name="totallyTimeSpent" value="122525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -332,7 +326,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.34609494" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3448276" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32840723" />
@@ -372,13 +366,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_27.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_boost/example06/Ex06_28.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -679,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example02/Ex02_03.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="212">
           <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
           <folding>
             <element signature="e#30#42#0" expanded="true" />
@@ -687,10 +674,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example02/Ex02_04.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
         </state>
       </provider>
     </entry>
