@@ -56,28 +56,28 @@ include CMakeFiles/Ex02_06.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ex02_06.dir/flags.make
 
-CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.obj: CMakeFiles/Ex02_06.dir/flags.make
-CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.obj: CMakeFiles/Ex02_06.dir/includes_CXX.rsp
-CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.obj: ../01_boost/example02/Ex02_06.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex02_06.dir\01_boost\example02\Ex02_06.cpp.obj -c D:\Development_Github\My_Cplusplus17\01_boost\example02\Ex02_06.cpp
+CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.obj: CMakeFiles/Ex02_06.dir/flags.make
+CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.obj: CMakeFiles/Ex02_06.dir/includes_CXX.rsp
+CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.obj: ../02_concurrency/example02/Ex02_06.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development_Github\My_Cplusplus17\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex02_06.dir\02_concurrency\example02\Ex02_06.cpp.obj -c D:\Development_Github\My_Cplusplus17\02_concurrency\example02\Ex02_06.cpp
 
-CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development_Github\My_Cplusplus17\01_boost\example02\Ex02_06.cpp > CMakeFiles\Ex02_06.dir\01_boost\example02\Ex02_06.cpp.i
+CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development_Github\My_Cplusplus17\02_concurrency\example02\Ex02_06.cpp > CMakeFiles\Ex02_06.dir\02_concurrency\example02\Ex02_06.cpp.i
 
-CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development_Github\My_Cplusplus17\01_boost\example02\Ex02_06.cpp -o CMakeFiles\Ex02_06.dir\01_boost\example02\Ex02_06.cpp.s
+CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development_Github\My_Cplusplus17\02_concurrency\example02\Ex02_06.cpp -o CMakeFiles\Ex02_06.dir\02_concurrency\example02\Ex02_06.cpp.s
 
 # Object files for target Ex02_06
 Ex02_06_OBJECTS = \
-"CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.obj"
+"CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.obj"
 
 # External object files for target Ex02_06
 Ex02_06_EXTERNAL_OBJECTS =
 
-Ex02_06.exe: CMakeFiles/Ex02_06.dir/01_boost/example02/Ex02_06.cpp.obj
+Ex02_06.exe: CMakeFiles/Ex02_06.dir/02_concurrency/example02/Ex02_06.cpp.obj
 Ex02_06.exe: CMakeFiles/Ex02_06.dir/build.make
 Ex02_06.exe: CMakeFiles/Ex02_06.dir/linklibs.rsp
 Ex02_06.exe: CMakeFiles/Ex02_06.dir/objects1.rsp

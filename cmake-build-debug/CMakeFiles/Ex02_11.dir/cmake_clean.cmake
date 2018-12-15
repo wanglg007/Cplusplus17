@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ex02_11.dir/01_boost/example02/Ex02_01.cpp.obj"
+  "CMakeFiles/Ex02_11.dir/02_concurrency/example02/Ex02_11.cpp.obj"
   "Ex02_11.pdb"
   "Ex02_11.exe"
   "Ex02_11.exe.manifest"
