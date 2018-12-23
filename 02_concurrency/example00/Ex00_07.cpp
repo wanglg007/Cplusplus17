@@ -5,14 +5,14 @@
 class scoped_thread {
     std::thread t;
 public:
-    explicit scoped_thread(std::thread t_) : t(std::move(t_)) {
-        if (!t.joinable()) {
+    explicit scoped_thread(std::thread t_) : t(std::move(t_)) {     // 1
+        if (!t.joinable()) {                                         // 2
             throw std::logic_error("No thread");
         }
     }
 
     ~scoped_thread() {
-        t.join();
+        t.join();                                                    // 3
     }
 
     scoped_thread(scoped_thread const &) = delete;
@@ -44,16 +44,18 @@ void do_something_in_current_thread() {
 
 void f() {
     int some_local_state;
-    scoped_thread t(std::thread(func(some_local_state)));
-
+    scoped_thread t(std::thread(func(some_local_state)));       // 4
     do_something_in_current_thread();
-}
+}                                                               // 5
 
 int main() {
     f();
 }
 
 /**
+ * 新线程被直接传递到scoped_thread④，而不是为它创建一个单独的命名变量。当初始线程到达f⑤的结尾时，scoped_thread
+ * 对象被销毁，然后结合③提供给构造函数①的线程。
+ *
  * 若需要后台启动线程的函数，则可以通过新线程返回的所有权去调用该函数，而不是等待线程结束再去调用；总之，新线程的所有权都
  * 需要转移。
  *
