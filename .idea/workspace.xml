@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_02.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_02.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,25 +36,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="805" />
+          <entry key="cpp" value="806" />
           <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="7" />
-          <entry key="txt" value="186" />
+          <entry key="txt" value="187" />
           <entry key="txt_00basement" value="2" />
           <entry key="txt_01boost" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="75" />
-          <entry key="ObjectiveC" value="942" />
+          <entry key="CMakeLists.txt" value="76" />
+          <entry key="ObjectiveC" value="943" />
           <entry key="PLAIN_TEXT" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="33681" />
+          <entry key="cpp" value="33691" />
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
@@ -64,8 +64,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2364" />
-          <entry key="Doxygen file" value="1243" />
-          <entry key="ObjectiveC" value="32773" />
+          <entry key="Doxygen file" value="1245" />
+          <entry key="ObjectiveC" value="32781" />
           <entry key="PLAIN_TEXT" value="969" />
         </counts>
       </usages-collector>
@@ -74,13 +74,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_02.cpp">
+        <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="474">
+              <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
               <folding>
-                <element signature="e#58#70#0" expanded="true" />
+                <element signature="e#28#45#0" expanded="true" />
+                <element signature="e#73#85#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="91" column="36" lean-forward="true" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -98,7 +108,6 @@
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_11.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_12.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_13.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_04.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_05.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_06.cpp" />
@@ -144,6 +153,7 @@
         <option value="$PROJECT_DIR$/02_concurrency/example06/Ex06_01.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_02.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp" />
       </list>
     </option>
   </component>
@@ -178,12 +188,6 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="02_concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="02_concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="example05" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,12 +277,12 @@
       <workItem from="1544961534630" duration="608000" />
       <workItem from="1545211930441" duration="20000" />
       <workItem from="1545443025151" duration="29292000" />
-      <workItem from="1545541587542" duration="10927000" />
+      <workItem from="1545541587542" duration="11743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184029000" />
+    <option name="totallyTimeSpent" value="184845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -331,13 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -474,13 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="87" selection-start-line="87" selection-start-column="1" selection-end-line="95" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -663,10 +653,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_02.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
             <element signature="e#58#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="91" column="36" lean-forward="true" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding>
+            <element signature="e#28#45#0" expanded="true" />
+            <element signature="e#73#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
