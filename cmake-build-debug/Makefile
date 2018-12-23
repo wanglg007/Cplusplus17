@@ -122,6 +122,126 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named Ex05_09
+
+# Build rule for target.
+Ex05_09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_09
+.PHONY : Ex05_09
+
+# fast build rule for target.
+Ex05_09/fast:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/build
+.PHONY : Ex05_09/fast
+
+#=============================================================================
+# Target rules for targets named Ex05_10
+
+# Build rule for target.
+Ex05_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_10
+.PHONY : Ex05_10
+
+# fast build rule for target.
+Ex05_10/fast:
+	$(MAKE) -f CMakeFiles\Ex05_10.dir\build.make CMakeFiles/Ex05_10.dir/build
+.PHONY : Ex05_10/fast
+
+#=============================================================================
+# Target rules for targets named Ex05_11
+
+# Build rule for target.
+Ex05_11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ex05_11
+.PHONY : Ex05_11
+
+# fast build rule for target.
+Ex05_11/fast:
+	$(MAKE) -f CMakeFiles\Ex05_11.dir\build.make CMakeFiles/Ex05_11.dir/build
+.PHONY : Ex05_11/fast
+
+02_concurrency/example05/Ex05_09.obj: 02_concurrency/example05/Ex05_09.cpp.obj
+
+.PHONY : 02_concurrency/example05/Ex05_09.obj
+
+# target to build an object file
+02_concurrency/example05/Ex05_09.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/02_concurrency/example05/Ex05_09.cpp.obj
+.PHONY : 02_concurrency/example05/Ex05_09.cpp.obj
+
+02_concurrency/example05/Ex05_09.i: 02_concurrency/example05/Ex05_09.cpp.i
+
+.PHONY : 02_concurrency/example05/Ex05_09.i
+
+# target to preprocess a source file
+02_concurrency/example05/Ex05_09.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/02_concurrency/example05/Ex05_09.cpp.i
+.PHONY : 02_concurrency/example05/Ex05_09.cpp.i
+
+02_concurrency/example05/Ex05_09.s: 02_concurrency/example05/Ex05_09.cpp.s
+
+.PHONY : 02_concurrency/example05/Ex05_09.s
+
+# target to generate assembly for a file
+02_concurrency/example05/Ex05_09.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_09.dir\build.make CMakeFiles/Ex05_09.dir/02_concurrency/example05/Ex05_09.cpp.s
+.PHONY : 02_concurrency/example05/Ex05_09.cpp.s
+
+02_concurrency/example05/Ex05_10.obj: 02_concurrency/example05/Ex05_10.cpp.obj
+
+.PHONY : 02_concurrency/example05/Ex05_10.obj
+
+# target to build an object file
+02_concurrency/example05/Ex05_10.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_10.dir\build.make CMakeFiles/Ex05_10.dir/02_concurrency/example05/Ex05_10.cpp.obj
+.PHONY : 02_concurrency/example05/Ex05_10.cpp.obj
+
+02_concurrency/example05/Ex05_10.i: 02_concurrency/example05/Ex05_10.cpp.i
+
+.PHONY : 02_concurrency/example05/Ex05_10.i
+
+# target to preprocess a source file
+02_concurrency/example05/Ex05_10.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_10.dir\build.make CMakeFiles/Ex05_10.dir/02_concurrency/example05/Ex05_10.cpp.i
+.PHONY : 02_concurrency/example05/Ex05_10.cpp.i
+
+02_concurrency/example05/Ex05_10.s: 02_concurrency/example05/Ex05_10.cpp.s
+
+.PHONY : 02_concurrency/example05/Ex05_10.s
+
+# target to generate assembly for a file
+02_concurrency/example05/Ex05_10.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_10.dir\build.make CMakeFiles/Ex05_10.dir/02_concurrency/example05/Ex05_10.cpp.s
+.PHONY : 02_concurrency/example05/Ex05_10.cpp.s
+
+02_concurrency/example05/Ex05_11.obj: 02_concurrency/example05/Ex05_11.cpp.obj
+
+.PHONY : 02_concurrency/example05/Ex05_11.obj
+
+# target to build an object file
+02_concurrency/example05/Ex05_11.cpp.obj:
+	$(MAKE) -f CMakeFiles\Ex05_11.dir\build.make CMakeFiles/Ex05_11.dir/02_concurrency/example05/Ex05_11.cpp.obj
+.PHONY : 02_concurrency/example05/Ex05_11.cpp.obj
+
+02_concurrency/example05/Ex05_11.i: 02_concurrency/example05/Ex05_11.cpp.i
+
+.PHONY : 02_concurrency/example05/Ex05_11.i
+
+# target to preprocess a source file
+02_concurrency/example05/Ex05_11.cpp.i:
+	$(MAKE) -f CMakeFiles\Ex05_11.dir\build.make CMakeFiles/Ex05_11.dir/02_concurrency/example05/Ex05_11.cpp.i
+.PHONY : 02_concurrency/example05/Ex05_11.cpp.i
+
+02_concurrency/example05/Ex05_11.s: 02_concurrency/example05/Ex05_11.cpp.s
+
+.PHONY : 02_concurrency/example05/Ex05_11.s
+
+# target to generate assembly for a file
+02_concurrency/example05/Ex05_11.cpp.s:
+	$(MAKE) -f CMakeFiles\Ex05_11.dir\build.make CMakeFiles/Ex05_11.dir/02_concurrency/example05/Ex05_11.cpp.s
+.PHONY : 02_concurrency/example05/Ex05_11.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -157,7 +277,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... main
+	@echo ... Ex05_09
+	@echo ... Ex05_10
+	@echo ... Ex05_11
 	@echo ... rebuild_cache
+	@echo ... 02_concurrency/example05/Ex05_09.obj
+	@echo ... 02_concurrency/example05/Ex05_09.i
+	@echo ... 02_concurrency/example05/Ex05_09.s
+	@echo ... 02_concurrency/example05/Ex05_10.obj
+	@echo ... 02_concurrency/example05/Ex05_10.i
+	@echo ... 02_concurrency/example05/Ex05_10.s
+	@echo ... 02_concurrency/example05/Ex05_11.obj
+	@echo ... 02_concurrency/example05/Ex05_11.i
+	@echo ... 02_concurrency/example05/Ex05_11.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
