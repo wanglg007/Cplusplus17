@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example00/Ex00_04.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example00/Ex00_04.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example00/Ex00_05.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example00/Ex00_05.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example00/Ex00_06.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example00/Ex00_06.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +37,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="784" />
+          <entry key="cpp" value="786" />
           <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="7" />
@@ -48,13 +49,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="75" />
-          <entry key="ObjectiveC" value="921" />
+          <entry key="ObjectiveC" value="923" />
           <entry key="PLAIN_TEXT" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="33282" />
+          <entry key="cpp" value="33361" />
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
@@ -64,8 +65,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2364" />
-          <entry key="Doxygen file" value="1193" />
-          <entry key="ObjectiveC" value="32424" />
+          <entry key="Doxygen file" value="1208" />
+          <entry key="ObjectiveC" value="32488" />
           <entry key="PLAIN_TEXT" value="969" />
         </counts>
       </usages-collector>
@@ -74,10 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example00/Ex00_04.cpp">
+        <entry file="file://$PROJECT_DIR$/02_concurrency/example00/Ex00_06.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="62" column="64" lean-forward="true" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+            <state relative-caret-position="417">
+              <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -90,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_04.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_05.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_06.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_07.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_08.cpp" />
@@ -141,6 +140,8 @@
         <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_02.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_03.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_04.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_05.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_06.cpp" />
       </list>
     </option>
   </component>
@@ -151,9 +152,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="42" />
-    <option name="y" value="248" />
-    <option name="width" value="1133" />
+    <option name="x" value="259" />
+    <option name="y" value="211" />
+    <option name="width" value="946" />
     <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -270,18 +271,18 @@
       <workItem from="1544961534630" duration="608000" />
       <workItem from="1545211930441" duration="20000" />
       <workItem from="1545443025151" duration="29292000" />
-      <workItem from="1545541587542" duration="5012000" />
+      <workItem from="1545541587542" duration="6024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178114000" />
+    <option name="totallyTimeSpent" value="179126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="248" width="1133" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16309413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10892587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,20 +311,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example04/Ex04_08.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example04/Ex04_07.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="38" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example04/Ex04_09.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -654,8 +641,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example00/Ex00_04.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="62" column="64" lean-forward="true" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+        <state relative-caret-position="304">
+          <caret line="61" column="82" lean-forward="true" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example00/Ex00_05.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example00/Ex00_06.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
         </state>
       </provider>
     </entry>
