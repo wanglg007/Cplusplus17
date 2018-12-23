@@ -12,9 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example00/Ex00_07.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example00/Ex00_07.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example00/Ex00_08.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example00/Ex00_08.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example00/Ex00_09.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example00/Ex00_09.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example06/Ex06_01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example06/Ex06_01.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="801" />
+          <entry key="cpp" value="804" />
           <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="7" />
@@ -50,13 +50,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="75" />
-          <entry key="ObjectiveC" value="938" />
+          <entry key="ObjectiveC" value="941" />
           <entry key="PLAIN_TEXT" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="33639" />
+          <entry key="cpp" value="33675" />
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
@@ -66,8 +66,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2364" />
-          <entry key="Doxygen file" value="1235" />
-          <entry key="ObjectiveC" value="32739" />
+          <entry key="Doxygen file" value="1241" />
+          <entry key="ObjectiveC" value="32769" />
           <entry key="PLAIN_TEXT" value="969" />
         </counts>
       </usages-collector>
@@ -76,13 +76,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example00/Ex00_09.cpp">
+        <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+            <state relative-caret-position="512">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
               <folding>
-                <element signature="e#157#188#0" expanded="true" />
-                <element signature="e#352#383#0" expanded="true" />
+                <element signature="e#41#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +100,6 @@
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_11.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_12.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_13.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_02.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_03.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_04.cpp" />
@@ -126,7 +124,6 @@
         <option value="$PROJECT_DIR$/02_concurrency/example07/ReadMe.txt" />
         <option value="$PROJECT_DIR$/02_concurrency/example08/ReadMe.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/02_concurrency/example06/Ex06_01.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example06/Ex06_02.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example06/Ex06_03.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example06/Ex06_04.cpp" />
@@ -147,6 +144,8 @@
         <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_07.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_08.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example00/Ex00_09.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example06/Ex06_01.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp" />
       </list>
     </option>
   </component>
@@ -156,7 +155,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="569" />
     <option name="y" value="41" />
     <option name="width" value="946" />
@@ -186,7 +185,7 @@
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="02_concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="example00" type="462c0819:PsiDirectoryNode" />
+              <item name="example05" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,12 +275,12 @@
       <workItem from="1544961534630" duration="608000" />
       <workItem from="1545211930441" duration="20000" />
       <workItem from="1545443025151" duration="29292000" />
-      <workItem from="1545541587542" duration="8980000" />
+      <workItem from="1545541587542" duration="10574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182082000" />
+    <option name="totallyTimeSpent" value="183676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -327,13 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -501,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example06/Ex06_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example06/Ex06_02.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -656,11 +641,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example00/Ex00_09.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        <state relative-caret-position="152">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
           <folding>
             <element signature="e#157#188#0" expanded="true" />
             <element signature="e#352#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example06/Ex06_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1235">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#32#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="e#41#53#0" expanded="true" />
           </folding>
         </state>
       </provider>

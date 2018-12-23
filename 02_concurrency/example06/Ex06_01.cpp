@@ -1,6 +1,6 @@
 //使用栈的并行快速排序算法——等待数据块排序
 template<typename T>
-struct sorter               // 1
+struct sorter                                       // 1
 {
     struct chunk_to_sort {
         std::list <T> data;
