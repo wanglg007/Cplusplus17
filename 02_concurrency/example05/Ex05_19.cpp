@@ -1,4 +1,7 @@
 //修改pop()用来帮助push()完成工作
+#include <atomic>
+#include <memory>
+
 template<typename T>
 class lock_free_queue {
 private:
@@ -28,10 +31,7 @@ public:
 };
 
 /**
- * next指针线程就是原子的①，所以load②也是原子的。在这个例子
-中，可以使用默认memory_order_seq_cst内存序，所以这里可以忽略对load()的显式调用，
-并且依赖于加载对象隐式转换成counted_node_ptr，不过这里的显式调用就可以用来提醒：
-哪里需要显式添加内存序。
- *
+ * next指针线程就是原子的①，所以load②也是原子的。在这个例子中，可以使用默认memory_order_seq_cst内存序，所以这里可以忽略
+ * 对load()的显式调用，并且依赖于加载对象隐式转换成counted_node_ptr，不过这里的显式调用就可以用来提醒：哪里需要显式添加内存序。
  *
  */

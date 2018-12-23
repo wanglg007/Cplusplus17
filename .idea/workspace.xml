@@ -2,10 +2,17 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="My_Cplusplus17" targetName="Ex05_18" />
       <config projectName="My_Cplusplus17" targetName="Ex05_09" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_15" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_14" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_17" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_16" />
       <config projectName="My_Cplusplus17" targetName="Ex05_11" />
       <config projectName="My_Cplusplus17" targetName="main" />
       <config projectName="My_Cplusplus17" targetName="Ex05_10" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_13" />
+      <config projectName="My_Cplusplus17" targetName="Ex05_12" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,11 +23,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_09.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_09.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_10.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_11.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_12.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_12.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_13.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_13.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_14.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_14.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_15.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_15.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_16.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_16.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_17.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_17.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_18.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_18.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_19.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_19.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_concurrency/example05/Ex05_20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example05/Ex05_20.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex05_09.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ex05_09.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -51,7 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="815" />
+          <entry key="cpp" value="837" />
           <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="7" />
@@ -63,13 +75,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="77" />
-          <entry key="ObjectiveC" value="952" />
+          <entry key="ObjectiveC" value="974" />
           <entry key="PLAIN_TEXT" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="34097" />
+          <entry key="cpp" value="34590" />
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
@@ -79,8 +91,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2364" />
-          <entry key="Doxygen file" value="1311" />
-          <entry key="ObjectiveC" value="33121" />
+          <entry key="Doxygen file" value="1355" />
+          <entry key="ObjectiveC" value="33570" />
           <entry key="PLAIN_TEXT" value="969" />
         </counts>
       </usages-collector>
@@ -91,23 +103,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+            <state relative-caret-position="412">
+              <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_11.cpp">
+        <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_20.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+            <state relative-caret-position="436">
+              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
               <folding>
-                <element signature="e#20#37#0" expanded="true" />
-                <element signature="e#65#77#0" expanded="true" />
-                <element signature="e#132#210#1" />
-                <element signature="e#217#460#1" />
-                <element signature="e#508#946#0" />
+                <element signature="e#23#40#0" expanded="true" />
+                <element signature="e#31#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,15 +135,6 @@
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_11.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_12.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example04/Ex04_13.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_12.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_13.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_14.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_15.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_16.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_17.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_18.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_19.cpp" />
-        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_20.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/ReadMe.txt" />
         <option value="$PROJECT_DIR$/02_concurrency/example06/ReadMe.txt" />
         <option value="$PROJECT_DIR$/02_concurrency/example07/ReadMe.txt" />
@@ -170,8 +170,17 @@
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_08.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_09.cpp" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_10.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_11.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_12.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_13.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_14.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_15.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_16.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_17.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_18.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_19.cpp" />
+        <option value="$PROJECT_DIR$/02_concurrency/example05/Ex05_20.cpp" />
       </list>
     </option>
   </component>
@@ -252,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex05_11">
+  <component name="RunManager" selected="Application.Ex05_17">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -273,6 +282,41 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex05_12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex05_13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex05_14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_14">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex05_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_15">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex05_16" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_16" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_16">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex05_17" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_17" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_17">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex05_18" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="Ex05_18" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="Ex05_18">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_Cplusplus17" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_Cplusplus17" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -283,6 +327,13 @@
       <item itemvalue="Application.Ex05_09" />
       <item itemvalue="Application.Ex05_10" />
       <item itemvalue="Application.Ex05_11" />
+      <item itemvalue="Application.Ex05_12" />
+      <item itemvalue="Application.Ex05_13" />
+      <item itemvalue="Application.Ex05_14" />
+      <item itemvalue="Application.Ex05_15" />
+      <item itemvalue="Application.Ex05_16" />
+      <item itemvalue="Application.Ex05_17" />
+      <item itemvalue="Application.Ex05_18" />
       <item itemvalue="Application.main" />
     </list>
   </component>
@@ -319,18 +370,18 @@
       <workItem from="1544961534630" duration="608000" />
       <workItem from="1545211930441" duration="20000" />
       <workItem from="1545443025151" duration="29292000" />
-      <workItem from="1545541587542" duration="19792000" />
+      <workItem from="1545541587542" duration="24573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192894000" />
+    <option name="totallyTimeSpent" value="197675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,71 +424,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_12.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="1" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_13.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_14.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_15.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_16.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_17.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_18.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_21.cpp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_19.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_20.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example05/ReadMe.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -719,17 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_09.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#25#42#0" expanded="true" />
-            <element signature="e#70#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_10.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="939">
@@ -744,23 +721,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_12.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        <state relative-caret-position="133">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#20#37#0" expanded="true" />
+            <element signature="e#65#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_13.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <element signature="e#21#38#0" expanded="true" />
+            <element signature="e#66#78#0" expanded="true" />
+            <element signature="e#116#239#1" />
+            <element signature="e#234#312#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_15.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_14.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="6" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#31#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_16.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#17#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_17.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="105" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
+          <folding>
+            <element signature="e#18#35#0" expanded="true" />
+            <element signature="e#26#38#0" expanded="true" />
+            <element signature="e#130#208#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_09.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#25#42#0" expanded="true" />
+            <element signature="e#70#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_11.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        <state relative-caret-position="304">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="e#20#37#0" expanded="true" />
             <element signature="e#65#77#0" expanded="true" />
             <element signature="e#132#210#1" />
-            <element signature="e#217#460#1" />
-            <element signature="e#508#946#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_18.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding>
+            <element signature="e#17#34#0" expanded="true" />
+            <element signature="e#25#37#0" expanded="true" />
+            <element signature="e#129#207#1" />
+            <element signature="e#214#425#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_19.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+          <folding>
+            <element signature="e#24#41#0" expanded="true" />
+            <element signature="e#32#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_concurrency/example05/Ex05_20.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="e#23#40#0" expanded="true" />
+            <element signature="e#31#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
