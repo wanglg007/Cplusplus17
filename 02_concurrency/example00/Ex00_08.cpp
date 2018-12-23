@@ -5,7 +5,6 @@
 #include <thread>
 
 void do_work(unsigned id) {
-
 }
 
 void f() {
