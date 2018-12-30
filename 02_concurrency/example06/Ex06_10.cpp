@@ -1,31 +1,29 @@
-//使用 std::async 实现的并行find算法
-template<typename Iterator, typename MatchType>         // 1
+//使用std::async实现的并行find算法
+template<typename Iterator, typename MatchType>
+// 1
 Iterator parallel_find_impl(Iterator first, Iterator last, MatchType match,
                             std::atomic<bool> &done) {
     try {
         unsigned long const length = std::distance(first, last);
-        unsigned long const min_per_thread = 25;        // 2
-        if (length < (2 * min_per_thread)) {                // 3
-            for (; (first != last) && !done.load(); ++first) {  // 4
+        unsigned long const min_per_thread = 25;                // 2
+        if (length < (2 * min_per_thread)) {                      // 3
+            for (; (first != last) && !done.load(); ++first) {    // 4
                 if (*first == match) {
-                    done = true;    // 5
-                    return first;   // 6
+                    done = true;                                  // 5
+                    return first;                                 // 6
                 }
             }
             return last;
         } else {
-            Iterator const mid_point = first + (length / 2);    // 7
-            std::future <Iterator> async_result =
-                    std::async(&parallel_find_impl<Iterator, MatchType>,
-                               mid_point, last, match, std::ref(done)); // 8
-            Iterator const direct_result =
-                    parallel_find_impl(first, mid_point, match, done);// 9
-            return (direct_result == mid_point) ?
-                   async_result.get() : direct_result;// 10
+            Iterator const mid_point = first + (length / 2);      // 7
+            std::future <Iterator> async_result = std::async(&parallel_find_impl<Iterator, MatchType>,
+                                                             mid_point, last, match, std::ref(done));   // 8
+            Iterator const direct_result = parallel_find_impl(first, mid_point, match, done);          // 9
+            return (direct_result == mid_point) ? async_result.get() : direct_result;                  // 10
         }
     }
     catch (...) {
-        done = true;// 11
+        done = true;                                                                                   // 11
         throw;
     }
 }
@@ -33,43 +31,38 @@ Iterator parallel_find_impl(Iterator first, Iterator last, MatchType match,
 template<typename Iterator, typename MatchType>
 Iterator parallel_find(Iterator first, Iterator last, MatchType match) {
     std::atomic<bool> done(false);
-    return parallel_find_impl(first, last, match, done);// 12
+    return parallel_find_impl(first, last, match, done);                                               // 12
 }
 
 /**
- * 如果想要在找到匹配项时结束，就需要在线程之间设置一个标识来表明匹配项已经被找到。
-因此，需要将这个标识递归的传递。通过函数①的方式来实现是最简单的办法，只需要增加一
-个参数——一个done标识的引用，这个表示通过程序的主入口点传入⑫。
+ * The desire to finish early if you find a match means that you need to introduce a flag that is shared between all threads
+ * to indicate that a match has been found. This therefore needs to be passed in to all recursive calls. The simplest way
+ * to achieve this is by delegating to an implementation function (1) that takes an additional parameter—a reference to the
+ * done flag, which is passed in from the main entry point (12).
  *
- * 核心实现和之前的代码一样。通常函数的实现中，会让单个线程处理最少的数据项②；如果数
-据块大小不足于分成两半，就要让当前线程完成所有的工作了③。实际算法在一个简单的循环
-当中(给定范围)，直到在循环到指定范围中的最后一个，或找到匹配项，并对标识进行设置
-④。如果找到匹配项，标识done就会在返回前进行设置⑤。无论是因为已经查找到最后一
-个，还是因为其他线程对done进行了设置，都会停止查找。如果没有找到，会将最后一个元
-素last进行返回⑥。
+ * The core implementation then proceeds along familiar lines. In common with many of the implementations here, you set a
+ * minimum number of items to process on a single thread (2); if you can’t cleanly divide into two halves of at least that
+ * size, you run everything on the current thread (3). The actual algorithm is a simple loop through the specified range,
+ * looping until you reach the end of the range or the done flag is set (4). If you do find a match, the done flag is set
+ * before returning (5). If you stop searching either because you got to the end of the list or because another thread
+ * set the done flag, you return last to indicate that no match was found here (6).
  *
- * 如果给定范围可以进行划分，首先要在 st::async 在对第二部分进行查找⑧前，要找数据中点
-⑦，而且需要使用 std::ref 将done以引用的方式传递。同时，可以通过对第一部分直接进行
-递归查找。两部分都是异步的，并且在原始范围过大时，直接递归查找的部分可能会再细
-化。
+ * If the range can be divided, you first find the midpoint h before using std::async to run the search in the second half
+ * of the range (7), being careful to use std::ref to pass a reference to the done flag. In the meantime, you can search
+ * in the first half of the range by doing a direct recursive call (8). Both the asynchronous call and the direct recursion
+ * may result in further subdivisions if the original range is big enough.
  *
- * 如果直接查找返回的是mid_point，这就意味着没有找到匹配项，所以就要从异步查找中获取
-结果。如果在另一半中没有匹配项的话，返回的结果就一定是last，这个值的返回就代表了没
-有找到匹配的元素⑩。如果“异步”调用被延迟(非真正的异步)，那么实际上这里会运行get()；
- 这种情况下，如果对下半部分的元素搜索成功，那么就不会执行对上半部分元素的搜索了。
-如果异步查找真实的运行在其他线程上，那么async_result变量的析构函数将会等待该线程完
-成，所以这里不会有线程泄露。
+ * If the direct search returned mid_point, then it failed to find a match, so you need to get the result of the asynchronous
+ * search. If no result was found in that half,the result will be last, which is the correct return value to indicate that
+ * the value was not found (10). If the “asynchronous” call was deferred rather than truly asynchronous, it will actually
+ * run here in the call to get(); in such circumstances the search of the top half of the range is skipped if the search
+ * in the bottom half was successful. If the asynchronous search is really running on another thread, the destructor of
+ * the async_result variable will wait for the thread to complete, so you don’t have any leaking threads.
  *
- * 像之前一样， std::async 可以用来提供“异常-安全”和“异常-传播”特性。如果直接递归抛出异
-常，future的析构函数就能让异步执行的线程提前结束；如果异步调用抛出异常，那么这个异
-常将会通过对get()成员函数的调用进行传播⑩。使用try/catch块只能捕捉在done发生的异
-常，并且当有异常抛出⑪时，所有线程都能很快的终止运行。不过，不使用try/catch的实现依
-旧没问题，不同的就是要等待所有线程的工作是否完成。
-
- *
- * 实现中一个重要的特性就是，不能保证所有数据都能被 std::find 串行处理。其他并行算法
-可以借鉴这个特性，因为要让一个算法并行起来这是必须具有的特性。如果有顺序问题，元
-素就不能并发的处理了。如果每个元素独立，虽然对于parallel_for_each不是很重要，不过对
-于parallel_find，即使在开始部分已经找到了匹配元素，也有可能返回范围中最后一个元素；
-如果在知道结果的前提下，这样的结果会让人很惊讶。
+ * As before, the use of std::async provides you with exception-safety and exceptionpropagation features. If the direct
+ * recursion throws an exception, the future’s destructor will ensure that the thread running the asynchronous call has
+ * terminated before the function returns, and if the asynchronous call throws, the exception is propagated through the
+ * get() call (10). The use of a try/catch block around the whole thing is only there to set the done flag on an exception
+ * and ensure that all threads terminate quickly if an exception is thrown (11). The implementation would still be correct
+ * without it but would keep checking elements until every thread was finished.
  */

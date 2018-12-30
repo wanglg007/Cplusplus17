@@ -1,23 +1,23 @@
 # CMake 最低版本号要求
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required(VERSION 2.8)
 # 使用C++17
 set(CMAKE_CXX_STANDARD 17)
 # 项目信息
-project (My_Cplusplus17)
+project(My_Cplusplus17)
 # 指定boost
-set (Boost_USE_STATIC_LIBS ON)  # enable dynamic linking
-set (Boost_USE_MULTITHREAD ON)  # enable multithreading
+set(Boost_USE_STATIC_LIBS ON)  # enable dynamic linking
+set(Boost_USE_MULTITHREAD ON)  # enable multithreading
 # windows 下设置这两个路径，find_package才能找到Boost
 SET(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "D:/Development_Install/Library/boost_1_68_0")
 SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "D:/Development_Install/Library/boost_1_68_0/stage/lib")
 #
 find_package(Boost)
-if(NOT Boost_FOUND)
+if (NOT Boost_FOUND)
     message("not found boost package")
-else()
+else ()
     INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
     LINK_DIRECTORIES(${CMAKE_LIBRARY_PATH})
-endif()
+endif ()
 # 指定生成目标
 add_executable(main main.cpp)
 ####################(2)concurrency####################
@@ -93,17 +93,31 @@ add_executable(main main.cpp)
 #add_executable(Ex05_06 02_concurrency/example05/Ex05_06.cpp)
 #add_executable(Ex05_07 02_concurrency/example05/Ex05_07.cpp)
 #add_executable(Ex05_08 02_concurrency/example05/Ex05_08.cpp)
-add_executable(Ex05_09 02_concurrency/example05/Ex05_09.cpp)
-add_executable(Ex05_10 02_concurrency/example05/Ex05_10.cpp)
-add_executable(Ex05_11 02_concurrency/example05/Ex05_11.cpp)
-add_executable(Ex05_12 02_concurrency/example05/Ex05_12.cpp)
-add_executable(Ex05_13 02_concurrency/example05/Ex05_13.cpp)
-add_executable(Ex05_14 02_concurrency/example05/Ex05_14.cpp)
-add_executable(Ex05_15 02_concurrency/example05/Ex05_15.cpp)
-add_executable(Ex05_16 02_concurrency/example05/Ex05_16.cpp)
-add_executable(Ex05_17 02_concurrency/example05/Ex05_17.cpp)
-add_executable(Ex05_18 02_concurrency/example05/Ex05_18.cpp)
+#add_executable(Ex05_09 02_concurrency/example05/Ex05_09.cpp)
+#add_executable(Ex05_10 02_concurrency/example05/Ex05_10.cpp)
+#add_executable(Ex05_11 02_concurrency/example05/Ex05_11.cpp)
+#add_executable(Ex05_12 02_concurrency/example05/Ex05_12.cpp)
+#add_executable(Ex05_13 02_concurrency/example05/Ex05_13.cpp)
+#add_executable(Ex05_14 02_concurrency/example05/Ex05_14.cpp)
+#add_executable(Ex05_15 02_concurrency/example05/Ex05_15.cpp)
+#add_executable(Ex05_16 02_concurrency/example05/Ex05_16.cpp)
+#add_executable(Ex05_17 02_concurrency/example05/Ex05_17.cpp)
+#add_executable(Ex05_18 02_concurrency/example05/Ex05_18.cpp)
 #add_executable(Ex05_19 02_concurrency/example05/Ex05_19.cpp)
 #add_executable(Ex05_20 02_concurrency/example05/Ex05_20.cpp)
 #add_executable(Ex05_21 02_concurrency/example05/Ex05_21.cpp)
 ##########example06##########
+#add_executable(Ex06_01 02_concurrency/example06/Ex06_01.cpp)
+#add_executable(Ex06_02 02_concurrency/example06/Ex06_02.cpp)
+#add_executable(Ex06_03 02_concurrency/example06/Ex06_03.cpp)
+#add_executable(Ex06_04 02_concurrency/example06/Ex06_04.cpp)
+#add_executable(Ex06_05 02_concurrency/example06/Ex06_05.cpp)
+#add_executable(Ex06_06 02_concurrency/example06/Ex06_06.cpp)
+#add_executable(Ex06_07 02_concurrency/example06/Ex06_07.cpp)
+#add_executable(Ex06_08 02_concurrency/example06/Ex06_08.cpp)
+#add_executable(Ex06_09 02_concurrency/example06/Ex06_09.cpp)
+#add_executable(Ex06_10 02_concurrency/example06/Ex06_10.cpp)
+#add_executable(Ex06_11 02_concurrency/example06/Ex06_11.cpp)
+#add_executable(Ex06_12 02_concurrency/example06/Ex06_12.cpp)
+#add_executable(Ex06_13 02_concurrency/example06/Ex06_13.cpp)
+##########example07##########

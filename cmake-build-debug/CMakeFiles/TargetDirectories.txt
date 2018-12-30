@@ -1,13 +1,3 @@
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_13.dir
 D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/main.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_12.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_09.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_10.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_11.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_14.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_15.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_16.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_17.dir
-D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/Ex05_18.dir
 D:/Development_Github/My_Cplusplus17/cmake-build-debug/CMakeFiles/rebuild_cache.dir
