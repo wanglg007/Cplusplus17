@@ -11,29 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_13.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.9.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_concurrency/example07/Ex07_04.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02_concurrency/example07/Ex07_04.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,108 +70,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.2.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.3.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.4.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="49" column="97" selection-start-line="49" selection-start-column="97" selection-end-line="49" selection-end-column="97" />
-              <folding>
-                <element signature="e#241#328#0" expanded="true" />
-                <element signature="e#1059#1091#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.5.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="54" column="83" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
-              <folding>
-                <element signature="e#34#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.6.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.7.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.8.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.9.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.10.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_concurrency/example08/AtmExe/listing_c.1.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -261,7 +138,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="569" />
     <option name="y" value="41" />
     <option name="width" value="946" />
@@ -288,19 +165,6 @@
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="02_concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="02_concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="example08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="02_concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="example08" type="462c0819:PsiDirectoryNode" />
-              <item name="AtmExe" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -320,11 +184,11 @@
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\References" />
       <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\example08\AtmExe" />
       <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\example07" />
       <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\example06" />
       <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\example08" />
-      <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\example05" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,16 +255,15 @@
       <workItem from="1545541587542" duration="25443000" />
       <workItem from="1546165380862" duration="10322000" />
       <workItem from="1546177103052" duration="1859000" />
-      <workItem from="1546247123737" duration="6362000" />
+      <workItem from="1546247123737" duration="6611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217088000" />
+    <option name="totallyTimeSpent" value="217337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20499243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
