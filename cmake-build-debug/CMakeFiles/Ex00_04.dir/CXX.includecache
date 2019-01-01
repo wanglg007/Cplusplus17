@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/Development_Github/My_Cplusplus17/01_boost/example00/Ex00_04.cpp
-stdexcept
+D:/Development_Github/My_Cplusplus17/03_network/example00/Ex00_04.cpp
+vector
 -
 iostream
 -
-string
--
-vector
+algorithm
 -
 
