@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Development_Github/My_Cplusplus17/02_concurrency/example00/Ex00_02.cpp
-thread
+D:/Development_Github/My_Cplusplus17/03_network/example00/Ex00_02.cpp
+string
+-
+cstdlib
+-
+ctime
+-
+iostream
 -
 
