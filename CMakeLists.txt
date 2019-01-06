@@ -80,3 +80,16 @@ add_executable(main main.cpp)
 #add_executable(Ex02_11 03_network/example02/Ex02_11.cpp)
 #add_executable(Ex02_12 03_network/example02/Ex02_12.cpp)
 ##########example03##########
+#add_executable(Ex03_01 03_network/example03/Ex03_01.cpp)
+#add_executable(Ex03_02 03_network/example03/Ex03_02.cpp)
+#add_executable(Ex03_03 03_network/example03/Ex03_03.cpp)
+#add_executable(Ex03_04 03_network/example03/Ex03_04.cpp)
+#add_executable(Ex03_05 03_network/example03/Ex03_05.cpp)
+#add_executable(Ex03_06 03_network/example03/Ex03_06.cpp)
+#add_executable(Ex03_07 03_network/example03/Ex03_07.cpp)
+##########example04##########
+#add_executable(Ex04_00 03_network/example04/Ex04_00.cpp)
+#add_executable(Ex04_01 03_network/example04/Ex04_01.cpp)
+#add_executable(Ex04_02 03_network/example04/Ex04_02.cpp)
+#add_executable(Ex04_03 03_network/example04/Ex04_03.cpp)
+##########example05##########
