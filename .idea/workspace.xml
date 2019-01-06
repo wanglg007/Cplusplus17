@@ -12,17 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example02/Ex02_12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example03/Ex03_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example03/Ex03_02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example03/Ex03_03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example03/Ex03_04.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +40,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="1006" />
+          <entry key="cpp" value="1011" />
           <entry key="cxx" value="11" />
           <entry key="h" value="119" />
           <entry key="hpp" value="7" />
@@ -59,13 +53,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="89" />
-          <entry key="ObjectiveC" value="1143" />
+          <entry key="ObjectiveC" value="1148" />
           <entry key="PLAIN_TEXT" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="41032" />
+          <entry key="cpp" value="41531" />
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
@@ -75,8 +69,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2620" />
-          <entry key="Doxygen file" value="2003" />
-          <entry key="ObjectiveC" value="39364" />
+          <entry key="Doxygen file" value="2042" />
+          <entry key="ObjectiveC" value="39824" />
           <entry key="PLAIN_TEXT" value="983" />
         </counts>
       </usages-collector>
@@ -85,10 +79,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/03_network/example03/Ex03_04.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+            <state relative-caret-position="137">
+              <caret line="270" column="5" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
+              <folding>
+                <element signature="e#559#584#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_network/example03/Ex03_03.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -101,10 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_10.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_11.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_12.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_13.cpp" />
         <option value="$PROJECT_DIR$/03_network/example00/Ex00_14.cpp" />
         <option value="$PROJECT_DIR$/03_network/example00/Ex00_15.cpp" />
         <option value="$PROJECT_DIR$/03_network/example00/Ex00_16.cpp" />
@@ -152,6 +154,10 @@
         <option value="$PROJECT_DIR$/03_network/example02/Ex02_06.cpp" />
         <option value="$PROJECT_DIR$/03_network/example02/Ex02_12.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/03_network/example03/Ex03_01.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example03/Ex03_02.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example03/Ex03_03.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example03/Ex03_04.cpp" />
       </list>
     </option>
   </component>
@@ -161,7 +167,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="479" />
     <option name="y" value="19" />
     <option name="width" value="946" />
@@ -287,12 +293,12 @@
       <workItem from="1546247123737" duration="6851000" />
       <workItem from="1546328792277" duration="13115000" />
       <workItem from="1546685920816" duration="6510000" />
-      <workItem from="1546738638070" duration="4785000" />
+      <workItem from="1546738638070" duration="6821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241987000" />
+    <option name="totallyTimeSpent" value="244023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -327,34 +333,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_11.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="121" lean-forward="true" selection-start-line="17" selection-start-column="121" selection-end-line="17" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_12.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_13.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_14.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_15.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -702,8 +680,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        <state relative-caret-position="469">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example03/Ex03_02.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
+          <folding>
+            <element signature="e#40#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example03/Ex03_01.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#40#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example03/Ex03_03.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example03/Ex03_04.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="270" column="5" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
+          <folding>
+            <element signature="e#559#584#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
