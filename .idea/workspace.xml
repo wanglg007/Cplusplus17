@@ -162,7 +162,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="479" />
     <option name="y" value="19" />
     <option name="width" value="946" />
@@ -186,7 +186,7 @@
             <path>
               <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="03_network" type="462c0819:PsiDirectoryNode" />
+              <item name="04_DesignPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,11 +204,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development_Github\My_Cplusplus17\04_DesignPattern" />
       <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b6" />
       <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b5" />
       <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b4" />
       <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b3" />
-      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development_Github\My_Cplusplus17\03_network\example06\Ex06_B0" />
@@ -285,12 +285,12 @@
       <workItem from="1546685920816" duration="6510000" />
       <workItem from="1546738638070" duration="11522000" />
       <workItem from="1547277845161" duration="3643000" />
-      <workItem from="1547283117941" duration="528000" />
+      <workItem from="1547283117941" duration="1235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252895000" />
+    <option name="totallyTimeSpent" value="253602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
