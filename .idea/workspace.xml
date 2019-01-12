@@ -12,23 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98d2038-1dba-4a76-b23f-366e88c24c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_network/example03/Ex03_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example03/Ex03_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example03/Ex03_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example04/Ex04_00.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example04/Ex04_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example04/Ex04_02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example04/Ex04_03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example05/Ex05_00.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example05/Ex05_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example05/Ex05_02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example05/Ex05_03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_network/example05/Ex05_04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_00_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_00_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server_dispatch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server_post.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server_srand.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B1/tcp_async_echo_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B1/tcp_async_echo_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B1/tcp_sync_echo_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B1/tcp_sync_echo_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B1/udp_sync_echo_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B1/udp_sync_echo_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B2/async_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B2/async_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B2/sync_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B2/sync_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B3/async_op.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B3/async_server_multi_threaded.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B3/proxy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_network/example06/Ex06_B4/coroutines.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_network/example03/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/03_network/example03/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_network/example04/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/03_network/example04/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_network/example05/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/03_network/example05/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,21 +47,21 @@
     <session id="-832416878">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.3" value="4" />
-          <entry key="project.open.time.4" value="14" />
+          <entry key="project.open.time.4" value="16" />
           <entry key="project.open.time.5" value="11" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="1024" />
+          <entry key="cpp" value="1053" />
           <entry key="cxx" value="11" />
-          <entry key="h" value="119" />
+          <entry key="h" value="120" />
           <entry key="hpp" value="7" />
-          <entry key="txt" value="223" />
+          <entry key="txt" value="225" />
           <entry key="txt_00basement" value="2" />
           <entry key="txt_01boost" value="2" />
           <entry key="txt_02concurrency" value="1" />
@@ -64,14 +69,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="91" />
-          <entry key="ObjectiveC" value="1161" />
-          <entry key="PLAIN_TEXT" value="137" />
+          <entry key="CMakeLists.txt" value="92" />
+          <entry key="ObjectiveC" value="1191" />
+          <entry key="PLAIN_TEXT" value="138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="42185" />
+          <entry key="cpp" value="42298" />
           <entry key="cxx" value="5" />
           <entry key="h" value="329" />
           <entry key="hpp" value="1" />
@@ -81,28 +86,15 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2648" />
-          <entry key="Doxygen file" value="2155" />
-          <entry key="ObjectiveC" value="40365" />
+          <entry key="Doxygen file" value="2174" />
+          <entry key="ObjectiveC" value="40459" />
           <entry key="PLAIN_TEXT" value="1001" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_network/example05/Ex05_04.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-              <folding>
-                <element signature="e#32#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,14 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_28.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_29.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_31.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example00/Ex00_32.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example01/Ex01_00.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example01/Ex01_01.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example01/Ex01_02.cpp" />
-        <option value="$PROJECT_DIR$/03_network/example01/Ex01_03.cpp" />
         <option value="$PROJECT_DIR$/03_network/example01/Ex01_04.cpp" />
         <option value="$PROJECT_DIR$/03_network/example01/Ex01_05.cpp" />
         <option value="$PROJECT_DIR$/03_network/example01/Ex01_06.cpp" />
@@ -161,6 +145,14 @@
         <option value="$PROJECT_DIR$/03_network/example05/Ex05_02.cpp" />
         <option value="$PROJECT_DIR$/03_network/example05/Ex05_03.cpp" />
         <option value="$PROJECT_DIR$/03_network/example05/Ex05_04.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_00_client.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_00_server.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_01_client.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_01_server.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_01_server_alive.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_01_server_post.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_01_server_dispatch.cpp" />
+        <option value="$PROJECT_DIR$/03_network/example06/Ex06_01_server_srand.cpp" />
       </list>
     </option>
   </component>
@@ -184,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,16 +188,11 @@
               <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
               <item name="03_network" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="My_Cplusplus17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_Cplusplus17" type="462c0819:PsiDirectoryNode" />
-              <item name="03_network" type="462c0819:PsiDirectoryNode" />
-              <item name="example05" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,13 +204,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example00" />
-      <recent name="D:\Development_Github\My_Cplusplus17" />
-      <recent name="D:\Development_Github\My_Cplusplus17\03_network" />
-      <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\References" />
-      <recent name="D:\Development_Github\My_Cplusplus17\02_concurrency\example08\AtmExe" />
+      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b6" />
+      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b5" />
+      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b4" />
+      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b3" />
+      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example07\Ex07_b2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development_Github\My_Cplusplus17\03_network\example06\Ex06_B0" />
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement\example17" />
       <recent name="D:\Development_Github\My_Cplusplus17\00_basement" />
     </key>
@@ -296,18 +283,19 @@
       <workItem from="1546247123737" duration="6851000" />
       <workItem from="1546328792277" duration="13115000" />
       <workItem from="1546685920816" duration="6510000" />
-      <workItem from="1546738638070" duration="11308000" />
+      <workItem from="1546738638070" duration="11522000" />
+      <workItem from="1547277845161" duration="3643000" />
+      <workItem from="1547283117941" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248510000" />
+    <option name="totallyTimeSpent" value="252895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22314675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,159 +324,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_28.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_29.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_32.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="113" column="64" selection-start-line="113" selection-start-column="64" selection-end-line="113" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example00/Ex00_31.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_00.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="60" selection-start-column="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_02.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_03.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="85" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_05.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_04.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_07.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_06.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_09.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_08.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_11.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_10.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="93" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example00/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example01/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example02/Ex02_08.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="e#36#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_network/example02/Ex02_09.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="46" />
-          <folding>
-            <element signature="e#47#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_network/example02/Ex02_10.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#3#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,9 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#47#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,9 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-437">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="e#40#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,9 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1444">
           <caret line="76" column="92" selection-start-line="76" selection-start-column="92" selection-end-line="76" selection-end-column="92" />
-          <folding>
-            <element signature="e#42#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,9 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="60" column="93" selection-start-line="60" selection-start-column="93" selection-end-line="60" selection-end-column="93" />
-          <folding>
-            <element signature="e#41#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="42" />
-          <folding>
-            <element signature="e#43#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,9 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1008">
           <caret column="53" selection-start-column="53" selection-end-column="53" />
-          <folding>
-            <element signature="e#3#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,9 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
-          <folding>
-            <element signature="e#40#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
           <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#40#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,9 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="270" column="5" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
-          <folding>
-            <element signature="e#559#584#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,9 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2203">
           <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
-          <folding>
-            <element signature="e#50#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,9 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2053">
           <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#49#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,9 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1027">
           <caret line="168" column="49" selection-start-line="168" selection-start-column="49" selection-end-line="168" selection-end-column="49" />
-          <folding>
-            <element signature="e#42#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,10 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="583" column="2" selection-start-line="583" selection-start-column="2" selection-end-line="583" selection-end-column="2" />
-          <folding>
-            <element signature="e#546#571#0" expanded="true" />
-            <element signature="e#1694#1696#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="414" lean-forward="true" selection-start-line="414" selection-end-line="414" />
-          <folding>
-            <element signature="e#43#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="134" column="119" selection-start-line="134" selection-start-column="119" selection-end-line="134" selection-end-column="119" />
-          <folding>
-            <element signature="e#48#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,9 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
-          <folding>
-            <element signature="e#48#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
@@ -734,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="57" column="97" selection-start-line="57" selection-start-column="97" selection-end-line="57" selection-end-column="97" />
-          <folding>
-            <element signature="e#15#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#37#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,11 +531,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example01/Ex01_11.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_00_client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding>
-            <element signature="e#32#57#0" expanded="true" />
+            <element signature="e#248#267#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_00_server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#56#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#56#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server_post.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server_dispatch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B0/Ex06_01_server_srand.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B2/sync_server.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B3/proxy.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B4/ssl_client_connect_to_yahoo.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B4/coroutines.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/Ex06_B1/tcp_async_echo_client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example06/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example07/Ex07_b1/warning.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example07/Ex07_b2/stl.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example07/Ex07_b3/uncalledbind.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example07/Ex07_b4/timer3.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example07/Ex07_b5/wrapper.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_network/example07/Ex07_b6/rangen_boost.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
